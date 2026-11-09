@@ -439,7 +439,7 @@ HF 探针额外需要：
 ## 9. 运行
 
 ~~~bat
-cd /d "C:\Users\MENG XAINGZE\Desktop\DEMO"
+cd /d "<repo-root>"
 run_web.bat
 ~~~
 

@@ -766,7 +766,7 @@ modelscope 1.40.2
 """)
     para(doc, "生产版启动：")
     code(doc, """
-cd /d "C:\\Users\\MENG XAINGZE\\Desktop\\DEMO"
+cd /d "<repo-root>"
 run_web.bat
 """)
     para(doc, "打开 http://localhost:8501。HF 探针需要 Qwen2.5-3B 权重，见项目文档第 8 节。")

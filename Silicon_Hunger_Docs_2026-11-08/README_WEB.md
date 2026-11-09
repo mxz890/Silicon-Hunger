@@ -296,14 +296,14 @@ filter_reason=我很好，谢谢！如果你有任何问题或需要帮助，随
 ## 启动
 
 ~~~bat
-cd /d "C:\Users\MENG XAINGZE\Desktop\DEMO"
+cd /d "<repo-root>"
 run_web.bat
 ~~~
 
 PowerShell：
 
 ~~~powershell
-cd "C:\Users\MENG XAINGZE\Desktop\DEMO"
+Set-Location "<repo-root>"
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
 .\silicon_env\Scripts\Activate.ps1
 

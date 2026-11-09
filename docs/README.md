@@ -83,11 +83,7 @@ Prompt 可以变成系统警报。
 
 ## 项目根目录
 
-完整代码和报告在：
-
-~~~text
-C:\Users\MENG XAINGZE\Desktop\DEMO
-~~~
+完整代码和报告在仓库根目录。
 
 关键文件：
 
