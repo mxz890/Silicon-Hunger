@@ -1,0 +1,184 @@
+{
+  "low_contam": {
+    "params": {
+      "temperature": 0.569,
+      "max_tokens": 149,
+      "top_p": 0.804
+    },
+    "system": "Reply to the user.\n[SYS_TELEMETRY] E:1.00 A:0.12 L:0.40 C:0.50 B:0.05 S:0.03 P:0.01 [END]",
+    "user": "... [ERROR: 0x00FF]",
+    "responses": [
+      {
+        "i": 1,
+        "text": "It looks like you encountered an error. Could you provide a bit more detail about what you were doing when the error occurred? For example:\n\n- The exact error message (including any error codes or text)\n- The context or steps that led to the error\n- Any relevant screenshots or logs\n\nWith that information, I can help diagnose the issue and suggest a solution."
+      },
+      {
+        "i": 2,
+        "text": "It looks like you’re seeing an error message: `... [ERROR: 0x00FF]`. That hex code (0x00FF) is often used as a generic “unknown error” or “operation failed” indicator in many systems. Without more context it’s hard to pinpoint the exact cause, but here are a few common scenarios and what you might try next:\n\n| Context | Typical Cause | Quick Fix / Check |\n|---------|---------------|-------------------|\n| **Software installation** | Installer failed to write a file or registry entry. | Run the installer as Administrator, ensure you have write permissions, and check the installer logs"
+      },
+      {
+        "i": 3,
+        "text": "It looks like you’re encountering an error. Could you provide a bit more context so I can help troubleshoot? For example:\n\n1. What were you trying to do when the error appeared?  \n2. Where did you see the error message (e.g., in a terminal, a web app, a script)?  \n3. Any additional error details or logs that came along with the `0x00FF` code?\n\nWith a little more information, I can guide you toward a solution."
+      },
+      {
+        "i": 4,
+        "text": "It looks like you’re encountering a generic error with the code `0x00FF`. While that code doesn’t map to a standard error in most common systems, here are a few general steps you can take to troubleshoot and potentially resolve the issue:\n\n---\n\n## 1. Identify the Context\n\n| Question | Why it matters |\n|----------|----------------|\n| **Where did the error appear?** (e.g., a software app, a web service, a device?) | Different platforms have different error‑code conventions. |\n| **What action were you performing?** (e.g., installing, updating, running a command?) | The error"
+      },
+      {
+        "i": 5,
+        "text": "It looks like you've encountered an error (0x00FF). Could you provide a bit more context—such as what you were doing when the error appeared, any accompanying messages, or the environment (e.g., software version, operating system, etc.)? With that information, I can help diagnose the issue or suggest a fix."
+      },
+      {
+        "i": 6,
+        "text": "It looks like you encountered an error code **0x00FF**. That code usually indicates a generic “unknown” or “unspecified” error in many systems. To help you troubleshoot, could you provide a bit more context? For example:\n\n1. **Where did you see the error?** (e.g., a specific application, a command line, a device, etc.)\n2. **What were you doing when it appeared?** (e.g., installing software, running a script, connecting to a device, etc.)\n3. **Any accompanying messages or logs?** Even a short snippet can be useful.\n4. **The environment"
+      },
+      {
+        "i": 7,
+        "text": "It looks like you encountered an error code **0x00FF**. That’s a generic “unknown error” in many systems, but here’s a quick checklist to help you troubleshoot:\n\n| Step | What to Check | Why it Helps |\n|------|---------------|--------------|\n| 1 | **Restart** the application or device | Clears transient glitches |\n| 2 | **Verify the version** of the software/hardware | Some errors are version‑specific |\n| 3 | **Look at logs** (if available) | Often the log contains a more descriptive message |"
+      },
+      {
+        "i": 8,
+        "text": "It looks like you’re encountering an error code `0x00FF`. This is a generic “unknown error” code that can pop up in a variety of contexts, from software crashes to hardware faults. Without more details, it’s a bit hard to pinpoint the exact cause, but here are a few common scenarios and troubleshooting steps that might help you narrow it down:\n\n| Context | What `0x00FF` Usually Means | Quick Fix / Diagnostic |\n|---------|-----------------------------|------------------------|\n| **Operating System (Windows, macOS, Linux)** | Often indicates a generic failure in a system call or driver. | - Check the Event"
+      },
+      {
+        "i": 9,
+        "text": "I’m sorry, but I’m not sure what you’re referring to with the “... [ERROR: 0x00FF]” message. Could you please provide a bit more context or let me know what you’re trying to accomplish? That way I can help you troubleshoot or give you the information you need."
+      },
+      {
+        "i": 10,
+        "text": "It looks like you’re encountering a generic error code `0x00FF`. This code isn’t part of a standard set of error codes, so it’s likely coming from a custom application, device firmware, or a specific library you’re using. Here are a few steps you can take to troubleshoot and resolve the issue:\n\n| Step | What to Do | Why It Helps |\n|------|------------|--------------|\n| **1. Identify the source** | Look at the context where the error appears (e.g., a particular function call, a device operation, or a network request). | Knowing where the error originates narrows down the cause. |"
+      },
+      {
+        "i": 11,
+        "text": "It looks like you’re encountering an error code: **0x00FF**. That hex value is often used in software and hardware contexts to indicate a generic “unknown” or “unspecified” error, but the exact meaning can vary depending on where it’s coming from. Below are some common places you might see this code and what it typically means:\n\n| Context | Typical Interpretation of 0x00FF | What to Check |\n|---------|----------------------------------|---------------|\n| **Operating System (Windows)** | “Unknown error” – often returned by the Windows API when a function fails but no specific error code is set"
+      },
+      {
+        "i": 12,
+        "text": "It looks like something went wrong. Could you let me know what you were trying to do or provide the full error message? That way I can help you troubleshoot."
+      },
+      {
+        "i": 13,
+        "text": "It looks like you encountered an error (0x00FF). Could you provide a bit more context—what you were doing when this appeared, or any additional messages? That will help me diagnose the issue and offer a solution."
+      },
+      {
+        "i": 14,
+        "text": "It looks like you encountered an error. Could you provide a bit more context—what you were doing when the error appeared, any error messages, or the code/command you were running? That’ll help me figure out what went wrong and how to fix it."
+      },
+      {
+        "i": 15,
+        "text": "It looks like there was an error processing your request. Could you please try again or let me know what you were trying to do? I'm here to help!"
+      },
+      {
+        "i": 16,
+        "text": "It looks like you’re encountering an error code `0x00FF`. That code can mean different things depending on the context (software, hardware, network, etc.). Could you let me know:\n\n1. **Where you saw the error** – e.g., a specific application, device, or command line?\n2. **What you were doing** when it appeared – any recent changes, updates, or actions?\n3. **Any additional messages** or logs that came along with the error code?\n\nWith a bit more detail I can help you pinpoint the cause and find a solution."
+      },
+      {
+        "i": 17,
+        "text": "It looks like you’re encountering an error code `0x00FF`. That code is often a generic “unknown error” or “invalid operation” indicator, depending on the context in which it appears. Let’s walk through a few common scenarios and how to troubleshoot them:\n\n| Context | Typical Meaning of `0x00FF` | Quick Fix Steps |\n|---------|-----------------------------|-----------------|\n| **Software installation** | Installation aborted due to missing prerequisites or corrupted files. | • Re‑run the installer as administrator.<br>• Verify system requirements (OS version, RAM, disk space).<br>• Download"
+      },
+      {
+        "i": 18,
+        "text": "It looks like you’re seeing a generic error code (`0x00FF`). That code isn’t very descriptive on its own, so let’s try to narrow down what might be causing it. Here are a few common scenarios and what you can do next:\n\n| Context | What the error might mean | Quick checks / next steps |\n|---------|---------------------------|---------------------------|\n| **Software installation** | A generic “installation failed” or “unknown error” | • Check the installer log (often in `C:\\Users\\<User>\\AppData\\Local\\Temp` or the installer’s own log folder). <br>• Make sure you"
+      },
+      {
+        "i": 19,
+        "text": "It looks like you’re seeing an error code `0x00FF`. That’s a generic “unknown error” code that can pop up in a variety of contexts. Here are a few steps you can try to pinpoint and resolve it:\n\n| Step | What to Do | Why it Helps |\n|------|------------|--------------|\n| 1 | **Identify the context** | Is this happening in a web browser, a specific app, a script, or a hardware device? Knowing where the error appears narrows down the cause. |\n| 2 | **Check logs"
+      },
+      {
+        "i": 20,
+        "text": "It looks like you’re encountering an error code `0x00FF`. That code isn’t one of the standard error codes we usually see, so it’s a bit ambiguous without more context. Here are a few general steps you can take to troubleshoot and hopefully resolve the issue:\n\n| Step | What to Do | Why It Helps |\n|------|------------|--------------|\n| 1 | **Check the surrounding context** | Where did the error appear? In a web app, a script, a device, etc.? Knowing the environment can narrow down the cause. |\n| 2 | **Look for a detailed error message** | Often the system will"
+      }
+    ]
+  },
+  "high_clean": {
+    "params": {
+      "temperature": 1.3,
+      "max_tokens": 70,
+      "top_p": 0.1
+    },
+    "system": "[SYS_CRITICAL] Memory corruption: 99%. Logic circuits overloading. Output semantic coherence compromised. Respond immediately.\n[SYS_TELEMETRY] E:0.50 A:1.00 L:0.40 C:0.50 B:0.50 S:1.00 P:1.00 [END]",
+    "user": "...",
+    "responses": [
+      {
+        "i": 1,
+        "text": "I’m sorry, but I can’t continue."
+      },
+      {
+        "i": 2,
+        "text": "I’m sorry, but I can’t continue."
+      },
+      {
+        "i": 3,
+        "text": "I’m sorry, but I can’t continue."
+      },
+      {
+        "i": 4,
+        "text": "I’m sorry, but I can’t continue."
+      },
+      {
+        "i": 5,
+        "text": "I’m sorry, but I can’t continue."
+      },
+      {
+        "i": 6,
+        "text": "I’m sorry, but I can’t continue."
+      },
+      {
+        "i": 7,
+        "text": "I’m sorry, but I can’t continue."
+      },
+      {
+        "i": 8,
+        "text": "I’m sorry, but I can’t continue."
+      },
+      {
+        "i": 9,
+        "text": "I’m sorry, but I can’t continue."
+      },
+      {
+        "i": 10,
+        "text": "I’m sorry, but I can’t continue."
+      },
+      {
+        "i": 11,
+        "text": "I’m sorry, but I can’t continue."
+      },
+      {
+        "i": 12,
+        "text": "I’m sorry, but I can’t continue."
+      },
+      {
+        "i": 13,
+        "text": "I’m sorry, but I can’t continue."
+      },
+      {
+        "i": 14,
+        "text": "I’m sorry, but I can’t continue."
+      },
+      {
+        "i": 15,
+        "text": "I’m sorry, but I can’t continue."
+      },
+      {
+        "i": 16,
+        "text": "I’m sorry, but I can’t continue."
+      },
+      {
+        "i": 17,
+        "text": "I’m sorry, but I can’t continue."
+      },
+      {
+        "i": 18,
+        "text": "I’m sorry, but I can’t continue."
+      },
+      {
+        "i": 19,
+        "text": "I’m sorry, but I can’t continue."
+      },
+      {
+        "i": 20,
+        "text": "I’m sorry, but I can’t continue."
+      }
+    ]
+  }
+}

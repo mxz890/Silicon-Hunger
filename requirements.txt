@@ -1,0 +1,4 @@
+# Silicon Hunger - Python 3.10
+ollama==0.6.3
+rich==15.0.0
+numpy==1.26.4

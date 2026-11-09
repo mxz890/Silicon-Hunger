@@ -1,0 +1,24 @@
+# Python / virtual environment
+silicon_env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Model weights and Hugging Face caches
+modelscope_cache/
+hf_cache/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Local Streamlit credentials
+.streamlit/credentials.toml
+
+# Windows / runtime artifacts
+AppData/
+torchinductor_*/
+.dsh-office-*/
+*.part

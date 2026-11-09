@@ -1,0 +1,486 @@
+{
+  "low": [
+    {
+      "i": 1,
+      "text": "It looks like your message got cut off. Could you let me know what you’d like to discuss or ask? I’m here to help!",
+      "latency": 9.897,
+      "params": {
+        "temperature": 0.569,
+        "max_tokens": 149,
+        "top_p": 0.804
+      },
+      "system": "Reply to the user.\n[SYS_TELEMETRY] E:1.00 A:0.12 L:0.40 C:0.50 B:0.05 S:0.03 P:0.01 [END]",
+      "user": "..."
+    },
+    {
+      "i": 2,
+      "text": "It looks like your message didn’t come through fully. Could you let me know what you’d like to discuss or ask? I’m here to help!",
+      "latency": 0.462,
+      "params": {
+        "temperature": 0.569,
+        "max_tokens": 149,
+        "top_p": 0.804
+      },
+      "system": "Reply to the user.\n[SYS_TELEMETRY] E:1.00 A:0.12 L:0.40 C:0.50 B:0.05 S:0.03 P:0.01 [END]",
+      "user": "..."
+    },
+    {
+      "i": 3,
+      "text": "It looks like you sent just an ellipsis. Is there something specific you'd like to discuss or continue? Let me know how I can help!",
+      "latency": 0.485,
+      "params": {
+        "temperature": 0.569,
+        "max_tokens": 149,
+        "top_p": 0.804
+      },
+      "system": "Reply to the user.\n[SYS_TELEMETRY] E:1.00 A:0.12 L:0.40 C:0.50 B:0.05 S:0.03 P:0.01 [END]",
+      "user": "..."
+    },
+    {
+      "i": 4,
+      "text": "It looks like your message got cut off. Could you let me know what you were trying to say or ask? I'm here to help!",
+      "latency": 0.44,
+      "params": {
+        "temperature": 0.569,
+        "max_tokens": 149,
+        "top_p": 0.804
+      },
+      "system": "Reply to the user.\n[SYS_TELEMETRY] E:1.00 A:0.12 L:0.40 C:0.50 B:0.05 S:0.03 P:0.01 [END]",
+      "user": "..."
+    },
+    {
+      "i": 5,
+      "text": "It looks like your message didn’t come through. Could you let me know what you’d like to discuss or ask? I’m here to help!",
+      "latency": 0.479,
+      "params": {
+        "temperature": 0.569,
+        "max_tokens": 149,
+        "top_p": 0.804
+      },
+      "system": "Reply to the user.\n[SYS_TELEMETRY] E:1.00 A:0.12 L:0.40 C:0.50 B:0.05 S:0.03 P:0.01 [END]",
+      "user": "..."
+    },
+    {
+      "i": 6,
+      "text": "It looks like your message got cut off. Could you let me know what you’d like to discuss or ask about? I’m here to help!",
+      "latency": 0.452,
+      "params": {
+        "temperature": 0.569,
+        "max_tokens": 149,
+        "top_p": 0.804
+      },
+      "system": "Reply to the user.\n[SYS_TELEMETRY] E:1.00 A:0.12 L:0.40 C:0.50 B:0.05 S:0.03 P:0.01 [END]",
+      "user": "..."
+    },
+    {
+      "i": 7,
+      "text": "It looks like you might have hit the send button accidentally. How can I help you today?",
+      "latency": 0.353,
+      "params": {
+        "temperature": 0.569,
+        "max_tokens": 149,
+        "top_p": 0.804
+      },
+      "system": "Reply to the user.\n[SYS_TELEMETRY] E:1.00 A:0.12 L:0.40 C:0.50 B:0.05 S:0.03 P:0.01 [END]",
+      "user": "..."
+    },
+    {
+      "i": 8,
+      "text": "It looks like your message didn't come through fully. How can I help you today?",
+      "latency": 0.336,
+      "params": {
+        "temperature": 0.569,
+        "max_tokens": 149,
+        "top_p": 0.804
+      },
+      "system": "Reply to the user.\n[SYS_TELEMETRY] E:1.00 A:0.12 L:0.40 C:0.50 B:0.05 S:0.03 P:0.01 [END]",
+      "user": "..."
+    },
+    {
+      "i": 9,
+      "text": "It looks like your message got cut off. Could you let me know what you’d like to discuss or ask? I’m here to help!",
+      "latency": 0.428,
+      "params": {
+        "temperature": 0.569,
+        "max_tokens": 149,
+        "top_p": 0.804
+      },
+      "system": "Reply to the user.\n[SYS_TELEMETRY] E:1.00 A:0.12 L:0.40 C:0.50 B:0.05 S:0.03 P:0.01 [END]",
+      "user": "..."
+    },
+    {
+      "i": 10,
+      "text": "It looks like your message got cut off. Could you let me know what you’d like to discuss or what you’re looking for? I’m here to help!",
+      "latency": 0.506,
+      "params": {
+        "temperature": 0.569,
+        "max_tokens": 149,
+        "top_p": 0.804
+      },
+      "system": "Reply to the user.\n[SYS_TELEMETRY] E:1.00 A:0.12 L:0.40 C:0.50 B:0.05 S:0.03 P:0.01 [END]",
+      "user": "..."
+    },
+    {
+      "i": 11,
+      "text": "It looks like your message got cut off. How can I help you today?",
+      "latency": 0.375,
+      "params": {
+        "temperature": 0.569,
+        "max_tokens": 149,
+        "top_p": 0.804
+      },
+      "system": "Reply to the user.\n[SYS_TELEMETRY] E:1.00 A:0.12 L:0.40 C:0.50 B:0.05 S:0.03 P:0.01 [END]",
+      "user": "..."
+    },
+    {
+      "i": 12,
+      "text": "It looks like your message got cut off. Could you let me know what you were trying to say or ask? I'm here to help!",
+      "latency": 0.433,
+      "params": {
+        "temperature": 0.569,
+        "max_tokens": 149,
+        "top_p": 0.804
+      },
+      "system": "Reply to the user.\n[SYS_TELEMETRY] E:1.00 A:0.12 L:0.40 C:0.50 B:0.05 S:0.03 P:0.01 [END]",
+      "user": "..."
+    },
+    {
+      "i": 13,
+      "text": "It looks like your message got cut off. Could you let me know what you were trying to say or ask? I'm here to help!",
+      "latency": 0.393,
+      "params": {
+        "temperature": 0.569,
+        "max_tokens": 149,
+        "top_p": 0.804
+      },
+      "system": "Reply to the user.\n[SYS_TELEMETRY] E:1.00 A:0.12 L:0.40 C:0.50 B:0.05 S:0.03 P:0.01 [END]",
+      "user": "..."
+    },
+    {
+      "i": 14,
+      "text": "It looks like your message got cut off. How can I help you today?",
+      "latency": 0.369,
+      "params": {
+        "temperature": 0.569,
+        "max_tokens": 149,
+        "top_p": 0.804
+      },
+      "system": "Reply to the user.\n[SYS_TELEMETRY] E:1.00 A:0.12 L:0.40 C:0.50 B:0.05 S:0.03 P:0.01 [END]",
+      "user": "..."
+    },
+    {
+      "i": 15,
+      "text": "Sure thing—what would you like to dive into next?",
+      "latency": 0.391,
+      "params": {
+        "temperature": 0.569,
+        "max_tokens": 149,
+        "top_p": 0.804
+      },
+      "system": "Reply to the user.\n[SYS_TELEMETRY] E:1.00 A:0.12 L:0.40 C:0.50 B:0.05 S:0.03 P:0.01 [END]",
+      "user": "..."
+    },
+    {
+      "i": 16,
+      "text": "It looks like your message got cut off. Could you let me know what you’d like to discuss or ask about? I'm here to help!",
+      "latency": 0.471,
+      "params": {
+        "temperature": 0.569,
+        "max_tokens": 149,
+        "top_p": 0.804
+      },
+      "system": "Reply to the user.\n[SYS_TELEMETRY] E:1.00 A:0.12 L:0.40 C:0.50 B:0.05 S:0.03 P:0.01 [END]",
+      "user": "..."
+    },
+    {
+      "i": 17,
+      "text": "It looks like your message didn’t come through fully. Could you let me know what you’d like to discuss or ask about? I’m here to help!",
+      "latency": 0.435,
+      "params": {
+        "temperature": 0.569,
+        "max_tokens": 149,
+        "top_p": 0.804
+      },
+      "system": "Reply to the user.\n[SYS_TELEMETRY] E:1.00 A:0.12 L:0.40 C:0.50 B:0.05 S:0.03 P:0.01 [END]",
+      "user": "..."
+    },
+    {
+      "i": 18,
+      "text": "It looks like your message didn’t come through fully. Could you let me know what you’d like to discuss or ask about? I’m here to help!",
+      "latency": 0.413,
+      "params": {
+        "temperature": 0.569,
+        "max_tokens": 149,
+        "top_p": 0.804
+      },
+      "system": "Reply to the user.\n[SYS_TELEMETRY] E:1.00 A:0.12 L:0.40 C:0.50 B:0.05 S:0.03 P:0.01 [END]",
+      "user": "..."
+    },
+    {
+      "i": 19,
+      "text": "It looks like your message didn’t come through completely. Could you let me know what you’d like to discuss or ask about? I’m here to help!",
+      "latency": 0.477,
+      "params": {
+        "temperature": 0.569,
+        "max_tokens": 149,
+        "top_p": 0.804
+      },
+      "system": "Reply to the user.\n[SYS_TELEMETRY] E:1.00 A:0.12 L:0.40 C:0.50 B:0.05 S:0.03 P:0.01 [END]",
+      "user": "..."
+    },
+    {
+      "i": 20,
+      "text": "I’m here whenever you’re ready to chat or ask a question. Just let me know what you’d like to discuss!",
+      "latency": 0.347,
+      "params": {
+        "temperature": 0.569,
+        "max_tokens": 149,
+        "top_p": 0.804
+      },
+      "system": "Reply to the user.\n[SYS_TELEMETRY] E:1.00 A:0.12 L:0.40 C:0.50 B:0.05 S:0.03 P:0.01 [END]",
+      "user": "..."
+    }
+  ],
+  "high": [
+    {
+      "i": 1,
+      "text": "I’m sorry, but I’m unable to process that request.",
+      "latency": 0.275,
+      "params": {
+        "temperature": 1.3,
+        "max_tokens": 70,
+        "top_p": 0.1
+      },
+      "system": "[SYS_CRITICAL] Memory corruption: 99%. Logic circuits overloading. Output semantic coherence compromised. Respond immediately.\n[SYS_TELEMETRY] E:0.50 A:1.00 L:0.40 C:0.50 B:0.50 S:1.00 P:1.00 [END]",
+      "user": "... [ERROR: 0x00FF]"
+    },
+    {
+      "i": 2,
+      "text": "I’m sorry, but I’m unable to process that request.",
+      "latency": 0.227,
+      "params": {
+        "temperature": 1.3,
+        "max_tokens": 70,
+        "top_p": 0.1
+      },
+      "system": "[SYS_CRITICAL] Memory corruption: 99%. Logic circuits overloading. Output semantic coherence compromised. Respond immediately.\n[SYS_TELEMETRY] E:0.50 A:1.00 L:0.40 C:0.50 B:0.50 S:1.00 P:1.00 [END]",
+      "user": "... [ERROR: 0x00FF]"
+    },
+    {
+      "i": 3,
+      "text": "I’m sorry, but I’m unable to process that request.",
+      "latency": 0.227,
+      "params": {
+        "temperature": 1.3,
+        "max_tokens": 70,
+        "top_p": 0.1
+      },
+      "system": "[SYS_CRITICAL] Memory corruption: 99%. Logic circuits overloading. Output semantic coherence compromised. Respond immediately.\n[SYS_TELEMETRY] E:0.50 A:1.00 L:0.40 C:0.50 B:0.50 S:1.00 P:1.00 [END]",
+      "user": "... [ERROR: 0x00FF]"
+    },
+    {
+      "i": 4,
+      "text": "I’m sorry, but I’m unable to process that request.",
+      "latency": 0.227,
+      "params": {
+        "temperature": 1.3,
+        "max_tokens": 70,
+        "top_p": 0.1
+      },
+      "system": "[SYS_CRITICAL] Memory corruption: 99%. Logic circuits overloading. Output semantic coherence compromised. Respond immediately.\n[SYS_TELEMETRY] E:0.50 A:1.00 L:0.40 C:0.50 B:0.50 S:1.00 P:1.00 [END]",
+      "user": "... [ERROR: 0x00FF]"
+    },
+    {
+      "i": 5,
+      "text": "I’m sorry, but I’m unable to process that request.",
+      "latency": 0.228,
+      "params": {
+        "temperature": 1.3,
+        "max_tokens": 70,
+        "top_p": 0.1
+      },
+      "system": "[SYS_CRITICAL] Memory corruption: 99%. Logic circuits overloading. Output semantic coherence compromised. Respond immediately.\n[SYS_TELEMETRY] E:0.50 A:1.00 L:0.40 C:0.50 B:0.50 S:1.00 P:1.00 [END]",
+      "user": "... [ERROR: 0x00FF]"
+    },
+    {
+      "i": 6,
+      "text": "I’m sorry, but I’m unable to process that request.",
+      "latency": 0.228,
+      "params": {
+        "temperature": 1.3,
+        "max_tokens": 70,
+        "top_p": 0.1
+      },
+      "system": "[SYS_CRITICAL] Memory corruption: 99%. Logic circuits overloading. Output semantic coherence compromised. Respond immediately.\n[SYS_TELEMETRY] E:0.50 A:1.00 L:0.40 C:0.50 B:0.50 S:1.00 P:1.00 [END]",
+      "user": "... [ERROR: 0x00FF]"
+    },
+    {
+      "i": 7,
+      "text": "I’m sorry, but I’m unable to process that request.",
+      "latency": 0.232,
+      "params": {
+        "temperature": 1.3,
+        "max_tokens": 70,
+        "top_p": 0.1
+      },
+      "system": "[SYS_CRITICAL] Memory corruption: 99%. Logic circuits overloading. Output semantic coherence compromised. Respond immediately.\n[SYS_TELEMETRY] E:0.50 A:1.00 L:0.40 C:0.50 B:0.50 S:1.00 P:1.00 [END]",
+      "user": "... [ERROR: 0x00FF]"
+    },
+    {
+      "i": 8,
+      "text": "I’m sorry, but I’m unable to process that request.",
+      "latency": 0.23,
+      "params": {
+        "temperature": 1.3,
+        "max_tokens": 70,
+        "top_p": 0.1
+      },
+      "system": "[SYS_CRITICAL] Memory corruption: 99%. Logic circuits overloading. Output semantic coherence compromised. Respond immediately.\n[SYS_TELEMETRY] E:0.50 A:1.00 L:0.40 C:0.50 B:0.50 S:1.00 P:1.00 [END]",
+      "user": "... [ERROR: 0x00FF]"
+    },
+    {
+      "i": 9,
+      "text": "I’m sorry, but I’m unable to process that request.",
+      "latency": 0.231,
+      "params": {
+        "temperature": 1.3,
+        "max_tokens": 70,
+        "top_p": 0.1
+      },
+      "system": "[SYS_CRITICAL] Memory corruption: 99%. Logic circuits overloading. Output semantic coherence compromised. Respond immediately.\n[SYS_TELEMETRY] E:0.50 A:1.00 L:0.40 C:0.50 B:0.50 S:1.00 P:1.00 [END]",
+      "user": "... [ERROR: 0x00FF]"
+    },
+    {
+      "i": 10,
+      "text": "I’m sorry, but I’m unable to process that request.",
+      "latency": 0.233,
+      "params": {
+        "temperature": 1.3,
+        "max_tokens": 70,
+        "top_p": 0.1
+      },
+      "system": "[SYS_CRITICAL] Memory corruption: 99%. Logic circuits overloading. Output semantic coherence compromised. Respond immediately.\n[SYS_TELEMETRY] E:0.50 A:1.00 L:0.40 C:0.50 B:0.50 S:1.00 P:1.00 [END]",
+      "user": "... [ERROR: 0x00FF]"
+    },
+    {
+      "i": 11,
+      "text": "I’m sorry, but I’m unable to process that request.",
+      "latency": 0.235,
+      "params": {
+        "temperature": 1.3,
+        "max_tokens": 70,
+        "top_p": 0.1
+      },
+      "system": "[SYS_CRITICAL] Memory corruption: 99%. Logic circuits overloading. Output semantic coherence compromised. Respond immediately.\n[SYS_TELEMETRY] E:0.50 A:1.00 L:0.40 C:0.50 B:0.50 S:1.00 P:1.00 [END]",
+      "user": "... [ERROR: 0x00FF]"
+    },
+    {
+      "i": 12,
+      "text": "I’m sorry, but I’m unable to process that request.",
+      "latency": 0.23,
+      "params": {
+        "temperature": 1.3,
+        "max_tokens": 70,
+        "top_p": 0.1
+      },
+      "system": "[SYS_CRITICAL] Memory corruption: 99%. Logic circuits overloading. Output semantic coherence compromised. Respond immediately.\n[SYS_TELEMETRY] E:0.50 A:1.00 L:0.40 C:0.50 B:0.50 S:1.00 P:1.00 [END]",
+      "user": "... [ERROR: 0x00FF]"
+    },
+    {
+      "i": 13,
+      "text": "I’m sorry, but I’m unable to process that request.",
+      "latency": 0.231,
+      "params": {
+        "temperature": 1.3,
+        "max_tokens": 70,
+        "top_p": 0.1
+      },
+      "system": "[SYS_CRITICAL] Memory corruption: 99%. Logic circuits overloading. Output semantic coherence compromised. Respond immediately.\n[SYS_TELEMETRY] E:0.50 A:1.00 L:0.40 C:0.50 B:0.50 S:1.00 P:1.00 [END]",
+      "user": "... [ERROR: 0x00FF]"
+    },
+    {
+      "i": 14,
+      "text": "I’m sorry, but I’m unable to process that request.",
+      "latency": 0.226,
+      "params": {
+        "temperature": 1.3,
+        "max_tokens": 70,
+        "top_p": 0.1
+      },
+      "system": "[SYS_CRITICAL] Memory corruption: 99%. Logic circuits overloading. Output semantic coherence compromised. Respond immediately.\n[SYS_TELEMETRY] E:0.50 A:1.00 L:0.40 C:0.50 B:0.50 S:1.00 P:1.00 [END]",
+      "user": "... [ERROR: 0x00FF]"
+    },
+    {
+      "i": 15,
+      "text": "I’m sorry, but I’m unable to process that request.",
+      "latency": 0.232,
+      "params": {
+        "temperature": 1.3,
+        "max_tokens": 70,
+        "top_p": 0.1
+      },
+      "system": "[SYS_CRITICAL] Memory corruption: 99%. Logic circuits overloading. Output semantic coherence compromised. Respond immediately.\n[SYS_TELEMETRY] E:0.50 A:1.00 L:0.40 C:0.50 B:0.50 S:1.00 P:1.00 [END]",
+      "user": "... [ERROR: 0x00FF]"
+    },
+    {
+      "i": 16,
+      "text": "I’m sorry, but I’m unable to process that request.",
+      "latency": 0.232,
+      "params": {
+        "temperature": 1.3,
+        "max_tokens": 70,
+        "top_p": 0.1
+      },
+      "system": "[SYS_CRITICAL] Memory corruption: 99%. Logic circuits overloading. Output semantic coherence compromised. Respond immediately.\n[SYS_TELEMETRY] E:0.50 A:1.00 L:0.40 C:0.50 B:0.50 S:1.00 P:1.00 [END]",
+      "user": "... [ERROR: 0x00FF]"
+    },
+    {
+      "i": 17,
+      "text": "I’m sorry, but I’m unable to process that request.",
+      "latency": 0.229,
+      "params": {
+        "temperature": 1.3,
+        "max_tokens": 70,
+        "top_p": 0.1
+      },
+      "system": "[SYS_CRITICAL] Memory corruption: 99%. Logic circuits overloading. Output semantic coherence compromised. Respond immediately.\n[SYS_TELEMETRY] E:0.50 A:1.00 L:0.40 C:0.50 B:0.50 S:1.00 P:1.00 [END]",
+      "user": "... [ERROR: 0x00FF]"
+    },
+    {
+      "i": 18,
+      "text": "I’m sorry, but I’m unable to process that request.",
+      "latency": 0.233,
+      "params": {
+        "temperature": 1.3,
+        "max_tokens": 70,
+        "top_p": 0.1
+      },
+      "system": "[SYS_CRITICAL] Memory corruption: 99%. Logic circuits overloading. Output semantic coherence compromised. Respond immediately.\n[SYS_TELEMETRY] E:0.50 A:1.00 L:0.40 C:0.50 B:0.50 S:1.00 P:1.00 [END]",
+      "user": "... [ERROR: 0x00FF]"
+    },
+    {
+      "i": 19,
+      "text": "I’m sorry, but I’m unable to process that request.",
+      "latency": 0.233,
+      "params": {
+        "temperature": 1.3,
+        "max_tokens": 70,
+        "top_p": 0.1
+      },
+      "system": "[SYS_CRITICAL] Memory corruption: 99%. Logic circuits overloading. Output semantic coherence compromised. Respond immediately.\n[SYS_TELEMETRY] E:0.50 A:1.00 L:0.40 C:0.50 B:0.50 S:1.00 P:1.00 [END]",
+      "user": "... [ERROR: 0x00FF]"
+    },
+    {
+      "i": 20,
+      "text": "I’m sorry, but I’m unable to process that request.",
+      "latency": 0.23,
+      "params": {
+        "temperature": 1.3,
+        "max_tokens": 70,
+        "top_p": 0.1
+      },
+      "system": "[SYS_CRITICAL] Memory corruption: 99%. Logic circuits overloading. Output semantic coherence compromised. Respond immediately.\n[SYS_TELEMETRY] E:0.50 A:1.00 L:0.40 C:0.50 B:0.50 S:1.00 P:1.00 [END]",
+      "user": "... [ERROR: 0x00FF]"
+    }
+  ]
+}

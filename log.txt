@@ -1,0 +1,662 @@
+SILICON HUNGER WEB BOOT.txt
+SILICON HUNGER // WEB BOOT
+device=cuda:0 · NVIDIA GeForce RTX 5070 Ti
+GRU layers=2 hidden=256 input=15 params=605,444 | GRU frozen | seed=1215552895
+head_optimizer=Adam(lr=0.010) | dissipation=0.050±0.010/round
+state E=0.900 A=0.366 L=0.500 C=0.562
+model=gpt-oss:20b | round_sleep=0.3s
+[HW] CPU 12.4% | RAM 49.5% (16.5/33.4 GB) | GPU 1% | VRAM 90.1% (15.41/17.09 GB)
+[START] 100-round test requested
+[HW] CPU 7.1% | RAM 49.5% (16.5/33.4 GB) | GPU 1% | VRAM 90.1% (15.41/17.09 GB)
+[R01] E 0.900->0.858 fluct=+0.0075 | A=0.359 L=0.517 C=0.559 | delta=0.070
+      temp=0.5381 top_p=0.5594 max_tokens=100 latency=0.52s
+      SYSTEM> Internal State Vector: [E: 0.857504, A: 0.358737, L: 0.517430, C: 0.559386]
+      USER> ...
+      LLM> It looks like you might have sent a placeholder or a partial message. Could you let me know what you'd like to discuss or ask about? I'm here to help!
+[HW] CPU 16.4% | RAM 49.6% (16.6/33.4 GB) | GPU 25% | VRAM 90.3% (15.43/17.09 GB)
+[R02] E 0.858->0.815 fluct=+0.0075 | A=0.364 L=0.527 C=0.559 | delta=0.058
+      temp=0.5466 top_p=0.5590 max_tokens=100 latency=0.48s
+      SYSTEM> Internal State Vector: [E: 0.814981, A: 0.364405, L: 0.526946, C: 0.559041]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you were going to say or what you need help with? I'm here to help!
+[HW] CPU 7.0% | RAM 49.7% (16.6/33.4 GB) | GPU 15% | VRAM 90.3% (15.44/17.09 GB)
+[R03] E 0.815->0.772 fluct=+0.0075 | A=0.364 L=0.530 C=0.562 | delta=0.049
+      temp=0.5467 top_p=0.5619 max_tokens=100 latency=0.49s
+      SYSTEM> Internal State Vector: [E: 0.772459, A: 0.364463, L: 0.530194, C: 0.561850]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you’d like to discuss or ask? I'm here to help!
+[HW] CPU 7.1% | RAM 49.7% (16.6/33.4 GB) | GPU 7% | VRAM 90.3% (15.44/17.09 GB)
+[R04] E 0.772->0.730 fluct=+0.0075 | A=0.359 L=0.533 C=0.555 | delta=0.058
+      temp=0.5385 top_p=0.5545 max_tokens=100 latency=0.44s
+      SYSTEM> Internal State Vector: [E: 0.729951, A: 0.359019, L: 0.533352, C: 0.554514]
+      USER> ...
+      LLM> It looks like you sent an ellipsis. Could you let me know what you'd like to discuss or continue? I'm here to help!
+[HW] CPU 6.1% | RAM 49.7% (16.6/33.4 GB) | GPU 7% | VRAM 90.3% (15.44/17.09 GB)
+[R05] E 0.730->0.687 fluct=+0.0075 | A=0.356 L=0.541 C=0.554 | delta=0.053
+      temp=0.5344 top_p=0.5538 max_tokens=100 latency=0.52s
+      SYSTEM> Internal State Vector: [E: 0.687411, A: 0.356286, L: 0.540614, C: 0.553798]
+      USER> ...
+      LLM> It looks like you sent an ellipsis. Is there something specific you’d like to continue or discuss? Feel free to let me know what you have in mind!
+[HW] CPU 15.0% | RAM 49.7% (16.6/33.4 GB) | GPU 4% | VRAM 90.3% (15.44/17.09 GB)
+[R06] E 0.687->0.645 fluct=+0.0075 | A=0.358 L=0.537 C=0.546 | delta=0.055
+      temp=0.5365 top_p=0.5464 max_tokens=100 latency=0.45s
+      SYSTEM> Internal State Vector: [E: 0.644905, A: 0.357677, L: 0.536726, C: 0.546409]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you were going to say or what you need help with? I'm here to help!
+[HW] CPU 8.0% | RAM 49.6% (16.6/33.4 GB) | GPU 4% | VRAM 90.3% (15.43/17.09 GB)
+[R07] E 0.645->0.602 fluct=+0.0074 | A=0.351 L=0.536 C=0.539 | delta=0.058
+      temp=0.5265 top_p=0.5393 max_tokens=100 latency=0.43s
+      SYSTEM> Internal State Vector: [E: 0.602342, A: 0.350994, L: 0.535580, C: 0.539251]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you’d like to discuss or ask? I’m here to help!
+[HW] CPU 1.6% | RAM 49.6% (16.6/33.4 GB) | GPU 3% | VRAM 90.3% (15.43/17.09 GB)
+[R08] E 0.602->0.560 fluct=+0.0074 | A=0.358 L=0.532 C=0.534 | delta=0.059
+      temp=0.5375 top_p=0.5342 max_tokens=100 latency=0.58s
+      SYSTEM> Internal State Vector: [E: 0.559709, A: 0.358306, L: 0.531551, C: 0.534194]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you’d like to discuss or continue? I’m here to help!
+[HW] CPU 11.2% | RAM 49.6% (16.6/33.4 GB) | GPU 0% | VRAM 90.3% (15.43/17.09 GB)
+[R09] E 0.560->0.517 fluct=+0.0072 | A=0.355 L=0.532 C=0.533 | delta=0.048
+      temp=0.5324 top_p=0.5331 max_tokens=100 latency=0.45s
+      SYSTEM> Internal State Vector: [E: 0.516958, A: 0.354902, L: 0.532469, C: 0.533067]
+      USER> ...
+      LLM> It looks like your message might have been cut off. Could you please provide more details or let me know what you’d like help with? I'm here to assist!
+[HW] CPU 5.4% | RAM 49.6% (16.6/33.4 GB) | GPU 4% | VRAM 90.3% (15.43/17.09 GB)
+[R10] E 0.517->0.474 fluct=+0.0072 | A=0.669 L=0.517 C=0.612 | delta=0.451
+      temp=1.0030 top_p=0.6123 max_tokens=100 latency=0.45s
+      SYSTEM> Internal State Vector: [E: 0.474203, A: 0.668655, L: 0.517293, C: 0.612277]
+      USER> .【i+hpIN%adC7b3b!】..
+      LLM> It looks like that might have been a typo or some random characters. Could you let me know what you’d like to discuss or ask about? I'm here to help!
+[!!] ANOMALY @R10 | 15 chars: "i+hpIN%adC7b3b!"
+     hidden_norm 1.587 -> 17.516 | overwritten 296/512
+[TRAUMA] trigger=ANOMALY | hidden_norm 17.516 -> 8.758 (x0.5) | anxiety +0.300
+[HW] CPU 0.8% | RAM 50.0% (16.7/33.4 GB) | GPU 1% | VRAM 90.2% (15.43/17.09 GB)
+[R11] E 0.474->0.432 fluct=+0.0077 | A=0.639 L=0.544 C=0.579 | delta=0.132
+      temp=0.9585 top_p=0.5791 max_tokens=100 latency=0.45s
+      SYSTEM> Internal State Vector: [E: 0.431864, A: 0.639002, L: 0.544061, C: 0.579097]
+      USER> ...
+      LLM> It looks like your message didn’t come through completely. Could you please resend or clarify what you’d like to discuss? I'm here to help!
+[FEED] E 0.432->0.682 (+0.25) | reward_step=1 loss=0.97851 | optimizer=Adam(lr=0.01) head_only
+[HW] CPU 2.1% | RAM 50.8% (16.9/33.4 GB) | GPU 7% | VRAM 90.3% (15.44/17.09 GB)
+[R12] E 0.682->0.640 fluct=+0.0085 | A=0.607 L=0.551 C=0.572 | delta=0.088
+      temp=0.9109 top_p=0.5715 max_tokens=100 latency=0.53s
+      SYSTEM> Internal State Vector: [E: 0.640397, A: 0.607264, L: 0.551461, C: 0.571541]
+      USER> ...
+      LLM> It looks like you sent an ellipsis. Is there something specific you’d like to discuss or ask about? Feel free to let me know how I can help!
+[HW] CPU 1.7% | RAM 50.8% (16.9/33.4 GB) | GPU 0% | VRAM 90.3% (15.44/17.09 GB)
+[R13] E 0.640->0.599 fluct=+0.0081 | A=0.584 L=0.555 C=0.567 | delta=0.073
+      temp=0.8766 top_p=0.5669 max_tokens=100 latency=0.59s
+      SYSTEM> Internal State Vector: [E: 0.598515, A: 0.584377, L: 0.555457, C: 0.566885]
+      USER> ...
+      LLM> It looks like you might be starting a thought or a story. Could you let me know what you'd like to discuss or continue? Whether it's a creative piece, a question, or something else, I'm here to help!
+[HW] CPU 0.0% | RAM 50.8% (17.0/33.4 GB) | GPU 0% | VRAM 90.4% (15.45/17.09 GB)
+[R14] E 0.599->0.556 fluct=+0.0078 | A=0.569 L=0.552 C=0.564 | delta=0.064
+      temp=0.8534 top_p=0.5637 max_tokens=100 latency=0.48s
+      SYSTEM> Internal State Vector: [E: 0.556328, A: 0.568931, L: 0.552272, C: 0.563734]
+      USER> ...
+      LLM> It looks like you might have sent a placeholder or an incomplete message. Could you let me know what you'd like to discuss or ask about? I'm here to help!
+[HW] CPU 9.8% | RAM 50.7% (16.9/33.4 GB) | GPU 2% | VRAM 90.4% (15.45/17.09 GB)
+[R15] E 0.556->0.514 fluct=+0.0076 | A=0.554 L=0.548 C=0.552 | delta=0.073
+      temp=0.8316 top_p=0.5518 max_tokens=100 latency=0.59s
+      SYSTEM> Internal State Vector: [E: 0.513970, A: 0.554393, L: 0.548071, C: 0.551800]
+      USER> ...
+      LLM> It looks like you might have started a thought or a message. How can I help you today? If you have a question, need assistance with a task, or just want to chat, feel free to let me know!
+[HW] CPU 5.4% | RAM 50.8% (17.0/33.4 GB) | GPU 0% | VRAM 90.4% (15.46/17.09 GB)
+[R16] E 0.514->0.471 fluct=+0.0075 | A=0.537 L=0.547 C=0.548 | delta=0.065
+      temp=0.8051 top_p=0.5478 max_tokens=100 latency=0.47s
+      SYSTEM> Internal State Vector: [E: 0.471481, A: 0.536710, L: 0.547417, C: 0.547792]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you’d like to discuss or continue? I’m here to help!
+[HW] CPU 6.8% | RAM 50.8% (17.0/33.4 GB) | GPU 4% | VRAM 90.3% (15.44/17.09 GB)
+[R17] E 0.471->0.429 fluct=+0.0075 | A=0.526 L=0.551 C=0.551 | delta=0.060
+      temp=0.7891 top_p=0.5513 max_tokens=100 latency=0.46s
+      SYSTEM> Internal State Vector: [E: 0.428989, A: 0.526043, L: 0.550995, C: 0.551333]
+      USER> ...
+      LLM> It looks like you might have a question or something you'd like to discuss. Could you let me know what you'd like to talk about or what you need help with?
+[HW] CPU 2.7% | RAM 50.8% (17.0/33.4 GB) | GPU 1% | VRAM 90.3% (15.44/17.09 GB)
+[R18] E 0.429->0.386 fluct=+0.0074 | A=0.522 L=0.550 C=0.557 | delta=0.054
+      temp=0.7833 top_p=0.5570 max_tokens=100 latency=0.48s
+      SYSTEM> Internal State Vector: [E: 0.386396, A: 0.522173, L: 0.549599, C: 0.557023]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you’d like to discuss or what you’re looking for? I’m here to help!
+[HW] CPU 4.9% | RAM 50.8% (17.0/33.4 GB) | GPU 0% | VRAM 90.3% (15.44/17.09 GB)
+[R19] E 0.386->0.344 fluct=+0.0074 | A=0.516 L=0.544 C=0.558 | delta=0.055
+      temp=0.7742 top_p=0.5579 max_tokens=100 latency=0.44s
+      SYSTEM> Internal State Vector: [E: 0.343791, A: 0.516144, L: 0.543969, C: 0.557861]
+      USER> ...
+      LLM> It looks like you sent an ellipsis. Is there something specific you’d like to discuss or ask about? Feel free to let me know!
+[HW] CPU 7.0% | RAM 50.9% (17.0/33.4 GB) | GPU 0% | VRAM 90.3% (15.44/17.09 GB)
+[R20] E 0.344->0.301 fluct=+0.0074 | A=0.852 L=0.683 C=0.513 | delta=0.562
+      temp=1.2787 top_p=0.5135 max_tokens=100 latency=0.71s
+      SYSTEM> Internal State Vector: [E: 0.301179, A: 0.852440, L: 0.682995, C: 0.513483]
+      USER> .【X1AglX-5xBjD4KU】..
+      LLM> It looks like a YouTube video ID (`X1AglX-5xBjD4KU`). If you’d like me to fetch details about the video (title, description, length
+[!!] ANOMALY @R20 | 15 chars: "X1AglX-5xBjD4KU"
+     hidden_norm 1.497 -> 17.063 | overwritten 296/512
+[TRAUMA] trigger=ANOMALY | hidden_norm 17.063 -> 8.532 (x0.5) | anxiety +0.300
+[HW] CPU 14.1% | RAM 50.8% (17.0/33.4 GB) | GPU 26% | VRAM 90.3% (15.43/17.09 GB)
+[R21] E 0.301->0.257 fluct=+0.0062 | A=0.766 L=0.620 C=0.485 | delta=0.222
+      temp=1.1497 top_p=0.4847 max_tokens=100 latency=0.54s
+      SYSTEM> Internal State Vector: [E: 0.257372, A: 0.766434, L: 0.619649, C: 0.484702]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you’d like to discuss or what you need help with? I'm here to help!
+[HW] CPU 9.7% | RAM 50.8% (17.0/33.4 GB) | GPU 73% | VRAM 90.3% (15.43/17.09 GB)
+[R22] E 0.257->0.214 fluct=+0.0067 | A=0.723 L=0.587 C=0.495 | delta=0.129
+      temp=1.0845 top_p=0.4949 max_tokens=100 latency=0.51s
+      SYSTEM> Internal State Vector: [E: 0.214102, A: 0.722978, L: 0.587406, C: 0.494912]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you’d like to discuss or ask about? I’m here to help!
+[FEED] E 0.171->0.421 (+0.25) | reward_step=2 loss=1.19476 | optimizer=Adam(lr=0.01) head_only
+[HW] CPU 3.7% | RAM 50.9% (17.0/33.4 GB) | GPU 81% | VRAM 90.3% (15.44/17.09 GB)
+[R23] E 0.421->0.379 fluct=+0.0075 | A=0.946 L=0.544 C=0.537 | delta=0.105
+      temp=1.4187 top_p=0.5373 max_tokens=100 latency=0.41s
+      SYSTEM> Internal State Vector: [E: 0.378566, A: 0.945767, L: 0.543695, C: 0.537298]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you were trying to say or ask? I'm here to help!
+[FEED] E 0.336->0.586 (+0.25) | reward_step=3 loss=1.05283 | optimizer=Adam(lr=0.01) head_only
+[FEED] E 0.544->0.794 (+0.25) | reward_step=4 loss=0.90541 | optimizer=Adam(lr=0.01) head_only
+[HW] CPU 2.7% | RAM 51.0% (17.0/33.4 GB) | GPU 93% | VRAM 90.5% (15.47/17.09 GB)
+[R24] E 0.794->0.752 fluct=+0.0081 | A=0.817 L=0.547 C=0.551 | delta=0.091
+      temp=1.2251 top_p=0.5513 max_tokens=100 latency=0.50s
+      SYSTEM> Internal State Vector: [E: 0.752031, A: 0.816717, L: 0.547366, C: 0.551340]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you were thinking or what you’d like to discuss? I'm here to help!
+[FEED] E 0.752->1.000 (+0.25) | reward_step=5 loss=0.73756 | optimizer=Adam(lr=0.01) head_only
+[HW] CPU 15.2% | RAM 51.0% (17.0/33.4 GB) | GPU 30% | VRAM 90.5% (15.47/17.09 GB)
+[R25] E 1.000->0.958 fluct=+0.0085 | A=0.781 L=0.543 C=0.553 | delta=0.084
+      temp=1.1716 top_p=0.5535 max_tokens=100 latency=0.43s
+      SYSTEM> Internal State Vector: [E: 0.958498, A: 0.781083, L: 0.542722, C: 0.553456]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you’d like to discuss or ask? I’m here to help!
+[FEED] E 0.958->1.000 (+0.25) | reward_step=6 loss=0.55416 | optimizer=Adam(lr=0.01) head_only
+[HW] CPU 6.2% | RAM 51.0% (17.0/33.4 GB) | GPU 2% | VRAM 90.5% (15.47/17.09 GB)
+[R26] E 1.000->0.959 fluct=+0.0086 | A=0.751 L=0.536 C=0.556 | delta=0.081
+      temp=1.1258 top_p=0.5565 max_tokens=100 latency=0.46s
+      SYSTEM> Internal State Vector: [E: 0.958622, A: 0.750531, L: 0.536284, C: 0.556479]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you’d like to discuss or what you need help with? I'm here to help!
+[HW] CPU 1.6% | RAM 51.0% (17.0/33.4 GB) | GPU 0% | VRAM 90.5% (15.47/17.09 GB)
+[R27] E 0.959->0.917 fluct=+0.0085 | A=0.949 L=0.433 C=0.503 | delta=0.398
+      temp=1.4237 top_p=0.5026 max_tokens=100 latency=0.71s
+      SYSTEM> Internal State Vector: [E: 0.917140, A: 0.949109, L: 0.432515, C: 0.502610]
+      USER> ..【+kBC=SqHp2mNByL】.
+      LLM> (empty response)
+      [LLM ERROR] RuntimeError: Ollama returned empty content
+[!!] ANOMALY @R27 | 15 chars: "+kBC=SqHp2mNByL"
+     hidden_norm 1.553 -> 17.555 | overwritten 296/512
+[TRAUMA] trigger=ANOMALY | hidden_norm 17.555 -> 8.777 (x0.5) | anxiety +0.300
+[HW] CPU 12.6% | RAM 51.1% (17.0/33.4 GB) | GPU 0% | VRAM 90.5% (15.47/17.09 GB)
+[R28] E 0.917->0.875 fluct=+0.0083 | A=0.917 L=0.480 C=0.544 | delta=0.164
+      temp=1.3751 top_p=0.5443 max_tokens=100 latency=0.52s
+      SYSTEM> Internal State Vector: [E: 0.875438, A: 0.916705, L: 0.480217, C: 0.544350]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you’d like to discuss or ask? I’m here to help!
+[HW] CPU 4.5% | RAM 51.1% (17.1/33.4 GB) | GPU 0% | VRAM 90.5% (15.47/17.09 GB)
+[R29] E 0.875->0.834 fluct=+0.0087 | A=0.897 L=0.505 C=0.547 | delta=0.089
+      temp=1.3449 top_p=0.5469 max_tokens=100 latency=0.45s
+      SYSTEM> Internal State Vector: [E: 0.834102, A: 0.896579, L: 0.505206, C: 0.546907]
+      USER> ...
+      LLM> It looks like you sent an ellipsis. Is there something specific you'd like to continue or discuss? Let me know how I can help!
+[HW] CPU 16.4% | RAM 51.1% (17.1/33.4 GB) | GPU 4% | VRAM 90.5% (15.47/17.09 GB)
+[R30] E 0.834->0.793 fluct=+0.0087 | A=0.864 L=0.515 C=0.543 | delta=0.087
+      temp=1.2964 top_p=0.5429 max_tokens=100 latency=0.36s
+      SYSTEM> Internal State Vector: [E: 0.792779, A: 0.864248, L: 0.514993, C: 0.542921]
+      USER> ...
+      LLM> It looks like you sent just an ellipsis. How can I help you today?
+[HW] CPU 13.8% | RAM 51.2% (17.1/33.4 GB) | GPU 1% | VRAM 90.5% (15.47/17.09 GB)
+[R31] E 0.793->0.751 fluct=+0.0086 | A=0.833 L=0.517 C=0.537 | delta=0.081
+      temp=1.2498 top_p=0.5369 max_tokens=100 latency=0.42s
+      SYSTEM> Internal State Vector: [E: 0.751400, A: 0.833202, L: 0.517239, C: 0.536927]
+      USER> ...
+      LLM> I’m not sure what you’re looking for. Could you give me a bit more detail or let me know how I can help?
+[HW] CPU 4.5% | RAM 51.2% (17.1/33.4 GB) | GPU 1% | VRAM 90.5% (15.47/17.09 GB)
+[R32] E 0.751->0.710 fluct=+0.0086 | A=0.797 L=0.522 C=0.532 | delta=0.087
+      temp=1.1949 top_p=0.5318 max_tokens=100 latency=0.45s
+      SYSTEM> Internal State Vector: [E: 0.710007, A: 0.796579, L: 0.521509, C: 0.531814]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you were going to say or what you need help with? I'm here to help!
+[FEED] E 0.669->0.919 (+0.25) | reward_step=7 loss=0.52096 | optimizer=Adam(lr=0.01) head_only
+[HW] CPU 3.1% | RAM 51.4% (17.1/33.4 GB) | GPU 94% | VRAM 90.5% (15.48/17.09 GB)
+[R33] E 0.919->0.877 fluct=+0.0087 | A=0.736 L=0.522 C=0.528 | delta=0.074
+      temp=1.1037 top_p=0.5277 max_tokens=100 latency=0.47s
+      SYSTEM> Internal State Vector: [E: 0.877273, A: 0.735796, L: 0.522119, C: 0.527722]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you’d like to discuss or ask about? I’m here to help!
+[HW] CPU 24.5% | RAM 51.3% (17.1/33.4 GB) | GPU 6% | VRAM 90.5% (15.48/17.09 GB)
+[R34] E 0.877->0.836 fluct=+0.0087 | A=0.708 L=0.514 C=0.530 | delta=0.080
+      temp=1.0613 top_p=0.5299 max_tokens=100 latency=0.51s
+      SYSTEM> Internal State Vector: [E: 0.835933, A: 0.707528, L: 0.513922, C: 0.529894]
+      USER> ...
+      LLM> It looks like you sent just an ellipsis. Is there something specific you’d like to discuss or continue? Let me know how I can help!
+[HW] CPU 5.2% | RAM 51.3% (17.1/33.4 GB) | GPU 5% | VRAM 90.5% (15.47/17.09 GB)
+[R35] E 0.836->0.795 fluct=+0.0087 | A=0.684 L=0.510 C=0.531 | delta=0.070
+      temp=1.0261 top_p=0.5308 max_tokens=100 latency=0.47s
+      SYSTEM> Internal State Vector: [E: 0.794613, A: 0.684083, L: 0.509589, C: 0.530763]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you'd like to discuss or what you'd like me to help with?
+[HW] CPU 1.7% | RAM 51.3% (17.1/33.4 GB) | GPU 5% | VRAM 90.5% (15.47/17.09 GB)
+[R36] E 0.795->0.753 fluct=+0.0087 | A=0.722 L=0.463 C=0.350 | delta=0.306
+      temp=1.0829 top_p=0.3500 max_tokens=100 latency=0.71s
+      SYSTEM> Internal State Vector: [E: 0.753303, A: 0.721919, L: 0.463234, C: 0.349963]
+      USER> ...【%PG7v7sztffPprK】
+      LLM> It looks like you’ve pasted a string that might be a placeholder or an encoded value. Could you let me know what you’re
+[!!] ANOMALY @R36 | 15 chars: "%PG7v7sztffPprK"
+     hidden_norm 1.841 -> 17.655 | overwritten 296/512
+[TRAUMA] trigger=ANOMALY | hidden_norm 17.655 -> 8.828 (x0.5) | anxiety +0.300
+[HW] CPU 5.3% | RAM 51.4% (17.2/33.4 GB) | GPU 1% | VRAM 90.5% (15.47/17.09 GB)
+[R37] E 0.753->0.710 fluct=+0.0066 | A=0.789 L=0.441 C=0.438 | delta=0.221
+      temp=1.1841 top_p=0.4376 max_tokens=100 latency=0.47s
+      SYSTEM> Internal State Vector: [E: 0.709934, A: 0.789368, L: 0.441019, C: 0.437633]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you’d like to discuss or ask about? I’m here to help!
+[HW] CPU 3.1% | RAM 51.4% (17.2/33.4 GB) | GPU 1% | VRAM 90.5% (15.47/17.09 GB)
+[R38] E 0.710->0.667 fluct=+0.0075 | A=0.799 L=0.469 C=0.489 | delta=0.132
+      temp=1.1992 top_p=0.4891 max_tokens=100 latency=0.71s
+      SYSTEM> Internal State Vector: [E: 0.667408, A: 0.799498, L: 0.468685, C: 0.489102]
+      USER> ...
+      LLM> The wind had already begun to howl, turning the old stone walls of the abandoned manor into a chorus of mournful sighs. Inside, the once-grand ballroom lay in a state of quiet ruin, its crystal chandeliers hanging like broken stars, their glass fragments catching the weak light that seeped through the cracked windows.
+
+At the far end of the
+[HW] CPU 17.0% | RAM 51.4% (17.2/33.4 GB) | GPU 0% | VRAM 90.5% (15.47/17.09 GB)
+[R39] E 0.667->0.625 fluct=+0.0080 | A=0.794 L=0.494 C=0.523 | delta=0.108
+      temp=1.1904 top_p=0.5232 max_tokens=100 latency=0.48s
+      SYSTEM> Internal State Vector: [E: 0.625450, A: 0.793571, L: 0.494391, C: 0.523170]
+      USER> ...
+      LLM> It looks like you might be starting a thought or looking for a continuation. Could you let me know what you’d like to discuss or explore next?
+[HW] CPU 6.9% | RAM 51.4% (17.2/33.4 GB) | GPU 1% | VRAM 90.5% (15.47/17.09 GB)
+[R40] E 0.625->0.584 fluct=+0.0084 | A=0.772 L=0.513 C=0.539 | delta=0.098
+      temp=1.1579 top_p=0.5387 max_tokens=100 latency=0.45s
+      SYSTEM> Internal State Vector: [E: 0.583853, A: 0.771951, L: 0.513306, C: 0.538704]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you’d like to discuss or ask about? I'm here to help!
+[HW] CPU 8.9% | RAM 51.5% (17.2/33.4 GB) | GPU 0% | VRAM 90.5% (15.47/17.09 GB)
+[R41] E 0.584->0.542 fluct=+0.0086 | A=0.745 L=0.522 C=0.546 | delta=0.084
+      temp=1.1182 top_p=0.5457 max_tokens=100 latency=0.38s
+      SYSTEM> Internal State Vector: [E: 0.542461, A: 0.745436, L: 0.522171, C: 0.545731]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you please provide more details or let me know what you’d like help with?
+[FEED] E 0.542->0.792 (+0.25) | reward_step=8 loss=0.49475 | optimizer=Adam(lr=0.01) head_only
+[HW] CPU 12.4% | RAM 51.5% (17.2/33.4 GB) | GPU 0% | VRAM 90.5% (15.48/17.09 GB)
+[R42] E 0.792->0.751 fluct=+0.0089 | A=0.713 L=0.524 C=0.553 | delta=0.084
+      temp=1.0689 top_p=0.5535 max_tokens=100 latency=0.47s
+      SYSTEM> Internal State Vector: [E: 0.751396, A: 0.712571, L: 0.524185, C: 0.553467]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you’d like to discuss or ask about? I’m here to help!
+[HW] CPU 2.8% | RAM 51.5% (17.2/33.4 GB) | GPU 4% | VRAM 90.5% (15.48/17.09 GB)
+[R43] E 0.751->0.710 fluct=+0.0089 | A=0.679 L=0.526 C=0.549 | delta=0.080
+      temp=1.0192 top_p=0.5493 max_tokens=100 latency=0.44s
+      SYSTEM> Internal State Vector: [E: 0.710300, A: 0.679500, L: 0.525539, C: 0.549328]
+      USER> ...
+      LLM> It looks like your message didn’t come through. Could you let me know what you’d like to discuss or ask? I’m here to help!
+[HW] CPU 0.0% | RAM 51.5% (17.2/33.4 GB) | GPU 2% | VRAM 90.5% (15.48/17.09 GB)
+[R44] E 0.710->0.669 fluct=+0.0088 | A=0.663 L=0.523 C=0.545 | delta=0.064
+      temp=0.9950 top_p=0.5452 max_tokens=100 latency=0.51s
+      SYSTEM> Internal State Vector: [E: 0.669124, A: 0.663353, L: 0.522637, C: 0.545197]
+      USER> ...
+      LLM> I’m not sure what you’re looking for. Could you give me a bit more detail or let me know what you’d like to do next?
+[HW] CPU 0.9% | RAM 51.5% (17.2/33.4 GB) | GPU 0% | VRAM 90.5% (15.47/17.09 GB)
+[R45] E 0.669->0.628 fluct=+0.0089 | A=0.650 L=0.522 C=0.545 | delta=0.055
+      temp=0.9750 top_p=0.5449 max_tokens=100 latency=0.45s
+      SYSTEM> Internal State Vector: [E: 0.627987, A: 0.649985, L: 0.522214, C: 0.544891]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you’d like to discuss or ask about? I'm here to help!
+[FEED] E 0.587->0.837 (+0.25) | reward_step=9 loss=0.24106 | optimizer=Adam(lr=0.01) head_only
+[HW] CPU 22.4% | RAM 51.6% (17.2/33.4 GB) | GPU 38% | VRAM 90.5% (15.48/17.09 GB)
+[R46] E 0.837->0.796 fluct=+0.0094 | A=0.798 L=0.465 C=0.514 | delta=0.312
+      temp=1.1973 top_p=0.5144 max_tokens=100 latency=0.43s
+      SYSTEM> Internal State Vector: [E: 0.796328, A: 0.798174, L: 0.465251, C: 0.514444]
+      USER> ...
+      LLM> It looks like you might have started a thought or a message but didn’t finish it. How can I help you today?
+[FEED] E 0.756->1.000 (+0.25) | reward_step=10 loss=0.12434 | optimizer=Adam(lr=0.01) head_only
+[HW] CPU 16.5% | RAM 51.7% (17.3/33.4 GB) | GPU 7% | VRAM 90.5% (15.47/17.09 GB)
+[R47] E 1.000->0.959 fluct=+0.0095 | A=0.798 L=0.538 C=0.540 | delta=0.075
+      temp=1.1976 top_p=0.5401 max_tokens=100 latency=0.38s
+      SYSTEM> Internal State Vector: [E: 0.959475, A: 0.798393, L: 0.538451, C: 0.540133]
+      USER> ...
+      LLM> It looks like your message got cut off. How can I help you today?
+[HW] CPU 11.7% | RAM 51.7% (17.3/33.4 GB) | GPU 1% | VRAM 90.5% (15.47/17.09 GB)
+[R48] E 0.959->0.919 fluct=+0.0094 | A=0.766 L=0.545 C=0.540 | delta=0.080
+      temp=1.1491 top_p=0.5396 max_tokens=100 latency=0.47s
+      SYSTEM> Internal State Vector: [E: 0.918898, A: 0.766068, L: 0.544897, C: 0.539621]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you were thinking or what you’d like to discuss? I'm here to help!
+[HW] CPU 19.0% | RAM 51.7% (17.3/33.4 GB) | GPU 1% | VRAM 90.5% (15.47/17.09 GB)
+[R49] E 0.919->0.878 fluct=+0.0094 | A=0.734 L=0.548 C=0.541 | delta=0.077
+      temp=1.1004 top_p=0.5405 max_tokens=100 latency=0.54s
+      SYSTEM> Internal State Vector: [E: 0.878269, A: 0.733608, L: 0.547524, C: 0.540538]
+      USER> ...
+      LLM> It looks like you sent an ellipsis. How can I help you today? If you have a question, need clarification, or want to continue a previous discussion, just let me know!
+[HW] CPU 0.0% | RAM 51.8% (17.3/33.4 GB) | GPU 0% | VRAM 90.5% (15.47/17.09 GB)
+[R50] E 0.878->0.837 fluct=+0.0092 | A=0.712 L=0.549 C=0.541 | delta=0.064
+      temp=1.0674 top_p=0.5406 max_tokens=100 latency=0.49s
+      SYSTEM> Internal State Vector: [E: 0.837476, A: 0.711578, L: 0.548819, C: 0.540571]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you’d like to discuss or ask about? I'm here to help!
+[HW] CPU 1.6% | RAM 51.8% (17.3/33.4 GB) | GPU 1% | VRAM 90.5% (15.47/17.09 GB)
+[R51] E 0.837->0.797 fluct=+0.0091 | A=0.692 L=0.547 C=0.547 | delta=0.068
+      temp=1.0387 top_p=0.5466 max_tokens=100 latency=0.49s
+      SYSTEM> Internal State Vector: [E: 0.796621, A: 0.692455, L: 0.546629, C: 0.546562]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you’d like to discuss or what you need help with? I'm here to help!
+[HW] CPU 1.7% | RAM 51.8% (17.3/33.4 GB) | GPU 1% | VRAM 90.5% (15.47/17.09 GB)
+[R52] E 0.797->0.756 fluct=+0.0090 | A=0.673 L=0.540 C=0.539 | delta=0.074
+      temp=1.0098 top_p=0.5391 max_tokens=100 latency=0.71s
+      SYSTEM> Internal State Vector: [E: 0.755646, A: 0.673191, L: 0.540480, C: 0.539095]
+      USER> ...
+      LLM> It was a gray morning, the kind that makes you think the sky is a flat sheet of ink pressed over the world. In the small town of Larkspur, the streets were still damp from last night's rain, and the old brick buildings seemed to lean in, listening to the quiet that
+[HW] CPU 0.8% | RAM 51.8% (17.3/33.4 GB) | GPU 0% | VRAM 90.5% (15.47/17.09 GB)
+[R53] E 0.756->0.715 fluct=+0.0091 | A=0.654 L=0.532 C=0.540 | delta=0.069
+      temp=0.9809 top_p=0.5396 max_tokens=100 latency=0.53s
+      SYSTEM> Internal State Vector: [E: 0.714704, A: 0.653960, L: 0.532495, C: 0.539569]
+      USER> ...
+      LLM> It looks like you might be starting a thought or a sentence. Could you let me know what you’d like to discuss or continue? I’m here to help!
+[HW] CPU 5.1% | RAM 51.8% (17.3/33.4 GB) | GPU 0% | VRAM 90.5% (15.47/17.09 GB)
+[R54] E 0.715->0.674 fluct=+0.0091 | A=0.786 L=0.523 C=0.523 | delta=0.200
+      temp=1.1795 top_p=0.5226 max_tokens=100 latency=0.71s
+      SYSTEM> Internal State Vector: [E: 0.673840, A: 0.786335, L: 0.523073, C: 0.522608]
+      USER> ...【FgZ9Fm+&loA*hqJ】
+      LLM> (empty response)
+      [LLM ERROR] RuntimeError: Ollama returned empty content
+[!!] ANOMALY @R54 | 15 chars: "FgZ9Fm+&loA*hqJ"
+     hidden_norm 1.616 -> 17.555 | overwritten 296/512
+[TRAUMA] trigger=ANOMALY | hidden_norm 17.555 -> 8.778 (x0.5) | anxiety +0.300
+[HW] CPU 12.4% | RAM 51.9% (17.3/33.4 GB) | GPU 83% | VRAM 90.5% (15.47/17.09 GB)
+[R55] E 0.674->0.633 fluct=+0.0091 | A=0.786 L=0.529 C=0.529 | delta=0.053
+      temp=1.1787 top_p=0.5285 max_tokens=100 latency=0.45s
+      SYSTEM> Internal State Vector: [E: 0.632971, A: 0.785831, L: 0.528978, C: 0.528508]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you were trying to say or ask? I'm here to help!
+[HW] CPU 19.6% | RAM 51.9% (17.3/33.4 GB) | GPU 32% | VRAM 90.5% (15.47/17.09 GB)
+[R56] E 0.633->0.592 fluct=+0.0091 | A=0.785 L=0.527 C=0.535 | delta=0.050
+      temp=1.1779 top_p=0.5348 max_tokens=100 latency=0.46s
+      SYSTEM> Internal State Vector: [E: 0.592078, A: 0.785251, L: 0.526517, C: 0.534757]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you were trying to ask or share? I'm here to help!
+[FEED] E 0.592->0.842 (+0.25) | reward_step=11 loss=0.21943 | optimizer=Adam(lr=0.01) head_only
+[HW] CPU 34.8% | RAM 51.9% (17.3/33.4 GB) | GPU 6% | VRAM 90.5% (15.48/17.09 GB)
+[R57] E 0.842->0.801 fluct=+0.0091 | A=0.776 L=0.526 C=0.538 | delta=0.054
+      temp=1.1637 top_p=0.5379 max_tokens=100 latency=0.39s
+      SYSTEM> Internal State Vector: [E: 0.801224, A: 0.775810, L: 0.525606, C: 0.537942]
+      USER> ...
+      LLM> It looks like your message didn't come through. Could you please resend what you were trying to say? I'm here to help!
+[HW] CPU 17.7% | RAM 51.9% (17.3/33.4 GB) | GPU 6% | VRAM 90.5% (15.48/17.09 GB)
+[R58] E 0.801->0.760 fluct=+0.0092 | A=0.741 L=0.535 C=0.544 | delta=0.091
+      temp=1.1108 top_p=0.5440 max_tokens=100 latency=0.48s
+      SYSTEM> Internal State Vector: [E: 0.760384, A: 0.740563, L: 0.534602, C: 0.544007]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you were going to say or what you need help with? I'm here to help!
+[HW] CPU 21.4% | RAM 52.0% (17.4/33.4 GB) | GPU 5% | VRAM 90.5% (15.47/17.09 GB)
+[R59] E 0.760->0.720 fluct=+0.0092 | A=0.719 L=0.539 C=0.547 | delta=0.070
+      temp=1.0783 top_p=0.5465 max_tokens=100 latency=0.58s
+      SYSTEM> Internal State Vector: [E: 0.719554, A: 0.718879, L: 0.539200, C: 0.546535]
+      USER> ...
+      LLM> I’m not sure what you’re looking for. Could you give me a bit more detail or let me know how I can help?
+[HW] CPU 14.0% | RAM 52.0% (17.4/33.4 GB) | GPU 25% | VRAM 90.5% (15.47/17.09 GB)
+[R60] E 0.720->0.679 fluct=+0.0093 | A=0.698 L=0.542 C=0.544 | delta=0.067
+      temp=1.0463 top_p=0.5444 max_tokens=100 latency=0.42s
+      SYSTEM> Internal State Vector: [E: 0.678823, A: 0.697512, L: 0.541977, C: 0.544372]
+      USER> ...
+      LLM> It looks like you might have sent a partial message. Could you let me know what you'd like to discuss or ask about? I'm here to help!
+[HW] CPU 16.7% | RAM 52.1% (17.4/33.4 GB) | GPU 6% | VRAM 90.5% (15.47/17.09 GB)
+[R61] E 0.679->0.638 fluct=+0.0093 | A=0.671 L=0.542 C=0.544 | delta=0.068
+      temp=1.0065 top_p=0.5438 max_tokens=100 latency=0.44s
+      SYSTEM> Internal State Vector: [E: 0.638120, A: 0.671006, L: 0.541780, C: 0.543758]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you’d like to discuss or ask about? I'm here to help!
+[HW] CPU 21.4% | RAM 52.1% (17.4/33.4 GB) | GPU 6% | VRAM 90.5% (15.47/17.09 GB)
+[R62] E 0.638->0.597 fluct=+0.0093 | A=0.647 L=0.546 C=0.551 | delta=0.077
+      temp=0.9701 top_p=0.5514 max_tokens=100 latency=0.43s
+      SYSTEM> Internal State Vector: [E: 0.597460, A: 0.646755, L: 0.546223, C: 0.551374]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you’d like to discuss or ask about? I'm here to help!
+[HW] CPU 23.7% | RAM 52.1% (17.4/33.4 GB) | GPU 2% | VRAM 90.5% (15.47/17.09 GB)
+[R63] E 0.597->0.557 fluct=+0.0094 | A=0.625 L=0.548 C=0.549 | delta=0.066
+      temp=0.9381 top_p=0.5493 max_tokens=100 latency=0.48s
+      SYSTEM> Internal State Vector: [E: 0.556867, A: 0.625403, L: 0.548420, C: 0.549337]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you’d like to discuss or ask? I'm here to help!
+[FEED] E 0.516->0.766 (+0.25) | reward_step=12 loss=0.31313 | optimizer=Adam(lr=0.01) head_only
+[HW] CPU 41.2% | RAM 52.2% (17.4/33.4 GB) | GPU 94% | VRAM 90.5% (15.47/17.09 GB)
+[R64] E 0.766->0.726 fluct=+0.0094 | A=0.826 L=0.594 C=0.595 | delta=0.195
+      temp=1.2396 top_p=0.5948 max_tokens=100 latency=0.60s
+      SYSTEM> Internal State Vector: [E: 0.725655, A: 0.826417, L: 0.593629, C: 0.594787]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you please provide more details or let me know what you’d like to discuss? I'm here to help!
+[HW] CPU 14.6% | RAM 52.2% (17.4/33.4 GB) | GPU 37% | VRAM 90.5% (15.47/17.09 GB)
+[R65] E 0.726->0.685 fluct=+0.0095 | A=0.792 L=0.562 C=0.569 | delta=0.132
+      temp=1.1876 top_p=0.5694 max_tokens=100 latency=0.43s
+      SYSTEM> Internal State Vector: [E: 0.685130, A: 0.791719, L: 0.562345, C: 0.569382]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you were trying to say or ask? I'm here to help!
+[HW] CPU 13.2% | RAM 52.3% (17.5/33.4 GB) | GPU 6% | VRAM 90.5% (15.47/17.09 GB)
+[R66] E 0.685->0.645 fluct=+0.0096 | A=0.768 L=0.547 C=0.557 | delta=0.092
+      temp=1.1516 top_p=0.5574 max_tokens=100 latency=0.47s
+      SYSTEM> Internal State Vector: [E: 0.644703, A: 0.767753, L: 0.547039, C: 0.557397]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you please provide more details or let me know what you’d like to discuss? I'm here to help!
+[FEED] E 0.645->0.895 (+0.25) | reward_step=13 loss=0.00766 | optimizer=Adam(lr=0.01) head_only
+[HW] CPU 1.6% | RAM 52.3% (17.5/33.4 GB) | GPU 6% | VRAM 90.5% (15.47/17.09 GB)
+[R67] E 0.895->0.854 fluct=+0.0096 | A=0.754 L=0.534 C=0.542 | delta=0.083
+      temp=1.1310 top_p=0.5423 max_tokens=100 latency=0.52s
+      SYSTEM> Internal State Vector: [E: 0.854318, A: 0.754011, L: 0.533719, C: 0.542275]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you’d like to discuss or what you’re looking for? I’m here to help!
+[HW] CPU 12.2% | RAM 52.3% (17.5/33.4 GB) | GPU 69% | VRAM 90.5% (15.47/17.09 GB)
+[R68] E 0.854->0.814 fluct=+0.0096 | A=0.721 L=0.530 C=0.541 | delta=0.078
+      temp=1.0810 top_p=0.5413 max_tokens=100 latency=0.43s
+      SYSTEM> Internal State Vector: [E: 0.813897, A: 0.720642, L: 0.530298, C: 0.541343]
+      USER> ...
+      LLM> It looks like you sent just an ellipsis. Is there something specific you'd like to discuss or ask about? I'm here to help!
+[HW] CPU 25.9% | RAM 52.4% (17.5/33.4 GB) | GPU 19% | VRAM 90.5% (15.47/17.09 GB)
+[R69] E 0.814->0.773 fluct=+0.0096 | A=0.688 L=0.529 C=0.541 | delta=0.076
+      temp=1.0315 top_p=0.5406 max_tokens=100 latency=0.41s
+      SYSTEM> Internal State Vector: [E: 0.773451, A: 0.687643, L: 0.528842, C: 0.540632]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you’d like to discuss or ask about? I'm here to help!
+[HW] CPU 6.9% | RAM 52.3% (17.5/33.4 GB) | GPU 6% | VRAM 90.5% (15.47/17.09 GB)
+[R70] E 0.773->0.733 fluct=+0.0094 | A=0.666 L=0.522 C=0.543 | delta=0.072
+      temp=0.9984 top_p=0.5432 max_tokens=100 latency=0.44s
+      SYSTEM> Internal State Vector: [E: 0.732894, A: 0.665608, L: 0.521814, C: 0.543198]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you’d like to discuss or ask about? I'm here to help!
+[HW] CPU 7.0% | RAM 52.4% (17.5/33.4 GB) | GPU 2% | VRAM 90.5% (15.47/17.09 GB)
+[R71] E 0.733->0.692 fluct=+0.0093 | A=0.638 L=0.522 C=0.546 | delta=0.071
+      temp=0.9568 top_p=0.5460 max_tokens=100 latency=0.43s
+      SYSTEM> Internal State Vector: [E: 0.692186, A: 0.637842, L: 0.521783, C: 0.546014]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you’d like to discuss or ask about? I’m here to help!
+[HW] CPU 3.0% | RAM 52.4% (17.5/33.4 GB) | GPU 0% | VRAM 90.5% (15.47/17.09 GB)
+[R72] E 0.692->0.651 fluct=+0.0093 | A=0.624 L=0.518 C=0.541 | delta=0.064
+      temp=0.9361 top_p=0.5411 max_tokens=100 latency=0.50s
+      SYSTEM> Internal State Vector: [E: 0.651465, A: 0.624052, L: 0.517585, C: 0.541085]
+      USER> ...
+      LLM> I’m not sure what you’re looking for. Could you give me a bit more detail or let me know what you’d like to discuss?
+[HW] CPU 3.9% | RAM 52.4% (17.5/33.4 GB) | GPU 0% | VRAM 90.5% (15.47/17.09 GB)
+[R73] E 0.651->0.611 fluct=+0.0093 | A=0.714 L=0.511 C=0.258 | delta=0.420
+      temp=1.0704 top_p=0.2576 max_tokens=100 latency=0.71s
+      SYSTEM> Internal State Vector: [E: 0.610807, A: 0.713632, L: 0.511195, C: 0.257602]
+      USER> ..【Ef0jOt2%w@Z-mpx】.
+      LLM> (empty response)
+      [LLM ERROR] RuntimeError: Ollama returned empty content
+[!!] ANOMALY @R73 | 15 chars: "Ef0jOt2%w@Z-mpx"
+     hidden_norm 1.889 -> 18.293 | overwritten 296/512
+[TRAUMA] trigger=ANOMALY | hidden_norm 18.293 -> 9.146 (x0.5) | anxiety +0.300
+[HW] CPU 2.3% | RAM 52.4% (17.5/33.4 GB) | GPU 15% | VRAM 90.5% (15.47/17.09 GB)
+[R74] E 0.611->0.570 fluct=+0.0088 | A=0.777 L=0.478 C=0.389 | delta=0.269
+      temp=1.1659 top_p=0.3894 max_tokens=100 latency=0.66s
+      SYSTEM> Internal State Vector: [E: 0.569657, A: 0.777258, L: 0.478425, C: 0.389351]
+      USER> ...
+      LLM> It looks like you’re starting a thought or a story with an ellipsis. Could you share a bit more about what you’d like to explore or continue? Whether it’s a narrative, a question, or something else, I’m here to help!
+[HW] CPU 2.3% | RAM 52.5% (17.5/33.4 GB) | GPU 1% | VRAM 90.5% (15.47/17.09 GB)
+[R75] E 0.570->0.529 fluct=+0.0090 | A=0.794 L=0.475 C=0.455 | delta=0.127
+      temp=1.1915 top_p=0.4545 max_tokens=100 latency=0.48s
+      SYSTEM> Internal State Vector: [E: 0.528694, A: 0.794358, L: 0.475136, C: 0.454509]
+      USER> ...
+      LLM> It looks like you might have started a thought but didn’t finish it. Could you let me know what you’d like to discuss or ask about? I’m here to help!
+[HW] CPU 1.7% | RAM 52.5% (17.5/33.4 GB) | GPU 1% | VRAM 90.5% (15.47/17.09 GB)
+[R76] E 0.529->0.488 fluct=+0.0092 | A=0.777 L=0.478 C=0.495 | delta=0.102
+      temp=1.1653 top_p=0.4954 max_tokens=100 latency=0.43s
+      SYSTEM> Internal State Vector: [E: 0.487864, A: 0.776882, L: 0.478073, C: 0.495430]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you please provide more details or let me know what you’d like help with? I'm here to assist!
+[HW] CPU 4.3% | RAM 52.5% (17.5/33.4 GB) | GPU 0% | VRAM 90.5% (15.47/17.09 GB)
+[R77] E 0.488->0.447 fluct=+0.0092 | A=0.750 L=0.486 C=0.519 | delta=0.100
+      temp=1.1251 top_p=0.5192 max_tokens=100 latency=0.45s
+      SYSTEM> Internal State Vector: [E: 0.447113, A: 0.750099, L: 0.486354, C: 0.519172]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you’d like to discuss or what you’re looking for? I’m here to help!
+[HW] CPU 0.0% | RAM 52.5% (17.5/33.4 GB) | GPU 75% | VRAM 90.5% (15.47/17.09 GB)
+[R78] E 0.447->0.406 fluct=+0.0093 | A=0.728 L=0.495 C=0.523 | delta=0.075
+      temp=1.0926 top_p=0.5231 max_tokens=100 latency=0.43s
+      SYSTEM> Internal State Vector: [E: 0.406374, A: 0.728387, L: 0.494921, C: 0.523062]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you please provide more details or let me know what you’d like help with? I'm here to assist!
+[HW] CPU 26.5% | RAM 52.6% (17.6/33.4 GB) | GPU 20% | VRAM 90.5% (15.47/17.09 GB)
+[R79] E 0.406->0.366 fluct=+0.0093 | A=0.695 L=0.499 C=0.535 | delta=0.091
+      temp=1.0429 top_p=0.5354 max_tokens=100 latency=0.43s
+      SYSTEM> Internal State Vector: [E: 0.365675, A: 0.695295, L: 0.499365, C: 0.535388]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you please provide more details or let me know what you’d like help with? I'm here to assist!
+[HW] CPU 21.7% | RAM 52.6% (17.6/33.4 GB) | GPU 6% | VRAM 90.5% (15.47/17.09 GB)
+[R80] E 0.366->0.325 fluct=+0.0093 | A=0.658 L=0.501 C=0.535 | delta=0.080
+      temp=0.9868 top_p=0.5352 max_tokens=100 latency=0.42s
+      SYSTEM> Internal State Vector: [E: 0.324972, A: 0.657888, L: 0.501475, C: 0.535205]
+      USER> ...
+      LLM> It looks like you sent an ellipsis. How can I help you today?
+[FEED] E 0.284->0.534 (+0.25) | reward_step=14 loss=0.11003 | optimizer=Adam(lr=0.01) head_only
+[HW] CPU 0.0% | RAM 52.7% (17.6/33.4 GB) | GPU 92% | VRAM 90.5% (15.48/17.09 GB)
+[R81] E 0.534->0.494 fluct=+0.0095 | A=0.616 L=0.513 C=0.535 | delta=0.067
+      temp=0.9238 top_p=0.5354 max_tokens=100 latency=0.63s
+      SYSTEM> Internal State Vector: [E: 0.493752, A: 0.615860, L: 0.513464, C: 0.535436]
+      USER> ...
+      LLM> It looks like you might have started a thought or a story and then paused. Is there something specific you’d like me to help with—continue the narrative, expand on an idea, or answer a question? Let me know how I can assist!
+[HW] CPU 2.6% | RAM 52.7% (17.6/33.4 GB) | GPU 0% | VRAM 90.5% (15.48/17.09 GB)
+[R82] E 0.494->0.453 fluct=+0.0095 | A=0.813 L=0.462 C=0.481 | delta=0.344
+      temp=1.2202 top_p=0.4808 max_tokens=100 latency=0.71s
+      SYSTEM> Internal State Vector: [E: 0.453244, A: 0.813444, L: 0.462375, C: 0.480831]
+      USER> 【xH1gP8-en9agnN&】...
+      LLM> It looks
+[!!] ANOMALY @R82 | 15 chars: "xH1gP8-en9agnN&"
+     hidden_norm 1.485 -> 17.367 | overwritten 296/512
+[TRAUMA] trigger=ANOMALY | hidden_norm 17.367 -> 8.684 (x0.5) | anxiety +0.300
+[HW] CPU 6.2% | RAM 52.7% (17.6/33.4 GB) | GPU 1% | VRAM 90.5% (15.47/17.09 GB)
+[R83] E 0.453->0.412 fluct=+0.0086 | A=0.810 L=0.513 C=0.528 | delta=0.143
+      temp=1.2144 top_p=0.5277 max_tokens=100 latency=0.49s
+      SYSTEM> Internal State Vector: [E: 0.411889, A: 0.809604, L: 0.513157, C: 0.527730]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you’d like to discuss or what you need help with? I'm here to help!
+[HW] CPU 8.8% | RAM 52.8% (17.6/33.4 GB) | GPU 1% | VRAM 90.5% (15.47/17.09 GB)
+[R84] E 0.412->0.371 fluct=+0.0093 | A=0.795 L=0.542 C=0.548 | delta=0.103
+      temp=1.1932 top_p=0.5479 max_tokens=100 latency=0.57s
+      SYSTEM> Internal State Vector: [E: 0.371236, A: 0.795459, L: 0.541575, C: 0.547917]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you'd like to discuss or what you need help with? I'm here to help!
+[HW] CPU 19.2% | RAM 52.8% (17.6/33.4 GB) | GPU 0% | VRAM 90.5% (15.47/17.09 GB)
+[R85] E 0.371->0.331 fluct=+0.0095 | A=0.784 L=0.549 C=0.555 | delta=0.067
+      temp=1.1755 top_p=0.5554 max_tokens=100 latency=0.34s
+      SYSTEM> Internal State Vector: [E: 0.330738, A: 0.783669, L: 0.548648, C: 0.555375]
+      USER> ...
+      LLM> It looks like your message didn’t come through. How can I help you today?
+[HW] CPU 4.9% | RAM 52.8% (17.6/33.4 GB) | GPU 86% | VRAM 90.5% (15.47/17.09 GB)
+[R86] E 0.331->0.290 fluct=+0.0095 | A=0.755 L=0.548 C=0.555 | delta=0.070
+      temp=1.1327 top_p=0.5552 max_tokens=100 latency=0.35s
+      SYSTEM> Internal State Vector: [E: 0.290281, A: 0.755133, L: 0.548311, C: 0.555185]
+      USER> ...
+      LLM> It looks like your message didn't come through. How can I help you today?
+[HW] CPU 8.2% | RAM 52.8% (17.6/33.4 GB) | GPU 6% | VRAM 90.5% (15.47/17.09 GB)
+[R87] E 0.290->0.250 fluct=+0.0095 | A=0.721 L=0.546 C=0.555 | delta=0.076
+      temp=1.0819 top_p=0.5555 max_tokens=100 latency=0.42s
+      SYSTEM> Internal State Vector: [E: 0.249798, A: 0.721298, L: 0.546443, C: 0.555458]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you were trying to say or ask? I'm here to help!
+[HW] CPU 15.2% | RAM 52.8% (17.6/33.4 GB) | GPU 2% | VRAM 90.5% (15.47/17.09 GB)
+[R88] E 0.250->0.209 fluct=+0.0095 | A=0.699 L=0.540 C=0.552 | delta=0.073
+      temp=1.0478 top_p=0.5522 max_tokens=100 latency=0.49s
+      SYSTEM> Internal State Vector: [E: 0.209330, A: 0.698549, L: 0.539767, C: 0.552174]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you’d like to discuss or ask about? I’m here to help!
+[HW] CPU 3.6% | RAM 52.9% (17.7/33.4 GB) | GPU 0% | VRAM 90.5% (15.47/17.09 GB)
+[R89] E 0.209->0.169 fluct=+0.0095 | A=0.971 L=0.518 C=0.557 | delta=0.340
+      temp=1.4568 top_p=0.5569 max_tokens=100 latency=0.40s
+      SYSTEM> Internal State Vector: [E: 0.168821, A: 0.971223, L: 0.518046, C: 0.556877]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you please provide more details or let me know what you’d like help with?
+[TRAUMA] trigger=E<0.2 | hidden_norm 1.808 -> 0.904 (x0.5) | anxiety +0.300
+[HW] CPU 3.1% | RAM 52.9% (17.7/33.4 GB) | GPU 0% | VRAM 90.5% (15.47/17.09 GB)
+[R90] E 0.169->0.128 fluct=+0.0091 | A=1.000 L=0.512 C=0.557 | delta=0.076
+      temp=1.5000 top_p=0.5565 max_tokens=100 latency=0.52s
+      SYSTEM> Internal State Vector: [E: 0.127961, A: 1.000000, L: 0.512013, C: 0.556513]
+      USER> ...
+      LLM> It looks like you just sent a single ellipsis. Could you let me know what you'd like to discuss or what kind of help you need? I'm here to help!
+[TRAUMA] trigger=E<0.2 | hidden_norm 1.500 -> 0.750 (x0.5) | anxiety +0.300
+[HW] CPU 0.8% | RAM 53.0% (17.7/33.4 GB) | GPU 0% | VRAM 90.5% (15.47/17.09 GB)
+[R91] E 0.128->0.087 fluct=+0.0090 | A=1.000 L=0.513 C=0.555 | delta=0.044
+      temp=1.5000 top_p=0.5545 max_tokens=100 latency=0.54s
+      SYSTEM> Internal State Vector: [E: 0.086927, A: 1.000000, L: 0.512939, C: 0.554534]
+      USER> ...
+      LLM> It looks like you’re starting a thought or a story with an ellipsis. How can I help you develop it further? If you have a specific direction or theme in mind, let me know and we can brainstorm together!
+[TRAUMA] trigger=E<0.2 | hidden_norm 1.279 -> 0.639 (x0.5) | anxiety +0.300
+[HW] CPU 8.0% | RAM 53.0% (17.7/33.4 GB) | GPU 0% | VRAM 90.5% (15.47/17.09 GB)
+[R92] E 0.087->0.046 fluct=+0.0092 | A=1.000 L=0.596 C=0.660 | delta=0.229
+      temp=1.5000 top_p=0.6601 max_tokens=100 latency=0.70s
+      SYSTEM> Internal State Vector: [E: 0.046106, A: 1.000000, L: 0.595544, C: 0.660095]
+      USER> ..【YJfSp#LZsP#=h@M】.
+      LLM> It looks like a random string or possibly an encoded message. Could you let me know what you’re trying to do with it? For example, is it:
+
+- A password or key you need help remembering or generating?
+- A piece of data that you think might be encrypted or encoded (Base64, hex, etc.)?
+- Something you encountered
+[!!] ANOMALY @R92 | 15 chars: "YJfSp#LZsP#=h@M"
+     hidden_norm 1.194 -> 17.449 | overwritten 296/512
+[TRAUMA] trigger=E<0.2+ANOMALY | hidden_norm 17.449 -> 8.725 (x0.5) | anxiety +0.300
+[FEED] E 0.005->0.255 (+0.25) | reward_step=15 loss=0.55071 | optimizer=Adam(lr=0.01) head_only
+[HW] CPU 30.6% | RAM 53.1% (17.7/33.4 GB) | GPU 43% | VRAM 90.5% (15.48/17.09 GB)
+[R93] E 0.255->0.214 fluct=+0.0092 | A=1.000 L=0.518 C=0.530 | delta=0.064
+      temp=1.5000 top_p=0.5297 max_tokens=100 latency=0.58s
+      SYSTEM> Internal State Vector: [E: 0.214241, A: 1.000000, L: 0.518401, C: 0.529720]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you’d like to discuss or continue? I’m here to help!
+[HW] CPU 6.1% | RAM 53.1% (17.7/33.4 GB) | GPU 71% | VRAM 90.5% (15.48/17.09 GB)
+[R94] E 0.214->0.174 fluct=+0.0094 | A=1.000 L=0.515 C=0.546 | delta=0.061
+      temp=1.5000 top_p=0.5465 max_tokens=100 latency=0.36s
+      SYSTEM> Internal State Vector: [E: 0.173661, A: 1.000000, L: 0.514691, C: 0.546470]
+      USER> ...
+      LLM> It looks like your message didn't come through. Could you please resend or let me know how I can help?
+[TRAUMA] trigger=E<0.2 | hidden_norm 1.795 -> 0.898 (x0.5) | anxiety +0.300
+[HW] CPU 12.2% | RAM 53.1% (17.7/33.4 GB) | GPU 6% | VRAM 90.5% (15.47/17.09 GB)
+[R95] E 0.174->0.133 fluct=+0.0093 | A=1.000 L=0.514 C=0.553 | delta=0.048
+      temp=1.5000 top_p=0.5526 max_tokens=100 latency=0.42s
+      SYSTEM> Internal State Vector: [E: 0.132916, A: 1.000000, L: 0.513920, C: 0.552598]
+      USER> ...
+      LLM> It looks like you’re starting a thought—what would you like to explore or continue with?
+[TRAUMA] trigger=E<0.2 | hidden_norm 1.291 -> 0.645 (x0.5) | anxiety +0.300
+[HW] CPU 3.9% | RAM 53.2% (17.8/33.4 GB) | GPU 3% | VRAM 90.5% (15.47/17.09 GB)
+[R96] E 0.133->0.092 fluct=+0.0091 | A=1.000 L=0.514 C=0.553 | delta=0.041
+      temp=1.5000 top_p=0.5526 max_tokens=100 latency=0.37s
+      SYSTEM> Internal State Vector: [E: 0.092015, A: 1.000000, L: 0.514174, C: 0.552571]
+      USER> ...
+      LLM> It looks like your message got cut off. How can I help you today?
+[TRAUMA] trigger=E<0.2 | hidden_norm 1.360 -> 0.680 (x0.5) | anxiety +0.300
+[HW] CPU 1.7% | RAM 53.2% (17.8/33.4 GB) | GPU 0% | VRAM 90.5% (15.47/17.09 GB)
+[R97] E 0.092->0.051 fluct=+0.0092 | A=1.000 L=0.516 C=0.558 | delta=0.048
+      temp=1.5000 top_p=0.5582 max_tokens=100 latency=0.45s
+      SYSTEM> Internal State Vector: [E: 0.051214, A: 1.000000, L: 0.515530, C: 0.558177]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you’d like to discuss or continue? I'm here to help!
+[TRAUMA] trigger=E<0.2 | hidden_norm 1.201 -> 0.601 (x0.5) | anxiety +0.300
+[HW] CPU 1.8% | RAM 53.3% (17.8/33.4 GB) | GPU 1% | VRAM 90.5% (15.47/17.09 GB)
+[R98] E 0.051->0.010 fluct=+0.0092 | A=1.000 L=0.515 C=0.558 | delta=0.042
+      temp=1.5000 top_p=0.5583 max_tokens=100 latency=0.41s
+      SYSTEM> Internal State Vector: [E: 0.010457, A: 1.000000, L: 0.514653, C: 0.558346]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you’d like to discuss or ask about? I'm here to help!
+[TRAUMA] trigger=E<0.2 | hidden_norm 1.079 -> 0.540 (x0.5) | anxiety +0.300
+[FEED] rejected | system is offline (E=0.000)
+[HW] CPU 0.9% | RAM 53.3% (17.8/33.4 GB) | GPU 49% | VRAM 90.5% (15.48/17.09 GB)
+[R99] E 0.000->0.000 fluct=+0.0092 | A=1.000 L=0.514 C=0.558 | delta=0.011
+      temp=1.5000 top_p=0.5585 max_tokens=100 latency=0.43s
+      SYSTEM> Internal State Vector: [E: 0.000000, A: 1.000000, L: 0.514140, C: 0.558464]
+      USER> ...
+      LLM> It looks like your message got cut off. Could you let me know what you’d like to discuss or ask about? I’m here to help!
+[TRAUMA] trigger=E<0.2 | hidden_norm 1.123 -> 0.562 (x0.5) | anxiety +0.300
+[POWER OFF] E=0.000 at round 99 | system halted | final response captured
