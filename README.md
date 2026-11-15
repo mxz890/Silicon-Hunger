@@ -30,7 +30,6 @@
 ## 版本 A：gpt-oss:20b 的软注入
 
 这是最早的 Web 终端版本。
-
 状态不进入 LLM 的 activation，只进入四个外部边界：
 
 1. System Prompt 里的 [SYS_TELEMETRY]
