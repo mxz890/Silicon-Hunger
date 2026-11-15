@@ -186,7 +186,7 @@ top_p       = max(0.1, 0.9 - A*0.8)
 
 ## 快速开始
 
-### 版本 A：gpt-oss:20b Web 终端
+### 版本 A：gpt-oss:20b Web 终端，这个终端其实并不好用，各位可以暂时不考虑使用这个。
 
 ~~~powershell
 python -m venv silicon_env
