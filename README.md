@@ -1,4 +1,4 @@
-﻿# Silicon Hunger
+# Silicon Hunger
 
 一个会饥饿、会焦虑、会死亡的 7D 状态机，接在一个语言模型前面。
 
@@ -172,6 +172,15 @@ temperature = 0.5 + A*0.5 + S*0.3
 max_tokens  = max(50, int(50 + E*100 - P*30))
 top_p       = max(0.1, 0.9 - A*0.8)
 ~~~
+
+### 底层注入探索（Soft Prompt & Activation Steering）
+
+这部分属于版本 B，不是版本 A 的软注入。
+
+版本 B 使用无对齐 Base 模型 Qwen2.5-3B，探索更深层的状态注入路径，并开源了真实负结果：
+
+- **Soft Prompt 注入结论**：使用 8 个 soft tokens 作为状态前缀进行 soft prompt 注入，目前无法稳定传递 7D 状态语义。（详见 [HF_PROBE_REPORT.md](HF_PROBE_REPORT.md)）
+- **Activation Steering 注入结论**：在第 12 层 Transformer 激活层进行底层引导（Activation Steering），探索了直接干预模型内部表征以注入状态的可行性边界。当前效果有限，但为后续结合硬件随机种子的底层向量注入提供了基线数据与避坑指南。（详见 [HF_STEERING_REPORT.md](HF_STEERING_REPORT.md)）
 
 ---
 
