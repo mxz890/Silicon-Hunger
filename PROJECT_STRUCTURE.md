@@ -1,4 +1,4 @@
-﻿# Project Structure
+# Project Structure
 
 本文由当前仓库的 tracked files 整理，生成时间：2026-11-09。
 
@@ -11,6 +11,18 @@ hf_cache/
 __pycache__/
 AppData/
 ~~~
+
+---
+
+## 版本对照
+
+| 版本 | 模型 | 文件 |
+| --- | --- | --- |
+| A | gpt-oss:20b | web_app.py、ABLATION_REPORT.md、ablation_*.json |
+| B-1 | Qwen2.5-3B base | hf_state_probe.py、HF_PROBE_REPORT.md |
+| B-2 | Qwen2.5-3B base | hf_steering_probe.py、HF_STEERING_REPORT.md |
+
+版本 A 是软注入 / 外部控制；版本 B 是底层注入。两组结果不能直接比较。
 
 ---
 
@@ -78,15 +90,15 @@ AppData/
 
 | 路径 | 职责 |
 | --- | --- |
-| [web_app.py](web_app.py) | 生产版入口：7D 状态机、Streamlit UI、Ollama 流式对话 |
+| [web_app.py](web_app.py) | 版本 A 入口：7D 状态机、Streamlit UI、Ollama 流式对话 |
 | [main.py](main.py) | 早期 CLI 版本，保留作历史参考 |
 | [hf_state_probe.py](hf_state_probe.py) | 7D 状态到 8 个 soft tokens 的注入探针 |
 | [hf_steering_probe.py](hf_steering_probe.py) | 第 12 层 activation steering 探针 |
 | [build_word_report.py](build_word_report.py) | Word 报告生成脚本 |
 | [README_WEB.md](README_WEB.md) | Web 版详细说明 |
-| [ABLATION_REPORT.md](ABLATION_REPORT.md) | C 消融完整报告 |
-| [HF_PROBE_REPORT.md](HF_PROBE_REPORT.md) | Soft prompt 报告 |
-| [HF_STEERING_REPORT.md](HF_STEERING_REPORT.md) | Activation steering 报告 |
+| [ABLATION_REPORT.md](ABLATION_REPORT.md) | 版本 A：C 消融完整报告 |
+| [HF_PROBE_REPORT.md](HF_PROBE_REPORT.md) | 版本 B-1：Soft prompt 报告 |
+| [HF_STEERING_REPORT.md](HF_STEERING_REPORT.md) | 版本 B-2：Activation steering 报告 |
 | [docs/SILICON_HUNGER_ARTICLE.md](docs/SILICON_HUNGER_ARTICLE.md) | 长文文章 |
 | [docs/SILICON_HUNGER_PROJECT.md](docs/SILICON_HUNGER_PROJECT.md) | 项目技术文档 |
 | [Silicon_Hunger_Report_2026-11-08.docx](Silicon_Hunger_Report_2026-11-08.docx) | 合并 Word 总结 |

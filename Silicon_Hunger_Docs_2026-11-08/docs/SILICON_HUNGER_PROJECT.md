@@ -36,6 +36,19 @@ LLM 不会因此产生真正的情绪
 
 ---
 
+## 1.1 两个版本
+
+这个仓库有两条不同的技术路线，不能把结果混在一起。
+
+| 版本 | 模型 | 状态进入方式 | 主要结果 | 入口 |
+| --- | --- | --- | --- | --- |
+| A | gpt-oss:20b（Ollama） | Prompt 遥测、采样参数、系统警报、输入污染、后处理 | 拒答、模式坍缩、客服语义不变 | [web_app.py](../web_app.py) |
+| B | Qwen2.5-3B base | soft tokens -> inputs_embeds；activation steering | 输出被改写，但没有稳定情绪 | [hf_state_probe.py](../hf_state_probe.py)、[hf_steering_probe.py](../hf_steering_probe.py) |
+
+版本 A 的量化结果是 C 消融；版本 B 的 soft prompt / steering 都是探针结果，不是 20 次分布实验。
+
+---
+
 ## 2. 系统架构
 
 ### 2.1 运行时拓扑
@@ -67,7 +80,10 @@ SiliconMind
   └─ crisis
 
 Speaker
-  └─ Ollama gpt-oss:20b (production)
+  └─ Ollama gpt-oss:20b (版本 A / production)
+
+HF Probe
+  └─ Qwen2.5-3B base (版本 B)
 ~~~
 
 ### 2.2 分层
@@ -84,8 +100,8 @@ UI 层
   GRU + delta head
 
 语言层
-  Speaker.stream()
-  Ollama
+  Speaker.stream() -> Ollama (A)
+  HF probe -> Qwen2.5-3B base (B)
 
 后处理层
   SYS_CRITICAL
@@ -460,7 +476,9 @@ HF 探针：
 
 ## 10. 实验记录
 
-### 10.1 C 消融
+> 以下结果按版本分组。10.1 属于版本 A，10.2 和 10.3 属于版本 B。不要把 A 的 20 次消融和 B 的单次探针放进同一张比较表。
+
+### 10.1 版本 A：C 消融
 
 固定输入：
 
@@ -485,7 +503,7 @@ top_p=0.1 → 模式坍缩
 输入污染 → 比 7D 状态更强的语义影响
 ~~~
 
-### 10.2 Soft Prompt
+### 10.2 版本 B-1：Soft Prompt
 
 Qwen2.5-3B base：
 
@@ -507,7 +525,7 @@ Qwen2.5-3B base：
 不是情绪
 ~~~
 
-### 10.3 Activation Steering
+### 10.3 版本 B-2：Activation Steering
 
 第 12 层：
 
@@ -538,6 +556,8 @@ steering 能改变输出
 
 ## 11. 已知问题
 
+### 版本 A
+
 1. 7D 状态没有进入 LLM activation
 2. SYS_CRITICAL 会触发固定拒答
 3. top_p 0.1 会模式坍缩
@@ -545,7 +565,13 @@ steering 能改变输出
 5. 省略号不会提高 A
 6. 过滤器会掩盖真实模型输出
 7. HF 镜像下载不稳定
-8. 3B base 仍带助手先验
+
+### 版本 B
+
+1. 3B base 仍带助手先验
+2. StateEncoder 随机初始化，未训练
+3. steering 只做了第 12 层和 3 个 alpha
+4. 没有 B 版本的原始 JSON 分布数据
 9. 没有训练数据
 10. 生产应用仍是 Ollama 版，HF 探针未接入 UI
 

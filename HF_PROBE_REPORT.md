@@ -1,4 +1,7 @@
-# HF Soft Prompt Probe
+# HF Soft Prompt Probe（版本 B-1）
+
+> 版本 B-1：Qwen2.5-3B base / 底层注入 / soft prompt  
+> 这是单次探针，不是 20 次分布实验；结果不能与版本 A 的 C 消融直接比较。
 
 ## 目标
 

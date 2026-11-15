@@ -1,4 +1,7 @@
-# Activation Steering Probe
+# Activation Steering Probe（版本 B-2）
+
+> 版本 B-2：Qwen2.5-3B base / 底层 activation steering  
+> 这是第 12 层、3 个 alpha 的探针，不是 20 次分布实验；结果不能与版本 A 的 C 消融直接比较。
 
 ## 目标
 

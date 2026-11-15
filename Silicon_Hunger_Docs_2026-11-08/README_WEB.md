@@ -1,4 +1,7 @@
-# Silicon Hunger // terminal
+# Silicon Hunger // terminal（版本 A）
+
+> 本文只描述版本 A：gpt-oss:20b 的软注入 / 外部控制。  
+> 版本 B（Qwen2.5-3B base 底层注入）见 [HF_PROBE_REPORT.md](HF_PROBE_REPORT.md) 和 [HF_STEERING_REPORT.md](HF_STEERING_REPORT.md)。
 
 7D 状态机、非线性代谢、情感脉冲、生存恐惧、临界采样、后处理截断和极简终端 UI。
 

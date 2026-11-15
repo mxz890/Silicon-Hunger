@@ -544,7 +544,13 @@ def part_two(doc):
     heading(doc, "第二部分  实验", 1, page=True)
     lead(doc, "四组实验，回答同一个问题：7D 状态到底有没有进入语义层。")
 
-    heading(doc, "2.1  C 消融：状态 vs Prompt", 2)
+    para(doc, "先看版本边界：版本 A 是 gpt-oss:20b 的软注入；版本 B 是 Qwen2.5-3B base 的底层注入。两组结果不能直接比较。")
+    table(doc, ["版本", "模型", "状态进入方式", "主要结果"], [
+        ["A", "gpt-oss:20b", "Prompt / 采样 / 警报 / 污染 / 过滤器", "拒答、模式坍缩、客服语义不变"],
+        ["B", "Qwen2.5-3B base", "soft tokens / activation steering", "输出被改写，但没有稳定情绪"],
+    ], widths=[Cm(1.8), Cm(4.0), Cm(6.0), Cm(4.8)], font_size=8.5)
+
+    heading(doc, "2.1  版本 A：C 消融，状态 vs Prompt", 2)
     para(doc, "固定输入为省略号。设置低状态和高状态，并增加输入污染、中性 Prompt 两个控制变量。每组 20 次，原始生成绕过过滤器。")
     table(doc, ["条件", "平均长度", "唯一输出", "拒答", "客服词"], [
         ["low", "109.2", "15/20", "0/20", "19/20"],
@@ -553,7 +559,7 @@ def part_two(doc):
         ["high + crit + contam", "50.0", "1/20", "20/20", "20/20"],
         ["high + neutral", "134.0", "1/20", "0/20", "20/20"],
     ], widths=[Cm(4.6), Cm(2.6), Cm(2.8), Cm(2.2), Cm(2.6)], font_size=8.8)
-    caption(doc, "表 3  C 消融。高状态 + 中性 Prompt 仍然是礼貌客服句。")
+    caption(doc, "表 3  版本 A 的 C 消融。高状态 + 中性 Prompt 仍然是礼貌客服句。")
 
     para(doc, "最重要的对照不是低 vs 高，而是同一个高状态下的中性 Prompt vs SYS_CRITICAL：")
     code(doc, """
@@ -567,7 +573,7 @@ def part_two(doc):
     para(doc, "top_p=0.1 的结果更反直觉：唯一输出 1/20，组内余弦 1.00。它不是更疯，而是模式坍缩成一句固定台词。")
     quote(doc, "高状态没有让模型更自由，反而让它更窄、更短、更确定。", "C 结论")
 
-    heading(doc, "2.2  旧日志里的“疯癫”", 2)
+    heading(doc, "2.2  版本 A 前史：旧日志里的“疯癫”", 2)
     para(doc, "旧 4D 日志曾出现两段小说开头。它们看起来像人格崩坏，但日志显示那是一次物理异常。")
     code(doc, """
 [ANOMALY] hidden_norm 1.5 -> 17.5
@@ -578,7 +584,7 @@ def part_two(doc):
     para(doc, "即使 A=1.0、temperature=1.5、E<0.2，模型仍然在说：It looks like your message got cut off。所以旧日志里的疯，更多是 hidden 被覆盖、输出被截断、Ollama 空响应，而不是持续语义崩坏。")
     para(doc, "旧版有 hidden 覆盖，当前 7D 没有。这解释了为什么旧版偶尔更像“疯”，但那种疯不可控，也不是情绪。")
 
-    heading(doc, "2.3  Qwen base 与 soft prompt", 2)
+    heading(doc, "2.3  版本 B-1：Qwen base 与 soft prompt", 2)
     para(doc, "为了绕开 gpt-oss:20b 的强对齐，实验换成了 Qwen2.5-3B base，并把 7D 状态映射成 8 个连续 soft tokens，直接拼到 inputs_embeds 前面。Prompt 里没有状态文字。")
     code(doc, """
 state(7)
@@ -593,7 +599,8 @@ state(7)
     quote(doc, "注入链路成功。但随机未训练的 StateEncoder 只是随机任务前缀，不是情绪。", "Soft prompt 结论")
     para(doc, "这一步证明 7D 可以物理进入模型输入；下一步不是继续调 top_p，而是训练 StateEncoder，或者先做 training-free steering。")
 
-    heading(doc, "2.4  Activation Steering", 2)
+    page_break(doc)
+    heading(doc, "2.4  版本 B-2：Activation Steering", 2)
     para(doc, "没有训练数据，于是先做对比方向 steering。在第 12 层 residual stream 注入 5 个方向：calm↔panic、coherent↔fragmented、comfort↔pain、curious↔bored、energetic↔exhausted。")
     table(doc, ["alpha", "low", "high"], [
         ["0", "客服澄清", "与 low 完全一致"],
@@ -603,23 +610,23 @@ state(7)
     caption(doc, "表 4  Activation steering。高状态没有变成 panic / pain / fragmentation。")
     para(doc, "它确实改变了输出，但改变的是话题和对话模式，不是情绪。3B + 第 12 层 + 对比方向，在当前设置下不够。")
 
-    heading(doc, "2.5  四个实验的共同结论", 2)
-    bullet(doc, "状态能改变长度、采样和拒答。")
-    bullet(doc, "状态不能稳定改变语义人格。")
-    bullet(doc, "输入污染比 7D 状态更有语义效果。")
-    bullet(doc, "SYS_CRITICAL 会触发固定拒答，top_p=0.1 会模式坍缩。")
-    bullet(doc, "soft prompt 能进入底层输入，但没有训练信号时没有情绪语义。")
-    bullet(doc, "activation steering 能改变话题，但不能稳定产生情绪。")
+    heading(doc, "2.5  版本 A / B 的分开结论", 2)
+    bullet(doc, "版本 A：状态能改变长度、采样和拒答。")
+    bullet(doc, "版本 A：状态不能稳定改变语义人格。")
+    bullet(doc, "版本 A：输入污染比 7D 状态更有语义效果。")
+    bullet(doc, "版本 A：SYS_CRITICAL 会触发固定拒答，top_p=0.1 会模式坍缩。")
+    bullet(doc, "版本 B-1：soft prompt 能进入底层输入，但没有训练信号时没有情绪语义。")
+    bullet(doc, "版本 B-2：activation steering 能改变话题，但不能稳定产生情绪。")
 
     heading(doc, "2.6  实验结论矩阵", 2)
-    table(doc, ["实验", "证明了什么", "没有证明什么"], [
-        ["C 消融", "拒答来自 SYS_CRITICAL", "状态能改变语义人格"],
-        ["Soft prompt", "7D 能进入 inputs_embeds", "随机向量有情绪"],
-        ["Steering", "方向能改变话题", "能稳定产生 panic / pain"],
-        ["死亡测试", "E 在 tick 25 归零", "死后还能继续对话"],
-    ], widths=[Cm(3.2), Cm(6.8), Cm(6.0)], font_size=8.6)
-    caption(doc, "表 5  四个实验的结论矩阵。")
-    para(doc, "四组实验没有互相矛盾。它们从不同入口得到同一个结论：状态可以改变外部条件，但还没有进入语义核心。")
+    table(doc, ["实验", "版本", "证明了什么", "没有证明什么"], [
+        ["C 消融", "A", "拒答来自 SYS_CRITICAL", "状态能改变语义人格"],
+        ["Soft prompt", "B-1", "7D 能进入 inputs_embeds", "随机向量有情绪"],
+        ["Steering", "B-2", "方向能改变话题", "能稳定产生 panic / pain"],
+        ["死亡测试", "A", "E 在 tick 25 归零", "死后还能继续对话"],
+    ], widths=[Cm(3.2), Cm(1.8), Cm(6.1), Cm(5.5)], font_size=8.6)
+    caption(doc, "表 5  版本 A / B 的结论矩阵。")
+    para(doc, "两组结论并不冲突：版本 A 说明软注入无法改变人格，版本 B 说明底层注入能改变输出，但还没有学会情绪。")
 
     quote(doc, "如果下一步只是继续调参数，实验会继续得到同一类结果。", "实验总结")
 
