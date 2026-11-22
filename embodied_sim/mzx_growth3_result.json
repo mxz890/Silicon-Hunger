@@ -1,0 +1,328 @@
+{
+  "nodes": 2000,
+  "seeds": [
+    {
+      "seed": 52000,
+      "bc": 0.7,
+      "dagger": 0.76,
+      "after_lifecycle": 0.69,
+      "cycles": [
+        {
+          "cycle": 0,
+          "nodes": 2020,
+          "alive": 2020,
+          "before": 0.7,
+          "after": 0.71,
+          "accepted": true,
+          "grew": 20,
+          "pruned": 0,
+          "new_usage": 0.01121,
+          "round_s": 7.42
+        },
+        {
+          "cycle": 1,
+          "nodes": 2040,
+          "alive": 2023,
+          "before": 0.62,
+          "after": 0.69,
+          "accepted": true,
+          "grew": 20,
+          "pruned": 17,
+          "new_usage": 0.00951,
+          "round_s": 7.37
+        },
+        {
+          "cycle": 2,
+          "nodes": 2060,
+          "alive": 2039,
+          "before": 0.66,
+          "after": 0.73,
+          "accepted": true,
+          "grew": 20,
+          "pruned": 4,
+          "new_usage": 0.00954,
+          "round_s": 7.48
+        },
+        {
+          "cycle": 3,
+          "nodes": 2080,
+          "alive": 2039,
+          "before": 0.67,
+          "after": 0.74,
+          "accepted": true,
+          "grew": 20,
+          "pruned": 20,
+          "new_usage": 0.01121,
+          "round_s": 7.56
+        }
+      ],
+      "ppo": {
+        "skipped": true,
+        "bc": 0.69
+      },
+      "source": 0.74,
+      "source_steps": 152.38,
+      "target": 0.6,
+      "target_steps": 172.25
+    },
+    {
+      "seed": 52001,
+      "bc": 0.61,
+      "dagger": 0.69,
+      "after_lifecycle": 0.68,
+      "cycles": [
+        {
+          "cycle": 0,
+          "nodes": 2020,
+          "alive": 2013,
+          "before": 0.58,
+          "after": 0.72,
+          "accepted": true,
+          "grew": 20,
+          "pruned": 7,
+          "new_usage": 0.00679,
+          "round_s": 7.74
+        },
+        {
+          "cycle": 1,
+          "nodes": 2040,
+          "alive": 2015,
+          "before": 0.58,
+          "after": 0.62,
+          "accepted": true,
+          "grew": 20,
+          "pruned": 18,
+          "new_usage": 0.00757,
+          "round_s": 7.94
+        },
+        {
+          "cycle": 2,
+          "nodes": 2060,
+          "alive": 2021,
+          "before": 0.65,
+          "after": 0.66,
+          "accepted": true,
+          "grew": 20,
+          "pruned": 14,
+          "new_usage": 0.00761,
+          "round_s": 7.97
+        },
+        {
+          "cycle": 3,
+          "nodes": 2080,
+          "alive": 2020,
+          "before": 0.65,
+          "after": 0.66,
+          "accepted": true,
+          "grew": 20,
+          "pruned": 21,
+          "new_usage": 0.00621,
+          "round_s": 8.07
+        }
+      ],
+      "ppo": {
+        "skipped": true,
+        "bc": 0.68
+      },
+      "source": 0.62,
+      "source_steps": 171.43,
+      "target": 0.67,
+      "target_steps": 161.17
+    },
+    {
+      "seed": 52002,
+      "bc": 0.58,
+      "dagger": 0.63,
+      "after_lifecycle": 0.64,
+      "cycles": [
+        {
+          "cycle": 0,
+          "nodes": 2000,
+          "alive": 2000,
+          "before": 0.61,
+          "after": 0.59,
+          "accepted": false,
+          "grew": 20,
+          "pruned": 2,
+          "new_usage": 0.00731,
+          "round_s": 7.92
+        },
+        {
+          "cycle": 1,
+          "nodes": 2020,
+          "alive": 2017,
+          "before": 0.64,
+          "after": 0.68,
+          "accepted": true,
+          "grew": 20,
+          "pruned": 3,
+          "new_usage": 0.00822,
+          "round_s": 8.04
+        },
+        {
+          "cycle": 2,
+          "nodes": 2020,
+          "alive": 2017,
+          "before": 0.69,
+          "after": 0.63,
+          "accepted": false,
+          "grew": 20,
+          "pruned": 19,
+          "new_usage": 0.00777,
+          "round_s": 8.22
+        },
+        {
+          "cycle": 3,
+          "nodes": 2020,
+          "alive": 2017,
+          "before": 0.61,
+          "after": 0.61,
+          "accepted": false,
+          "grew": 20,
+          "pruned": 16,
+          "new_usage": 0.00871,
+          "round_s": 8.04
+        }
+      ],
+      "ppo": {
+        "skipped": true,
+        "bc": 0.64
+      },
+      "source": 0.69,
+      "source_steps": 160.46,
+      "target": 0.65,
+      "target_steps": 166.01
+    },
+    {
+      "seed": 52003,
+      "bc": 0.74,
+      "dagger": 0.64,
+      "after_lifecycle": 0.7,
+      "cycles": [
+        {
+          "cycle": 0,
+          "nodes": 2020,
+          "alive": 2018,
+          "before": 0.58,
+          "after": 0.75,
+          "accepted": true,
+          "grew": 20,
+          "pruned": 2,
+          "new_usage": 0.00875,
+          "round_s": 7.26
+        },
+        {
+          "cycle": 1,
+          "nodes": 2040,
+          "alive": 2022,
+          "before": 0.69,
+          "after": 0.72,
+          "accepted": true,
+          "grew": 20,
+          "pruned": 16,
+          "new_usage": 0.01098,
+          "round_s": 7.28
+        },
+        {
+          "cycle": 2,
+          "nodes": 2060,
+          "alive": 2025,
+          "before": 0.6,
+          "after": 0.7,
+          "accepted": true,
+          "grew": 20,
+          "pruned": 17,
+          "new_usage": 0.00943,
+          "round_s": 7.45
+        },
+        {
+          "cycle": 3,
+          "nodes": 2080,
+          "alive": 2028,
+          "before": 0.66,
+          "after": 0.72,
+          "accepted": true,
+          "grew": 20,
+          "pruned": 17,
+          "new_usage": 0.01092,
+          "round_s": 7.34
+        }
+      ],
+      "ppo": {
+        "skipped": true,
+        "bc": 0.7
+      },
+      "source": 0.72,
+      "source_steps": 146.93,
+      "target": 0.66,
+      "target_steps": 169.77
+    },
+    {
+      "seed": 52004,
+      "bc": 0.6,
+      "dagger": 0.69,
+      "after_lifecycle": 0.7,
+      "cycles": [
+        {
+          "cycle": 0,
+          "nodes": 2020,
+          "alive": 2016,
+          "before": 0.63,
+          "after": 0.63,
+          "accepted": true,
+          "grew": 20,
+          "pruned": 4,
+          "new_usage": 0.00687,
+          "round_s": 7.88
+        },
+        {
+          "cycle": 1,
+          "nodes": 2040,
+          "alive": 2026,
+          "before": 0.58,
+          "after": 0.67,
+          "accepted": true,
+          "grew": 20,
+          "pruned": 10,
+          "new_usage": 0.00865,
+          "round_s": 7.97
+        },
+        {
+          "cycle": 2,
+          "nodes": 2060,
+          "alive": 2022,
+          "before": 0.65,
+          "after": 0.7,
+          "accepted": true,
+          "grew": 20,
+          "pruned": 24,
+          "new_usage": 0.00874,
+          "round_s": 8.12
+        },
+        {
+          "cycle": 3,
+          "nodes": 2080,
+          "alive": 2017,
+          "before": 0.63,
+          "after": 0.71,
+          "accepted": true,
+          "grew": 20,
+          "pruned": 25,
+          "new_usage": 0.00568,
+          "round_s": 9.48
+        }
+      ],
+      "ppo": {
+        "skipped": true,
+        "bc": 0.7
+      },
+      "source": 0.66,
+      "source_steps": 164.96,
+      "target": 0.58,
+      "target_steps": 171.25
+    }
+  ],
+  "cycles": 4,
+  "grow": 20,
+  "seconds": 626.495
+}

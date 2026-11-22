@@ -1,0 +1,11 @@
+{
+  "growth_nodes": 200,
+  "final_nodes": 2200,
+  "stage0_before_growth": 0.9666666666666667,
+  "stage0_after_growth": 0.1,
+  "stage1_success": 0.03333333333333333,
+  "stage1_steps": 249.96666666666667,
+  "target_success": 0.03333333333333333,
+  "target_steps": 246.76666666666668,
+  "seconds": 199.812
+}

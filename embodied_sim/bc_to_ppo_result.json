@@ -1,0 +1,20 @@
+{
+  "bc_success": 0.5333333333333333,
+  "bc_steps": 161.06666666666666,
+  "ppo_last_success": 0.4666666666666667,
+  "ppo_last_steps": 170.66666666666666,
+  "ppo_best_success": 0.7666666666666667,
+  "ppo_best_steps": 135.9,
+  "best_update": 5,
+  "strong_target_success": 0.16666666666666666,
+  "strong_target_steps": 226.0,
+  "updates": 20,
+  "kl_start": 0.2,
+  "kl_end": 0.02,
+  "bc_coef": 0.3,
+  "n_envs": 8,
+  "steps": 256,
+  "target": "fixed (0.5,0.0)",
+  "obstacles": 1,
+  "seconds": 31.998
+}

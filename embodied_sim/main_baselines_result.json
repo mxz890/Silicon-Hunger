@@ -1,0 +1,15 @@
+{
+  "two_obstacle": {
+    "checkpoint": "mzx_2obs_plus100.pt",
+    "success": 0.84,
+    "steps": 121.25,
+    "nodes": 1000
+  },
+  "three_obstacle": {
+    "checkpoint": "mzx_3obs_plus100.pt",
+    "success": 0.93,
+    "steps": 155.73,
+    "nodes": 1000
+  },
+  "seconds": 29.01
+}

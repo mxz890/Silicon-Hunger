@@ -1,0 +1,47 @@
+{
+  "graph": {
+    "nodes": 2000,
+    "edges": 9022
+  },
+  "device": "NVIDIA GeForce RTX 5070 Ti",
+  "steps": 20,
+  "cpu_ms": [
+    86.5612,
+    6.1874,
+    5.6578,
+    5.8584,
+    5.9759
+  ],
+  "gpu_persistent_ms": [
+    208.6828,
+    4.5762,
+    3.4178,
+    3.804,
+    3.8617
+  ],
+  "gpu_cold_ms": [
+    4.2051,
+    3.6666,
+    3.7587,
+    3.9915,
+    4.2509
+  ],
+  "gpu_sync_each_ms": [
+    4.646,
+    3.915,
+    4.0547
+  ],
+  "median": {
+    "cpu": 5.9759,
+    "gpu_persistent": 3.8617,
+    "gpu_cold": 3.9915,
+    "gpu_sync_each": 4.0547
+  },
+  "speedup_persistent": 1.547,
+  "speedup_cold": 1.497,
+  "max_concentration_diff": 0.0,
+  "max_gain_diff": 0.0,
+  "output_files": {
+    "result_json": "research_mvp/gpu_chem_result.json"
+  }
+}

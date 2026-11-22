@@ -1,0 +1,131 @@
+{
+  "graph": {
+    "nodes": 2000,
+    "edges": 9022
+  },
+  "chemicals": {
+    "gain_min": 1.03655,
+    "gain_max": 1.19505
+  },
+  "results": [
+    {
+      "task": "linear",
+      "baseline": {
+        "val": {
+          "mae": 0.39704,
+          "rmse": 0.55652,
+          "relative_mae": 0.13107
+        },
+        "test": {
+          "mae": 0.37864,
+          "rmse": 0.51049,
+          "relative_mae": 0.1477
+        },
+        "features": 1998
+      },
+      "grown": {
+        "val": {
+          "mae": 0.39704,
+          "rmse": 0.55652,
+          "relative_mae": 0.13107
+        },
+        "test": {
+          "mae": 0.37864,
+          "rmse": 0.51049,
+          "relative_mae": 0.1477
+        },
+        "features": 1998,
+        "new_nodes": 0
+      },
+      "history": [
+        {
+          "round": 1,
+          "accepted": false,
+          "best_val": {
+            "mae": 0.40775,
+            "rmse": 0.55544,
+            "relative_mae": 0.1346
+          }
+        }
+      ]
+    },
+    {
+      "task": "arithmetic",
+      "baseline": {
+        "val": {
+          "mae": 0.06926,
+          "rmse": 0.12075,
+          "relative_mae": 0.0021
+        },
+        "test": {
+          "mae": 0.06672,
+          "rmse": 0.11625,
+          "relative_mae": 0.00234
+        },
+        "features": 1998
+      },
+      "grown": {
+        "val": {
+          "mae": 0.06703,
+          "rmse": 0.11397,
+          "relative_mae": 0.00203
+        },
+        "test": {
+          "mae": 0.06797,
+          "rmse": 0.11483,
+          "relative_mae": 0.00239
+        },
+        "features": 2000,
+        "new_nodes": 2
+      },
+      "history": [
+        {
+          "round": 1,
+          "accepted": true,
+          "gamma": 2.0,
+          "val": {
+            "mae": 0.06783,
+            "rmse": 0.11526,
+            "relative_mae": 0.00206
+          },
+          "test": {
+            "mae": 0.0681,
+            "rmse": 0.11441,
+            "relative_mae": 0.00239
+          },
+          "features": 1999
+        },
+        {
+          "round": 2,
+          "accepted": true,
+          "gamma": 0.5,
+          "val": {
+            "mae": 0.06703,
+            "rmse": 0.11397,
+            "relative_mae": 0.00203
+          },
+          "test": {
+            "mae": 0.06797,
+            "rmse": 0.11483,
+            "relative_mae": 0.00239
+          },
+          "features": 2000
+        },
+        {
+          "round": 3,
+          "accepted": false,
+          "best_val": {
+            "mae": 0.06791,
+            "rmse": 0.11456,
+            "relative_mae": 0.00206
+          }
+        }
+      ]
+    }
+  ],
+  "seconds": 57.925,
+  "output_files": {
+    "result_json": "research_mvp/readout_growth_result.json",
+    "report": "research_mvp/READOUT_GROWTH_REPORT.md"
+  }
+}

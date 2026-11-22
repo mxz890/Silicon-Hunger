@@ -1,0 +1,111 @@
+{
+  "rows": [
+    {
+      "grow": 0,
+      "history": [
+        {
+          "round": 0,
+          "nodes": 500,
+          "before": 0.89,
+          "after": 0.89,
+          "contrib": 0.0,
+          "accepted": false
+        },
+        {
+          "round": 1,
+          "nodes": 500,
+          "before": 0.85,
+          "after": 0.85,
+          "contrib": 0.0,
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "grow": 5,
+      "history": [
+        {
+          "round": 0,
+          "nodes": 505,
+          "before": 0.89,
+          "after": 0.81,
+          "contrib": 0.000657,
+          "accepted": true
+        },
+        {
+          "round": 1,
+          "nodes": 510,
+          "before": 0.85,
+          "after": 0.86,
+          "contrib": 0.000591,
+          "accepted": true
+        }
+      ]
+    },
+    {
+      "grow": 10,
+      "history": [
+        {
+          "round": 0,
+          "nodes": 510,
+          "before": 0.89,
+          "after": 0.81,
+          "contrib": 0.000628,
+          "accepted": true
+        },
+        {
+          "round": 1,
+          "nodes": 520,
+          "before": 0.84,
+          "after": 0.85,
+          "contrib": 0.000581,
+          "accepted": true
+        }
+      ]
+    },
+    {
+      "grow": 20,
+      "history": [
+        {
+          "round": 0,
+          "nodes": 520,
+          "before": 0.89,
+          "after": 0.81,
+          "contrib": 0.000627,
+          "accepted": true
+        },
+        {
+          "round": 1,
+          "nodes": 540,
+          "before": 0.86,
+          "after": 0.85,
+          "contrib": 0.000573,
+          "accepted": true
+        }
+      ]
+    },
+    {
+      "grow": 40,
+      "history": [
+        {
+          "round": 0,
+          "nodes": 540,
+          "before": 0.89,
+          "after": 0.85,
+          "contrib": 0.000609,
+          "accepted": true
+        },
+        {
+          "round": 1,
+          "nodes": 580,
+          "before": 0.86,
+          "after": 0.85,
+          "contrib": 0.000653,
+          "accepted": true
+        }
+      ]
+    }
+  ],
+  "threshold": 0.0001,
+  "seconds": 72.17
+}

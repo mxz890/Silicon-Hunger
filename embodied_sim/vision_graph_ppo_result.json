@@ -1,0 +1,10 @@
+{
+  "graph_nodes": 2000,
+  "K": 6,
+  "updates": 20,
+  "source_success": 0.0,
+  "source_steps": 250.0,
+  "target_success": 0.0,
+  "target_steps": 250.0,
+  "seconds": 59.393
+}

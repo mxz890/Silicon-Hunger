@@ -1,0 +1,93 @@
+{
+  "stages": [
+    {
+      "stage": "fixed_target_fixed_obstacle",
+      "bc_success": 0.5333333333333333,
+      "bc_steps": 160.13333333333333,
+      "best_update": 5,
+      "best_success": 0.7333333333333333,
+      "final_success": 0.7666666666666667,
+      "final_steps": 133.26666666666668,
+      "history": [
+        {
+          "stage": "fixed_target_fixed_obstacle",
+          "update": 0,
+          "success": 0.4,
+          "steps": 183.53333333333333,
+          "best": 0.5333333333333333,
+          "kl": 0.2
+        },
+        {
+          "stage": "fixed_target_fixed_obstacle",
+          "update": 5,
+          "success": 0.7333333333333333,
+          "steps": 131.9,
+          "best": 0.7333333333333333,
+          "kl": 0.1526
+        },
+        {
+          "stage": "fixed_target_fixed_obstacle",
+          "update": 10,
+          "success": 0.4,
+          "steps": 185.56666666666666,
+          "best": 0.7333333333333333,
+          "kl": 0.1053
+        },
+        {
+          "stage": "fixed_target_fixed_obstacle",
+          "update": 15,
+          "success": 0.3333333333333333,
+          "steps": 189.33333333333334,
+          "best": 0.7333333333333333,
+          "kl": 0.0579
+        }
+      ]
+    },
+    {
+      "stage": "small_random_target_random_obstacle",
+      "bc_success": 0.43333333333333335,
+      "bc_steps": 177.96666666666667,
+      "best_update": 5,
+      "best_success": 0.9666666666666667,
+      "final_success": 0.8333333333333334,
+      "final_steps": 125.0,
+      "history": [
+        {
+          "stage": "small_random_target_random_obstacle",
+          "update": 0,
+          "success": 0.5666666666666667,
+          "steps": 164.73333333333332,
+          "best": 0.5666666666666667,
+          "kl": 0.2
+        },
+        {
+          "stage": "small_random_target_random_obstacle",
+          "update": 5,
+          "success": 0.9666666666666667,
+          "steps": 104.8,
+          "best": 0.9666666666666667,
+          "kl": 0.1526
+        },
+        {
+          "stage": "small_random_target_random_obstacle",
+          "update": 10,
+          "success": 0.8,
+          "steps": 132.1,
+          "best": 0.9666666666666667,
+          "kl": 0.1053
+        },
+        {
+          "stage": "small_random_target_random_obstacle",
+          "update": 15,
+          "success": 0.8666666666666667,
+          "steps": 127.76666666666667,
+          "best": 0.9666666666666667,
+          "kl": 0.0579
+        }
+      ]
+    }
+  ],
+  "strong_random_success": 0.43333333333333335,
+  "strong_random_steps": 197.16666666666666,
+  "seconds": 58.437
+}

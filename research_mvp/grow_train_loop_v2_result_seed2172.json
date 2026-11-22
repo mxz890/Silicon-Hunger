@@ -1,0 +1,64 @@
+{
+  "mode": "grow -> backprop train -> validate -> grow",
+  "K_steps": 8,
+  "grow_per_round": 50,
+  "rounds": 6,
+  "history": [
+    {
+      "round": 0,
+      "nodes": 2000,
+      "edges": 9022,
+      "val_mae": 17.68126,
+      "test_mae": 18.17181
+    },
+    {
+      "round": 1,
+      "nodes": 2050,
+      "edges": 9268,
+      "val_mae": 12.98877,
+      "test_mae": 13.45673
+    },
+    {
+      "round": 2,
+      "nodes": 2100,
+      "edges": 9514,
+      "val_mae": 7.51658,
+      "test_mae": 7.79934
+    },
+    {
+      "round": 3,
+      "nodes": 2150,
+      "edges": 9760,
+      "val_mae": 3.41453,
+      "test_mae": 3.43313
+    },
+    {
+      "round": 4,
+      "nodes": 2200,
+      "edges": 10006,
+      "val_mae": 4.21752,
+      "test_mae": 4.45728
+    },
+    {
+      "round": 5,
+      "nodes": 2250,
+      "edges": 10252,
+      "val_mae": 2.65379,
+      "test_mae": 2.5942
+    },
+    {
+      "round": 6,
+      "nodes": 2300,
+      "edges": 10498,
+      "val_mae": 1.26266,
+      "test_mae": 1.27788
+    }
+  ],
+  "best_val_mae": 1.26266,
+  "seconds": 25.535,
+  "seed": 2172,
+  "output_files": {
+    "result_json": "research_mvp/grow_train_loop_v2_result_seed2172.json",
+    "report": "research_mvp/GROW_TRAIN_LOOP_V2_REPORT.md"
+  }
+}

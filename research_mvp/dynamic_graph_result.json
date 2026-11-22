@@ -1,0 +1,898 @@
+{
+  "init_seed": 11,
+  "cycles": 100,
+  "death_after": 8,
+  "selection": "secrets.choice seed + up to 2 neighbors; source/sink always awake",
+  "scheduler": {
+    "3": 13,
+    "5": 27,
+    "7": 10
+  },
+  "final": {
+    "cycle": 100,
+    "active": [
+      1,
+      6,
+      8
+    ],
+    "dead_nodes": [
+      3,
+      5,
+      7
+    ],
+    "functional": [
+      1,
+      6,
+      8
+    ],
+    "forward": [
+      1,
+      2,
+      4,
+      6,
+      8
+    ],
+    "backward": [
+      1,
+      2,
+      4,
+      6,
+      8
+    ],
+    "output": 1.37323,
+    "error": 0.62677,
+    "edges": 14,
+    "max_degree": 5,
+    "hub_order": [
+      1,
+      6,
+      8,
+      4,
+      2
+    ],
+    "dead_streak": {
+      "1": 0,
+      "2": 3,
+      "3": 95,
+      "4": 3,
+      "5": 81,
+      "6": 0,
+      "7": 98,
+      "8": 0
+    },
+    "score": {
+      "1": 20.418,
+      "2": 8.326,
+      "3": 0.0,
+      "4": 8.515,
+      "5": 0.0,
+      "6": 11.693,
+      "7": 0.0,
+      "8": 11.693
+    }
+  },
+  "history": [
+    {
+      "cycle": 1,
+      "active": [
+        2,
+        4
+      ],
+      "dead_nodes": [],
+      "functional": [
+        2,
+        4
+      ],
+      "forward": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "backward": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "output": 1.95067,
+      "error": 0.04933,
+      "edges": 20,
+      "max_degree": 8,
+      "hub_order": [
+        1,
+        8,
+        4,
+        2,
+        5
+      ],
+      "dead_streak": {
+        "1": 1,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1
+      },
+      "score": {
+        "1": 0.88,
+        "2": 3.75,
+        "3": 0.88,
+        "4": 3.816,
+        "5": 0.88,
+        "6": 0.88,
+        "7": 0.88,
+        "8": 0.88
+      }
+    },
+    {
+      "cycle": 10,
+      "active": [
+        1,
+        6,
+        8
+      ],
+      "dead_nodes": [
+        7
+      ],
+      "functional": [
+        1,
+        6,
+        8
+      ],
+      "forward": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "backward": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "output": 1.37323,
+      "error": 0.62677,
+      "edges": 19,
+      "max_degree": 7,
+      "hub_order": [
+        8,
+        1,
+        6,
+        5,
+        4
+      ],
+      "dead_streak": {
+        "1": 0,
+        "2": 3,
+        "3": 5,
+        "4": 3,
+        "5": 2,
+        "6": 0,
+        "7": 8,
+        "8": 0
+      },
+      "score": {
+        "1": 17.39,
+        "2": 3.116,
+        "3": 1.691,
+        "4": 3.181,
+        "5": 5.236,
+        "6": 10.54,
+        "7": 0.805,
+        "8": 10.54
+      }
+    },
+    {
+      "cycle": 20,
+      "active": [
+        2,
+        4
+      ],
+      "dead_nodes": [
+        3,
+        7
+      ],
+      "functional": [
+        2,
+        4
+      ],
+      "forward": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8
+      ],
+      "backward": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8
+      ],
+      "output": 1.95067,
+      "error": 0.04933,
+      "edges": 16,
+      "max_degree": 6,
+      "hub_order": [
+        1,
+        6,
+        8,
+        4,
+        2
+      ],
+      "dead_streak": {
+        "1": 2,
+        "2": 0,
+        "3": 15,
+        "4": 0,
+        "5": 1,
+        "6": 2,
+        "7": 18,
+        "8": 2
+      },
+      "score": {
+        "1": 15.216,
+        "2": 4.836,
+        "3": 0.471,
+        "4": 4.945,
+        "5": 6.543,
+        "6": 8.843,
+        "7": 0.224,
+        "8": 8.843
+      }
+    },
+    {
+      "cycle": 30,
+      "active": [
+        1,
+        6,
+        8
+      ],
+      "dead_nodes": [
+        3,
+        5,
+        7
+      ],
+      "functional": [
+        1,
+        6,
+        8
+      ],
+      "forward": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ],
+      "backward": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ],
+      "output": 1.37323,
+      "error": 0.62677,
+      "edges": 14,
+      "max_degree": 5,
+      "hub_order": [
+        1,
+        6,
+        8,
+        4,
+        2
+      ],
+      "dead_streak": {
+        "1": 0,
+        "2": 1,
+        "3": 25,
+        "4": 1,
+        "5": 11,
+        "6": 0,
+        "7": 28,
+        "8": 0
+      },
+      "score": {
+        "1": 17.276,
+        "2": 8.861,
+        "3": 0.131,
+        "4": 9.062,
+        "5": 1.822,
+        "6": 9.923,
+        "7": 0.062,
+        "8": 9.923
+      }
+    },
+    {
+      "cycle": 40,
+      "active": [
+        1,
+        6,
+        8
+      ],
+      "dead_nodes": [
+        3,
+        5,
+        7
+      ],
+      "functional": [
+        1,
+        6,
+        8
+      ],
+      "forward": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ],
+      "backward": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ],
+      "output": 1.37323,
+      "error": 0.62677,
+      "edges": 14,
+      "max_degree": 5,
+      "hub_order": [
+        1,
+        6,
+        8,
+        4,
+        2
+      ],
+      "dead_streak": {
+        "1": 0,
+        "2": 2,
+        "3": 35,
+        "4": 2,
+        "5": 21,
+        "6": 0,
+        "7": 38,
+        "8": 0
+      },
+      "score": {
+        "1": 20.716,
+        "2": 7.801,
+        "3": 0.037,
+        "4": 7.978,
+        "5": 0.508,
+        "6": 11.87,
+        "7": 0.017,
+        "8": 11.87
+      }
+    },
+    {
+      "cycle": 50,
+      "active": [
+        1,
+        6,
+        8
+      ],
+      "dead_nodes": [
+        3,
+        5,
+        7
+      ],
+      "functional": [
+        1,
+        6,
+        8
+      ],
+      "forward": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ],
+      "backward": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ],
+      "output": 1.37323,
+      "error": 0.62677,
+      "edges": 14,
+      "max_degree": 5,
+      "hub_order": [
+        1,
+        6,
+        8,
+        4,
+        2
+      ],
+      "dead_streak": {
+        "1": 0,
+        "2": 1,
+        "3": 45,
+        "4": 1,
+        "5": 31,
+        "6": 0,
+        "7": 48,
+        "8": 0
+      },
+      "score": {
+        "1": 22.006,
+        "2": 7.07,
+        "3": 0.01,
+        "4": 7.231,
+        "5": 0.141,
+        "6": 12.604,
+        "7": 0.005,
+        "8": 12.604
+      }
+    },
+    {
+      "cycle": 60,
+      "active": [
+        1,
+        6,
+        8
+      ],
+      "dead_nodes": [
+        3,
+        5,
+        7
+      ],
+      "functional": [
+        1,
+        6,
+        8
+      ],
+      "forward": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ],
+      "backward": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ],
+      "output": 1.37323,
+      "error": 0.62677,
+      "edges": 14,
+      "max_degree": 5,
+      "hub_order": [
+        1,
+        6,
+        8,
+        4,
+        2
+      ],
+      "dead_streak": {
+        "1": 0,
+        "2": 2,
+        "3": 55,
+        "4": 2,
+        "5": 41,
+        "6": 0,
+        "7": 58,
+        "8": 0
+      },
+      "score": {
+        "1": 17.284,
+        "2": 10.279,
+        "3": 0.003,
+        "4": 10.513,
+        "5": 0.039,
+        "6": 9.899,
+        "7": 0.001,
+        "8": 9.899
+      }
+    },
+    {
+      "cycle": 70,
+      "active": [
+        2,
+        4
+      ],
+      "dead_nodes": [
+        3,
+        5,
+        7
+      ],
+      "functional": [
+        2,
+        4
+      ],
+      "forward": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ],
+      "backward": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ],
+      "output": 1.95067,
+      "error": 0.04933,
+      "edges": 14,
+      "max_degree": 5,
+      "hub_order": [
+        1,
+        6,
+        8,
+        4,
+        2
+      ],
+      "dead_streak": {
+        "1": 2,
+        "2": 0,
+        "3": 65,
+        "4": 0,
+        "5": 51,
+        "6": 2,
+        "7": 68,
+        "8": 2
+      },
+      "score": {
+        "1": 16.948,
+        "2": 10.497,
+        "3": 0.001,
+        "4": 10.736,
+        "5": 0.011,
+        "6": 9.706,
+        "7": 0.0,
+        "8": 9.706
+      }
+    },
+    {
+      "cycle": 80,
+      "active": [
+        1,
+        6,
+        8
+      ],
+      "dead_nodes": [
+        3,
+        5,
+        7
+      ],
+      "functional": [
+        1,
+        6,
+        8
+      ],
+      "forward": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ],
+      "backward": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ],
+      "output": 1.37323,
+      "error": 0.62677,
+      "edges": 14,
+      "max_degree": 5,
+      "hub_order": [
+        1,
+        6,
+        8,
+        4,
+        2
+      ],
+      "dead_streak": {
+        "1": 0,
+        "2": 1,
+        "3": 75,
+        "4": 1,
+        "5": 61,
+        "6": 0,
+        "7": 78,
+        "8": 0
+      },
+      "score": {
+        "1": 15.96,
+        "2": 11.119,
+        "3": 0.0,
+        "4": 11.371,
+        "5": 0.003,
+        "6": 9.141,
+        "7": 0.0,
+        "8": 9.141
+      }
+    },
+    {
+      "cycle": 90,
+      "active": [
+        2,
+        4
+      ],
+      "dead_nodes": [
+        3,
+        5,
+        7
+      ],
+      "functional": [
+        2,
+        4
+      ],
+      "forward": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ],
+      "backward": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ],
+      "output": 1.95067,
+      "error": 0.04933,
+      "edges": 14,
+      "max_degree": 5,
+      "hub_order": [
+        1,
+        6,
+        8,
+        4,
+        2
+      ],
+      "dead_streak": {
+        "1": 1,
+        "2": 0,
+        "3": 85,
+        "4": 0,
+        "5": 71,
+        "6": 1,
+        "7": 88,
+        "8": 1
+      },
+      "score": {
+        "1": 20.777,
+        "2": 8.023,
+        "3": 0.0,
+        "4": 8.205,
+        "5": 0.001,
+        "6": 11.899,
+        "7": 0.0,
+        "8": 11.899
+      }
+    },
+    {
+      "cycle": 100,
+      "active": [
+        1,
+        6,
+        8
+      ],
+      "dead_nodes": [
+        3,
+        5,
+        7
+      ],
+      "functional": [
+        1,
+        6,
+        8
+      ],
+      "forward": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ],
+      "backward": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ],
+      "output": 1.37323,
+      "error": 0.62677,
+      "edges": 14,
+      "max_degree": 5,
+      "hub_order": [
+        1,
+        6,
+        8,
+        4,
+        2
+      ],
+      "dead_streak": {
+        "1": 0,
+        "2": 3,
+        "3": 95,
+        "4": 3,
+        "5": 81,
+        "6": 0,
+        "7": 98,
+        "8": 0
+      },
+      "score": {
+        "1": 20.418,
+        "2": 8.326,
+        "3": 0.0,
+        "4": 8.515,
+        "5": 0.0,
+        "6": 11.693,
+        "7": 0.0,
+        "8": 11.693
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": 0,
+      "op": "source",
+      "weight": 0.0,
+      "score": 1.0,
+      "correct": 0,
+      "wrong": 0,
+      "dead": false,
+      "pruned_at": null,
+      "active": false,
+      "functional": false,
+      "degree": 5
+    },
+    {
+      "id": 1,
+      "op": "add",
+      "weight": 0.9198,
+      "score": 20.418,
+      "correct": 56,
+      "wrong": 0,
+      "dead": false,
+      "pruned_at": null,
+      "active": true,
+      "functional": true,
+      "degree": 4
+    },
+    {
+      "id": 2,
+      "op": "add",
+      "weight": 1.0662,
+      "score": 8.326,
+      "correct": 39,
+      "wrong": 0,
+      "dead": false,
+      "pruned_at": null,
+      "active": false,
+      "functional": false,
+      "degree": 3
+    },
+    {
+      "id": 3,
+      "op": "add_bias",
+      "weight": 1.1749,
+      "score": 0.0,
+      "correct": 1,
+      "wrong": 0,
+      "dead": true,
+      "pruned_at": 13,
+      "active": false,
+      "functional": false,
+      "degree": 0
+    },
+    {
+      "id": 4,
+      "op": "add_bias",
+      "weight": 0.8112,
+      "score": 8.515,
+      "correct": 39,
+      "wrong": 0,
+      "dead": false,
+      "pruned_at": null,
+      "active": false,
+      "functional": false,
+      "degree": 3
+    },
+    {
+      "id": 5,
+      "op": "add",
+      "weight": 0.5151,
+      "score": 0.0,
+      "correct": 5,
+      "wrong": 0,
+      "dead": true,
+      "pruned_at": 27,
+      "active": false,
+      "functional": false,
+      "degree": 0
+    },
+    {
+      "id": 6,
+      "op": "mul",
+      "weight": 0.9101,
+      "score": 11.693,
+      "correct": 0,
+      "wrong": 56,
+      "dead": false,
+      "pruned_at": null,
+      "active": true,
+      "functional": true,
+      "degree": 4
+    },
+    {
+      "id": 7,
+      "op": "mul",
+      "weight": 1.4228,
+      "score": 0.0,
+      "correct": 0,
+      "wrong": 1,
+      "dead": true,
+      "pruned_at": 10,
+      "active": false,
+      "functional": false,
+      "degree": 0
+    },
+    {
+      "id": 8,
+      "op": "mul",
+      "weight": 0.6346,
+      "score": 11.693,
+      "correct": 0,
+      "wrong": 56,
+      "dead": false,
+      "pruned_at": null,
+      "active": true,
+      "functional": true,
+      "degree": 4
+    },
+    {
+      "id": 9,
+      "op": "sink",
+      "weight": 0.0,
+      "score": 1.0,
+      "correct": 0,
+      "wrong": 0,
+      "dead": false,
+      "pruned_at": null,
+      "active": false,
+      "functional": false,
+      "degree": 5
+    }
+  ]
+}

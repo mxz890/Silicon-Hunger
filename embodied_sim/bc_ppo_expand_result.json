@@ -1,0 +1,328 @@
+{
+  "seeds": [
+    {
+      "seed": 31000,
+      "stages": [
+        {
+          "stage": "small_1obs",
+          "start_success": 0.86,
+          "final_success": 0.9,
+          "final_steps": 104.72,
+          "best_success": 0.94,
+          "history": [
+            {
+              "update": 0,
+              "success": 0.94,
+              "steps": 105.78,
+              "best": 0.94,
+              "kl": 0.2
+            },
+            {
+              "update": 5,
+              "success": 0.9,
+              "steps": 119.36,
+              "best": 0.94,
+              "kl": 0.1
+            },
+            {
+              "update": 9,
+              "success": 0.9,
+              "steps": 120.4,
+              "best": 0.94,
+              "kl": 0.02
+            }
+          ]
+        },
+        {
+          "stage": "medium_1obs",
+          "start_success": 0.98,
+          "final_success": 0.9,
+          "final_steps": 116.28,
+          "best_success": 0.98,
+          "history": [
+            {
+              "update": 0,
+              "success": 0.92,
+              "steps": 128.96,
+              "best": 0.98,
+              "kl": 0.2
+            },
+            {
+              "update": 5,
+              "success": 0.74,
+              "steps": 159.84,
+              "best": 0.98,
+              "kl": 0.1
+            }
+          ]
+        },
+        {
+          "stage": "medium_2obs",
+          "start_success": 0.92,
+          "final_success": 0.84,
+          "final_steps": 126.94,
+          "best_success": 0.92,
+          "history": [
+            {
+              "update": 0,
+              "success": 0.84,
+              "steps": 140.76,
+              "best": 0.92,
+              "kl": 0.2
+            },
+            {
+              "update": 5,
+              "success": 0.68,
+              "steps": 159.38,
+              "best": 0.92,
+              "kl": 0.1
+            }
+          ]
+        },
+        {
+          "stage": "medium_3obs",
+          "start_success": 0.86,
+          "final_success": 0.7,
+          "final_steps": 150.0,
+          "best_success": 0.86,
+          "history": [
+            {
+              "update": 0,
+              "success": 0.72,
+              "steps": 147.24,
+              "best": 0.86,
+              "kl": 0.2
+            },
+            {
+              "update": 5,
+              "success": 0.44,
+              "steps": 191.22,
+              "best": 0.86,
+              "kl": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 31001,
+      "stages": [
+        {
+          "stage": "small_1obs",
+          "start_success": 0.88,
+          "final_success": 0.9,
+          "final_steps": 108.56,
+          "best_success": 0.88,
+          "history": [
+            {
+              "update": 0,
+              "success": 0.88,
+              "steps": 107.1,
+              "best": 0.88,
+              "kl": 0.2
+            },
+            {
+              "update": 5,
+              "success": 0.84,
+              "steps": 121.9,
+              "best": 0.88,
+              "kl": 0.1
+            }
+          ]
+        },
+        {
+          "stage": "medium_1obs",
+          "start_success": 0.94,
+          "final_success": 0.98,
+          "final_steps": 99.46,
+          "best_success": 0.96,
+          "history": [
+            {
+              "update": 0,
+              "success": 0.96,
+              "steps": 107.84,
+              "best": 0.96,
+              "kl": 0.2
+            },
+            {
+              "update": 5,
+              "success": 0.52,
+              "steps": 185.1,
+              "best": 0.96,
+              "kl": 0.1
+            },
+            {
+              "update": 9,
+              "success": 0.72,
+              "steps": 167.48,
+              "best": 0.96,
+              "kl": 0.02
+            }
+          ]
+        },
+        {
+          "stage": "medium_2obs",
+          "start_success": 0.88,
+          "final_success": 0.82,
+          "final_steps": 124.88,
+          "best_success": 0.88,
+          "history": [
+            {
+              "update": 0,
+              "success": 0.8,
+              "steps": 139.22,
+              "best": 0.88,
+              "kl": 0.2
+            },
+            {
+              "update": 5,
+              "success": 0.44,
+              "steps": 207.6,
+              "best": 0.88,
+              "kl": 0.1
+            }
+          ]
+        },
+        {
+          "stage": "medium_3obs",
+          "start_success": 0.78,
+          "final_success": 0.7,
+          "final_steps": 150.78,
+          "best_success": 0.8,
+          "history": [
+            {
+              "update": 0,
+              "success": 0.8,
+              "steps": 137.94,
+              "best": 0.8,
+              "kl": 0.2
+            },
+            {
+              "update": 5,
+              "success": 0.32,
+              "steps": 211.24,
+              "best": 0.8,
+              "kl": 0.1
+            },
+            {
+              "update": 9,
+              "success": 0.26,
+              "steps": 213.7,
+              "best": 0.8,
+              "kl": 0.02
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 31002,
+      "stages": [
+        {
+          "stage": "small_1obs",
+          "start_success": 0.8,
+          "final_success": 0.92,
+          "final_steps": 109.14,
+          "best_success": 0.96,
+          "history": [
+            {
+              "update": 0,
+              "success": 0.96,
+              "steps": 108.54,
+              "best": 0.96,
+              "kl": 0.2
+            },
+            {
+              "update": 5,
+              "success": 0.92,
+              "steps": 123.02,
+              "best": 0.96,
+              "kl": 0.1
+            },
+            {
+              "update": 9,
+              "success": 0.92,
+              "steps": 112.16,
+              "best": 0.96,
+              "kl": 0.02
+            }
+          ]
+        },
+        {
+          "stage": "medium_1obs",
+          "start_success": 0.92,
+          "final_success": 0.96,
+          "final_steps": 112.34,
+          "best_success": 0.92,
+          "history": [
+            {
+              "update": 0,
+              "success": 0.88,
+              "steps": 128.16,
+              "best": 0.92,
+              "kl": 0.2
+            },
+            {
+              "update": 5,
+              "success": 0.74,
+              "steps": 156.78,
+              "best": 0.92,
+              "kl": 0.1
+            }
+          ]
+        },
+        {
+          "stage": "medium_2obs",
+          "start_success": 0.9,
+          "final_success": 0.8,
+          "final_steps": 134.76,
+          "best_success": 0.9,
+          "history": [
+            {
+              "update": 0,
+              "success": 0.5,
+              "steps": 184.7,
+              "best": 0.9,
+              "kl": 0.2
+            },
+            {
+              "update": 5,
+              "success": 0.44,
+              "steps": 201.32,
+              "best": 0.9,
+              "kl": 0.1
+            }
+          ]
+        },
+        {
+          "stage": "medium_3obs",
+          "start_success": 0.86,
+          "final_success": 0.78,
+          "final_steps": 146.9,
+          "best_success": 0.86,
+          "history": [
+            {
+              "update": 0,
+              "success": 0.64,
+              "steps": 173.34,
+              "best": 0.86,
+              "kl": 0.2
+            },
+            {
+              "update": 5,
+              "success": 0.38,
+              "steps": 203.36,
+              "best": 0.86,
+              "kl": 0.1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "updates": 10,
+  "n_envs": 8,
+  "steps": 256,
+  "val_episodes": 50,
+  "seconds": 195.642
+}

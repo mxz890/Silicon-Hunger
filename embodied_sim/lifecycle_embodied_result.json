@@ -1,0 +1,72 @@
+{
+  "mode": "embodied train->grow->backprop->forget/prune",
+  "grow_per_cycle": 20,
+  "time_unit_s": 0.1,
+  "tau_round_units": 2.0,
+  "history": [
+    {
+      "cycle": 0,
+      "nodes": 520,
+      "alive": 520,
+      "success": 1.0,
+      "steps": 93.85,
+      "round_seconds": 1.9494,
+      "dt_units": 19.494,
+      "pruned": 0,
+      "retention_mean": 0.0001
+    },
+    {
+      "cycle": 1,
+      "nodes": 540,
+      "alive": 540,
+      "success": 1.0,
+      "steps": 93.85,
+      "round_seconds": 0.8429,
+      "dt_units": 8.429,
+      "pruned": 0,
+      "retention_mean": 0.0148
+    },
+    {
+      "cycle": 2,
+      "nodes": 560,
+      "alive": 560,
+      "success": 1.0,
+      "steps": 93.85,
+      "round_seconds": 0.8662,
+      "dt_units": 8.662,
+      "pruned": 0,
+      "retention_mean": 0.0132
+    },
+    {
+      "cycle": 3,
+      "nodes": 580,
+      "alive": 580,
+      "success": 1.0,
+      "steps": 93.95,
+      "round_seconds": 0.9082,
+      "dt_units": 9.082,
+      "pruned": 0,
+      "retention_mean": 0.0107
+    },
+    {
+      "cycle": 4,
+      "nodes": 600,
+      "alive": 599,
+      "success": 1.0,
+      "steps": 93.95,
+      "round_seconds": 0.9157,
+      "dt_units": 9.157,
+      "pruned": 1,
+      "retention_mean": 0.0103
+    },
+    {
+      "cycle": 5,
+      "nodes": 600,
+      "alive": 599,
+      "success": 1.0,
+      "steps": 93.65,
+      "phase": "final"
+    }
+  ],
+  "seconds": 8.274
+}

@@ -1,0 +1,30 @@
+{
+  "nodes": 2000,
+  "seeds": [
+    {
+      "seed": 40000,
+      "expert": 0.96,
+      "bc": 0.85,
+      "dagger": 0.83,
+      "ppo_best": 0.88,
+      "ppo_final": 0.79,
+      "source_success": 0.77,
+      "source_steps": 133.73,
+      "target_success": 0.81,
+      "target_steps": 137.88
+    },
+    {
+      "seed": 40001,
+      "expert": 0.91,
+      "bc": 0.89,
+      "dagger": 0.91,
+      "ppo_best": 0.9,
+      "ppo_final": 0.83,
+      "source_success": 0.79,
+      "source_steps": 142.54,
+      "target_success": 0.78,
+      "target_steps": 140.03
+    }
+  ],
+  "seconds": 276.076
+}

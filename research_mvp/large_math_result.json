@@ -1,0 +1,50 @@
+{
+  "task": "a+b=S, ab=P -> a^2+b^2",
+  "competition_problem": {
+    "statement": "a+b=7, ab=12, find a^2+b^2",
+    "target": 25,
+    "prediction": 24.63947
+  },
+  "graph": {
+    "nodes": 2000,
+    "edges": 9022,
+    "max_edge_distance": 16.2885,
+    "build_seconds": 0.0432
+  },
+  "chemicals": {
+    "names": [
+      "DA",
+      "5HT",
+      "NE",
+      "ACh",
+      "GABA",
+      "Glu"
+    ],
+    "means": {
+      "DA": 0.041404,
+      "5HT": 0.045515,
+      "NE": 0.038781,
+      "ACh": 0.036331,
+      "GABA": 0.042638,
+      "Glu": 0.038695
+    },
+    "gain_min": 1.03655,
+    "gain_max": 1.19505
+  },
+  "dataset": {
+    "train": 900,
+    "test": 300
+  },
+  "metrics": {
+    "mae": 0.23963,
+    "rmse": 0.34907
+  },
+  "timing": {
+    "feature_seconds": 10.8961,
+    "fit_seconds": 0.9565
+  },
+  "output_files": {
+    "result_json": "research_mvp/large_math_result.json",
+    "report": "research_mvp/LARGE_MATH_REPORT.md"
+  }
+}

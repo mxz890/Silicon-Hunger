@@ -1,0 +1,80 @@
+{
+  "graph": {
+    "nodes": 2000,
+    "edges": 9022,
+    "max_edge_distance": 16.2885
+  },
+  "chemicals": {
+    "names": [
+      "DA",
+      "5HT",
+      "NE",
+      "ACh",
+      "GABA",
+      "Glu"
+    ],
+    "means": {
+      "DA": 0.041404,
+      "5HT": 0.045515,
+      "NE": 0.038781,
+      "ACh": 0.036331,
+      "GABA": 0.042638,
+      "Glu": 0.038695
+    },
+    "gain_min": 1.03655,
+    "gain_max": 1.19505
+  },
+  "tasks": {
+    "sum_sq": {
+      "label": "a+b=S, ab=P -> S^2-2P",
+      "mae": 0.16102,
+      "rmse": 0.2228,
+      "relative_mae": 0.00135
+    },
+    "sum_cube": {
+      "label": "a+b=S, ab=P -> S^3-3PS",
+      "mae": 2.39342,
+      "rmse": 3.27545,
+      "relative_mae": 0.00343
+    },
+    "reciprocal": {
+      "label": "x+1/x=S -> S^2-2",
+      "mae": 0.01195,
+      "rmse": 0.01575,
+      "relative_mae": 0.00031
+    },
+    "hypotenuse": {
+      "label": "right triangle a,b -> sqrt(a^2+b^2)",
+      "mae": 0.02759,
+      "rmse": 0.04085,
+      "relative_mae": 0.00238
+    },
+    "linear": {
+      "label": "ax+b=c -> x=(c-b)/a",
+      "mae": 0.36897,
+      "rmse": 0.53668,
+      "relative_mae": 0.12175
+    },
+    "arithmetic": {
+      "label": "a1,d,n -> a1+(n-1)d",
+      "mae": 0.5816,
+      "rmse": 1.19336,
+      "relative_mae": 0.01911
+    }
+  },
+  "competition_problem": {
+    "statement": "a+b=7, ab=12, find a^2+b^2",
+    "target": 25,
+    "prediction": 24.83668
+  },
+  "timing": {
+    "build_seconds": 0.0432,
+    "feature_seconds": 37.085,
+    "fit_seconds": 2.2293
+  },
+  "output_files": {
+    "result_json": "research_mvp/large_math_multi_result.json",
+    "plot": "research_mvp/large_math_multi.png",
+    "report": "research_mvp/LARGE_MATH_MULTI_REPORT.md"
+  }
+}

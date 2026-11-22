@@ -1,0 +1,20 @@
+{
+  "bc_success": 0.53,
+  "bc_steps": 179.67,
+  "ppo_last_success": 0.51,
+  "ppo_last_steps": 178.68,
+  "ppo_best_success": 0.47,
+  "ppo_best_steps": 191.42,
+  "best_update": 0,
+  "strong_target_success": 0.03,
+  "strong_target_steps": 246.48,
+  "updates": 20,
+  "kl_start": 0.2,
+  "kl_end": 0.02,
+  "bc_coef": 0.3,
+  "n_envs": 8,
+  "steps": 256,
+  "target": "small random around (0.5,0.0)",
+  "obstacles": 1,
+  "seconds": 37.938
+}

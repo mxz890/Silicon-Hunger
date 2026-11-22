@@ -1,0 +1,67 @@
+{
+  "nodes": 2000,
+  "seeds": [
+    {
+      "seed": 40000,
+      "expert": 0.87,
+      "bc": 0.61,
+      "dagger": 0.52,
+      "ppo_best": 0.63,
+      "ppo_final": 0.6,
+      "source_success": 0.63,
+      "source_steps": 172.16,
+      "target_success": 0.54,
+      "target_steps": 187.73
+    },
+    {
+      "seed": 40001,
+      "expert": 0.87,
+      "bc": 0.52,
+      "dagger": 0.74,
+      "ppo_best": 0.68,
+      "ppo_final": 0.68,
+      "source_success": 0.62,
+      "source_steps": 178.31,
+      "target_success": 0.6,
+      "target_steps": 175.82
+    },
+    {
+      "seed": 40002,
+      "expert": 0.86,
+      "bc": 0.76,
+      "dagger": 0.64,
+      "ppo_best": 0.6,
+      "ppo_final": 0.48,
+      "source_success": 0.53,
+      "source_steps": 183.15,
+      "target_success": 0.46,
+      "target_steps": 192.78
+    },
+    {
+      "seed": 40003,
+      "expert": 0.88,
+      "bc": 0.56,
+      "dagger": 0.61,
+      "ppo_best": 0.63,
+      "ppo_final": 0.66,
+      "source_success": 0.61,
+      "source_steps": 174.29,
+      "target_success": 0.56,
+      "target_steps": 181.23
+    },
+    {
+      "seed": 40004,
+      "expert": 0.91,
+      "bc": 0.77,
+      "dagger": 0.69,
+      "ppo_best": 0.68,
+      "ppo_final": 0.58,
+      "source_success": 0.59,
+      "source_steps": 174.63,
+      "target_success": 0.58,
+      "target_steps": 180.17
+    }
+  ],
+  "latency_ms_cpu_batch1": 0.2234,
+  "seconds": 501.054
+}

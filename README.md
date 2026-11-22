@@ -1,5 +1,58 @@
 # Silicon Hunger
 
+## 最终具身结果：MZX-0.1
+
+当前主线是 **MZX-0.1 图控制器 + MuJoCo 具身任务**。
+
+~~~text
+模型：MZX-0.1
+节点：1150
+边：5295
+参数：83,193
+环境：MuJoCo 2D 点质量
+~~~
+
+2 障碍最终结果：
+
+| 阶段 | success |
+| --- | ---: |
+| BC/DAgger | 0.85 |
+| +100 生长 | 0.8733 |
+| gated local | 0.8967 |
+| safety layer | 0.92 |
+
+3 障碍固定位置：
+
+~~~text
+BC：0.86
++100 生长：0.93
+~~~
+
+计算效率：
+
+~~~text
+2000 节点 CPU batch1 延迟：0.219 ms
+~~~
+
+结论：
+
+> **参数与计算效率高，2 障碍任务级性能可用；3 障碍明显退化，不是通用具身模型。**
+
+完整总结：
+
+- [MZX 效率总结](embodied_sim/FINAL_MZX_EFFICIENCY_SUMMARY.md)
+- [2 障碍主基线](embodied_sim/MAIN_BASELINES_REPORT.md)
+- [gated local 收口](embodied_sim/GATED_LOCAL_FINAL_REPORT.md)
+- [安全层阈值](embodied_sim/SAFETY_THRESHOLD_I_REPORT.md)
+
+---
+
+## 历史分支
+
+下面的 7D 状态机 / LLM 路线是早期工作，已归档；当前主线以具身结果为准。
+
+# Silicon Hunger
+
 一个会饥饿、会焦虑、会死亡的 7D 状态机，接在一个语言模型前面。
 
 状态机负责能量、焦虑、无聊、熵和疼痛；语言模型负责说话。

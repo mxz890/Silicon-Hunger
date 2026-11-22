@@ -1,0 +1,11 @@
+{
+  "baseline_success": 0.48,
+  "baseline_steps": 185.89,
+  "trigger_samples": 3044,
+  "triggers": 2810,
+  "triggered_dagger_success": 0.88,
+  "triggered_dagger_steps": 123.86,
+  "shield_success": 0.84,
+  "shield_steps": 125.2,
+  "seconds": 11.421
+}

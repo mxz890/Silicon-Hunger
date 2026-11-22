@@ -1,0 +1,70 @@
+{
+  "nodes": 2000,
+  "cycles": 5,
+  "bc_before": 0.88,
+  "dagger_before": 0.79,
+  "after_lifecycle": 0.83,
+  "cycle_log": [
+    {
+      "cycle": 0,
+      "nodes": 2010,
+      "alive": 2001,
+      "success": 0.84,
+      "steps": 138.59,
+      "grew": 10,
+      "pruned": 9,
+      "dt": 129.332
+    },
+    {
+      "cycle": 1,
+      "nodes": 2020,
+      "alive": 1998,
+      "success": 0.83,
+      "steps": 130.43,
+      "grew": 10,
+      "pruned": 13,
+      "dt": 125.6
+    },
+    {
+      "cycle": 2,
+      "nodes": 2030,
+      "alive": 1998,
+      "success": 0.81,
+      "steps": 136.19,
+      "grew": 10,
+      "pruned": 10,
+      "dt": 126.436
+    },
+    {
+      "cycle": 3,
+      "nodes": 2040,
+      "alive": 1991,
+      "success": 0.84,
+      "steps": 129.18,
+      "grew": 10,
+      "pruned": 17,
+      "dt": 126.177
+    },
+    {
+      "cycle": 4,
+      "nodes": 2050,
+      "alive": 1988,
+      "success": 0.83,
+      "steps": 138.02,
+      "grew": 10,
+      "pruned": 13,
+      "dt": 126.718
+    }
+  ],
+  "ppo": {
+    "bc": 0.87,
+    "best": 0.87,
+    "final": 0.88,
+    "final_steps": 137.67
+  },
+  "source": 0.88,
+  "source_steps": 125.54,
+  "target": 0.76,
+  "target_steps": 142.26,
+  "seconds": 227.66
+}

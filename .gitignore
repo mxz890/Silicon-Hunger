@@ -9,10 +9,15 @@ __pycache__/
 # Model weights and Hugging Face caches
 modelscope_cache/
 hf_cache/
+wheels/
 *.safetensors
 *.bin
 *.pt
 *.pth
+
+# Logs
+*.log
+*_log.txt
 
 # Local Streamlit credentials
 .streamlit/credentials.toml

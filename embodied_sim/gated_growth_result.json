@@ -1,0 +1,286 @@
+{
+  "seeds": [
+    {
+      "seed": 55000,
+      "base": 0.53,
+      "conditions": {
+        "G1_output": [
+          {
+            "round": 0,
+            "nodes": 500,
+            "alive": 500,
+            "before": 0.56,
+            "after": 0.62,
+            "contrib": 0.00014,
+            "accepted": false
+          },
+          {
+            "round": 1,
+            "nodes": 500,
+            "alive": 500,
+            "before": 0.43,
+            "after": 0.55,
+            "contrib": 0.00014,
+            "accepted": false
+          },
+          {
+            "round": 2,
+            "nodes": 500,
+            "alive": 500,
+            "before": 0.49,
+            "after": 0.56,
+            "contrib": 0.00015,
+            "accepted": false
+          }
+        ],
+        "G2_local": [
+          {
+            "round": 0,
+            "nodes": 520,
+            "alive": 520,
+            "before": 0.56,
+            "after": 0.62,
+            "contrib": 0.00142,
+            "accepted": true
+          },
+          {
+            "round": 1,
+            "nodes": 540,
+            "alive": 540,
+            "before": 0.43,
+            "after": 0.55,
+            "contrib": 0.00142,
+            "accepted": true
+          },
+          {
+            "round": 2,
+            "nodes": 560,
+            "alive": 560,
+            "before": 0.49,
+            "after": 0.56,
+            "contrib": 0.00135,
+            "accepted": true
+          }
+        ],
+        "G3_gated_local": [
+          {
+            "round": 0,
+            "nodes": 500,
+            "alive": 500,
+            "before": 0.56,
+            "after": 0.62,
+            "contrib": 0.00014,
+            "accepted": false
+          },
+          {
+            "round": 1,
+            "nodes": 500,
+            "alive": 500,
+            "before": 0.43,
+            "after": 0.55,
+            "contrib": 0.00015,
+            "accepted": false
+          },
+          {
+            "round": 2,
+            "nodes": 500,
+            "alive": 500,
+            "before": 0.49,
+            "after": 0.56,
+            "contrib": 0.00015,
+            "accepted": false
+          }
+        ]
+      }
+    },
+    {
+      "seed": 55001,
+      "base": 0.5,
+      "conditions": {
+        "G1_output": [
+          {
+            "round": 0,
+            "nodes": 500,
+            "alive": 500,
+            "before": 0.34,
+            "after": 0.52,
+            "contrib": 0.00017,
+            "accepted": false
+          },
+          {
+            "round": 1,
+            "nodes": 500,
+            "alive": 500,
+            "before": 0.45,
+            "after": 0.53,
+            "contrib": 0.00016,
+            "accepted": false
+          },
+          {
+            "round": 2,
+            "nodes": 500,
+            "alive": 500,
+            "before": 0.42,
+            "after": 0.5,
+            "contrib": 0.00016,
+            "accepted": false
+          }
+        ],
+        "G2_local": [
+          {
+            "round": 0,
+            "nodes": 520,
+            "alive": 520,
+            "before": 0.34,
+            "after": 0.52,
+            "contrib": 0.00165,
+            "accepted": true
+          },
+          {
+            "round": 1,
+            "nodes": 540,
+            "alive": 540,
+            "before": 0.45,
+            "after": 0.53,
+            "contrib": 0.00163,
+            "accepted": true
+          },
+          {
+            "round": 2,
+            "nodes": 560,
+            "alive": 560,
+            "before": 0.42,
+            "after": 0.5,
+            "contrib": 0.00171,
+            "accepted": true
+          }
+        ],
+        "G3_gated_local": [
+          {
+            "round": 0,
+            "nodes": 500,
+            "alive": 500,
+            "before": 0.34,
+            "after": 0.52,
+            "contrib": 0.00017,
+            "accepted": false
+          },
+          {
+            "round": 1,
+            "nodes": 500,
+            "alive": 500,
+            "before": 0.45,
+            "after": 0.53,
+            "contrib": 0.00016,
+            "accepted": false
+          },
+          {
+            "round": 2,
+            "nodes": 500,
+            "alive": 500,
+            "before": 0.42,
+            "after": 0.5,
+            "contrib": 0.00018,
+            "accepted": false
+          }
+        ]
+      }
+    },
+    {
+      "seed": 55002,
+      "base": 0.44,
+      "conditions": {
+        "G1_output": [
+          {
+            "round": 0,
+            "nodes": 500,
+            "alive": 500,
+            "before": 0.48,
+            "after": 0.51,
+            "contrib": 0.00014,
+            "accepted": false
+          },
+          {
+            "round": 1,
+            "nodes": 500,
+            "alive": 500,
+            "before": 0.46,
+            "after": 0.47,
+            "contrib": 0.00013,
+            "accepted": false
+          },
+          {
+            "round": 2,
+            "nodes": 500,
+            "alive": 500,
+            "before": 0.5,
+            "after": 0.46,
+            "contrib": 0.00014,
+            "accepted": false
+          }
+        ],
+        "G2_local": [
+          {
+            "round": 0,
+            "nodes": 520,
+            "alive": 520,
+            "before": 0.48,
+            "after": 0.51,
+            "contrib": 0.00141,
+            "accepted": true
+          },
+          {
+            "round": 1,
+            "nodes": 540,
+            "alive": 540,
+            "before": 0.46,
+            "after": 0.47,
+            "contrib": 0.00144,
+            "accepted": true
+          },
+          {
+            "round": 2,
+            "nodes": 540,
+            "alive": 540,
+            "before": 0.5,
+            "after": 0.46,
+            "contrib": 0.00135,
+            "accepted": false
+          }
+        ],
+        "G3_gated_local": [
+          {
+            "round": 0,
+            "nodes": 500,
+            "alive": 500,
+            "before": 0.48,
+            "after": 0.51,
+            "contrib": 0.00013,
+            "accepted": false
+          },
+          {
+            "round": 1,
+            "nodes": 500,
+            "alive": 500,
+            "before": 0.46,
+            "after": 0.47,
+            "contrib": 0.00014,
+            "accepted": false
+          },
+          {
+            "round": 2,
+            "nodes": 500,
+            "alive": 500,
+            "before": 0.5,
+            "after": 0.46,
+            "contrib": 0.00014,
+            "accepted": false
+          }
+        ]
+      }
+    }
+  ],
+  "rounds": 3,
+  "grow": 20,
+  "seconds": 359.571
+}

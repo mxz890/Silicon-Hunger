@@ -1,0 +1,11 @@
+{
+  "lifecycle_nodes": 550,
+  "alive": 550,
+  "stage1_one_obstacle": 0.2,
+  "stage1_steps": 220.25,
+  "three_obstacles_success": 0.1,
+  "three_obstacles_steps": 241.45,
+  "target_success": 0.25,
+  "target_steps": 219.05,
+  "seconds": 28.869
+}

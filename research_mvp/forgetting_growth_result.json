@@ -1,0 +1,85 @@
+{
+  "mode": "grow + backprop + forgetting prune",
+  "K": 8,
+  "grow_per_cycle": 20,
+  "time_unit_s": 0.1,
+  "tau_round_units": 1.5,
+  "history": [
+    {
+      "cycle": 0,
+      "nodes": 2020,
+      "alive": 2020,
+      "val_mae": 19.69739,
+      "test_mae": 18.33795,
+      "round_seconds": 1.4147,
+      "dt_units": 14.147,
+      "pruned": 0,
+      "retention_mean": 0.0001
+    },
+    {
+      "cycle": 1,
+      "nodes": 2040,
+      "alive": 2040,
+      "val_mae": 22.56829,
+      "test_mae": 21.86302,
+      "round_seconds": 0.2935,
+      "dt_units": 2.935,
+      "pruned": 0,
+      "retention_mean": 0.1413
+    },
+    {
+      "cycle": 2,
+      "nodes": 2060,
+      "alive": 2060,
+      "val_mae": 23.58522,
+      "test_mae": 23.34128,
+      "round_seconds": 0.3109,
+      "dt_units": 3.109,
+      "pruned": 0,
+      "retention_mean": 0.1258
+    },
+    {
+      "cycle": 3,
+      "nodes": 2080,
+      "alive": 2079,
+      "val_mae": 23.61607,
+      "test_mae": 22.02933,
+      "round_seconds": 0.3019,
+      "dt_units": 3.019,
+      "pruned": 1,
+      "retention_mean": 0.1336
+    },
+    {
+      "cycle": 4,
+      "nodes": 2100,
+      "alive": 2095,
+      "val_mae": 27.74225,
+      "test_mae": 25.37568,
+      "round_seconds": 0.3088,
+      "dt_units": 3.088,
+      "pruned": 4,
+      "retention_mean": 0.1276
+    },
+    {
+      "cycle": 5,
+      "nodes": 2120,
+      "alive": 2115,
+      "val_mae": 23.90118,
+      "test_mae": 26.08618,
+      "round_seconds": 0.3107,
+      "dt_units": 3.107,
+      "pruned": 0,
+      "retention_mean": 0.1257
+    },
+    {
+      "cycle": 6,
+      "nodes": 2120,
+      "alive": 2115,
+      "val_mae": 18.54784,
+      "test_mae": 16.55119,
+      "round_seconds": 0.0,
+      "pruned": 0
+    }
+  ],
+  "seconds": 3.379
+}

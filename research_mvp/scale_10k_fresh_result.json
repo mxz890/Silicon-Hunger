@@ -1,0 +1,25 @@
+{
+  "mode": "fresh 10000-node graph (not grown from 2000 seed)",
+  "nodes": 10000,
+  "edges": 40105,
+  "output_indegree": 120,
+  "math": {
+    "test_mae": 0.31333,
+    "test_rmse": 0.63782,
+    "prediction": 25.44105
+  },
+  "chinese": {
+    "task": "real next-character prediction (Lu Xun corpus)",
+    "test_accuracy": 0.07,
+    "vocab_size": 64
+  },
+  "chemicals": {
+    "gain_min": 1.04085,
+    "gain_max": 1.19943
+  },
+  "seconds": 82.578,
+  "output_files": {
+    "result_json": "research_mvp/scale_10k_fresh_result.json",
+    "report": "research_mvp/SCALE_10K_FRESH_REPORT.md"
+  }
+}

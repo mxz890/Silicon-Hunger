@@ -1,0 +1,91 @@
+{
+  "seeds": [
+    {
+      "seed": 62100,
+      "base": 0.83,
+      "base_steps": 132.71,
+      "history": [
+        {
+          "round": 0,
+          "nodes": 1050,
+          "success": 0.87,
+          "contrib": 0.000636,
+          "accepted": true
+        },
+        {
+          "round": 1,
+          "nodes": 1100,
+          "success": 0.9,
+          "contrib": 0.000627,
+          "accepted": true
+        },
+        {
+          "round": 2,
+          "nodes": 1150,
+          "success": 0.89,
+          "contrib": 0.000638,
+          "accepted": true
+        }
+      ]
+    },
+    {
+      "seed": 62101,
+      "base": 0.84,
+      "base_steps": 128.78,
+      "history": [
+        {
+          "round": 0,
+          "nodes": 1050,
+          "success": 0.9,
+          "contrib": 0.000597,
+          "accepted": true
+        },
+        {
+          "round": 1,
+          "nodes": 1100,
+          "success": 0.89,
+          "contrib": 0.000624,
+          "accepted": true
+        },
+        {
+          "round": 2,
+          "nodes": 1150,
+          "success": 0.85,
+          "contrib": 0.000595,
+          "accepted": true
+        }
+      ]
+    },
+    {
+      "seed": 62102,
+      "base": 0.9,
+      "base_steps": 129.07,
+      "history": [
+        {
+          "round": 0,
+          "nodes": 1050,
+          "success": 0.89,
+          "contrib": 0.000602,
+          "accepted": true
+        },
+        {
+          "round": 1,
+          "nodes": 1100,
+          "success": 0.85,
+          "contrib": 0.000597,
+          "accepted": true
+        },
+        {
+          "round": 2,
+          "nodes": 1150,
+          "success": 0.89,
+          "contrib": 0.000627,
+          "accepted": true
+        }
+      ]
+    }
+  ],
+  "threshold": 0.0001,
+  "grow": 50,
+  "seconds": 67.323
+}

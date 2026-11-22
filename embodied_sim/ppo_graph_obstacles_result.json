@@ -1,0 +1,172 @@
+{
+  "graph_nodes": 500,
+  "K": 6,
+  "obs_dim": 12,
+  "updates": 40,
+  "final_success": 0.04,
+  "final_steps": 247.08,
+  "collisions": 142,
+  "seconds": 66.061,
+  "history": [
+    {
+      "update": 0,
+      "reward": -1.3705
+    },
+    {
+      "update": 1,
+      "reward": -1.7139
+    },
+    {
+      "update": 2,
+      "reward": -1.3084
+    },
+    {
+      "update": 3,
+      "reward": -2.0491
+    },
+    {
+      "update": 4,
+      "reward": -2.2104
+    },
+    {
+      "update": 5,
+      "reward": -1.6835
+    },
+    {
+      "update": 6,
+      "reward": -2.0383
+    },
+    {
+      "update": 7,
+      "reward": -2.5656
+    },
+    {
+      "update": 8,
+      "reward": -1.9489
+    },
+    {
+      "update": 9,
+      "reward": -2.1358
+    },
+    {
+      "update": 10,
+      "reward": -1.51
+    },
+    {
+      "update": 11,
+      "reward": -1.8448
+    },
+    {
+      "update": 12,
+      "reward": -2.1836
+    },
+    {
+      "update": 13,
+      "reward": -1.9611
+    },
+    {
+      "update": 14,
+      "reward": -1.6588
+    },
+    {
+      "update": 15,
+      "reward": -1.8465
+    },
+    {
+      "update": 16,
+      "reward": -1.8404
+    },
+    {
+      "update": 17,
+      "reward": -2.0117
+    },
+    {
+      "update": 18,
+      "reward": -2.0177
+    },
+    {
+      "update": 19,
+      "reward": -1.9808
+    },
+    {
+      "update": 20,
+      "reward": -1.8544
+    },
+    {
+      "update": 21,
+      "reward": -1.5999
+    },
+    {
+      "update": 22,
+      "reward": -2.1071
+    },
+    {
+      "update": 23,
+      "reward": -2.2669
+    },
+    {
+      "update": 24,
+      "reward": -1.7367
+    },
+    {
+      "update": 25,
+      "reward": -1.9556
+    },
+    {
+      "update": 26,
+      "reward": -1.3305
+    },
+    {
+      "update": 27,
+      "reward": -1.5698
+    },
+    {
+      "update": 28,
+      "reward": -1.6292
+    },
+    {
+      "update": 29,
+      "reward": -1.7004
+    },
+    {
+      "update": 30,
+      "reward": -1.4302
+    },
+    {
+      "update": 31,
+      "reward": -1.8354
+    },
+    {
+      "update": 32,
+      "reward": -1.4646
+    },
+    {
+      "update": 33,
+      "reward": -2.4988
+    },
+    {
+      "update": 34,
+      "reward": -1.713
+    },
+    {
+      "update": 35,
+      "reward": -1.804
+    },
+    {
+      "update": 36,
+      "reward": -1.6887
+    },
+    {
+      "update": 37,
+      "reward": -2.0859
+    },
+    {
+      "update": 38,
+      "reward": -2.1407
+    },
+    {
+      "update": 39,
+      "reward": -1.9341
+    }
+  ]
+}

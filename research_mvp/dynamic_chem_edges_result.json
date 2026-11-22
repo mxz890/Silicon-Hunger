@@ -1,0 +1,204 @@
+{
+  "nodes": 2000,
+  "edges": 9022,
+  "rounds": 10,
+  "history": [
+    {
+      "round": 0,
+      "math_mae": 0.24422,
+      "chinese_acc": 0.105,
+      "active_edges": 7747,
+      "mean_weight": 0.15211,
+      "chem": {
+        "DA": 0.05,
+        "5HT": 0.05,
+        "NE": 0.05,
+        "ACh": 0.05,
+        "GABA": 0.05,
+        "Glu": 0.05
+      },
+      "gate_mean": 0.3154
+    },
+    {
+      "round": 1,
+      "math_mae": 0.2869,
+      "chinese_acc": 0.1,
+      "active_edges": 7857,
+      "mean_weight": 0.15689,
+      "chem": {
+        "DA": 0.06732,
+        "5HT": 0.04857,
+        "NE": 0.04857,
+        "ACh": 0.04857,
+        "GABA": 0.04857,
+        "Glu": 0.06196
+      },
+      "gate_mean": 0.32674
+    },
+    {
+      "round": 2,
+      "math_mae": 0.1531,
+      "chinese_acc": 0.095,
+      "active_edges": 7961,
+      "mean_weight": 0.16197,
+      "chem": {
+        "DA": 0.0847,
+        "5HT": 0.04719,
+        "NE": 0.04719,
+        "ACh": 0.04719,
+        "GABA": 0.04719,
+        "Glu": 0.07399
+      },
+      "gate_mean": 0.33834
+    },
+    {
+      "round": 3,
+      "math_mae": 0.08448,
+      "chinese_acc": 0.1,
+      "active_edges": 8081,
+      "mean_weight": 0.16685,
+      "chem": {
+        "DA": 0.10048,
+        "5HT": 0.04584,
+        "NE": 0.04584,
+        "ACh": 0.04584,
+        "GABA": 0.04584,
+        "Glu": 0.08487
+      },
+      "gate_mean": 0.34905
+    },
+    {
+      "round": 4,
+      "math_mae": 0.11391,
+      "chinese_acc": 0.1,
+      "active_edges": 8166,
+      "mean_weight": 0.17217,
+      "chem": {
+        "DA": 0.11686,
+        "5HT": 0.04453,
+        "NE": 0.04453,
+        "ACh": 0.04453,
+        "GABA": 0.04453,
+        "Glu": 0.09619
+      },
+      "gate_mean": 0.36031
+    },
+    {
+      "round": 5,
+      "math_mae": 0.15623,
+      "chinese_acc": 0.11,
+      "active_edges": 8263,
+      "mean_weight": 0.17769,
+      "chem": {
+        "DA": 0.13299,
+        "5HT": 0.04326,
+        "NE": 0.04326,
+        "ACh": 0.04326,
+        "GABA": 0.04326,
+        "Glu": 0.10735
+      },
+      "gate_mean": 0.37156
+    },
+    {
+      "round": 6,
+      "math_mae": 0.15157,
+      "chinese_acc": 0.095,
+      "active_edges": 8360,
+      "mean_weight": 0.18354,
+      "chem": {
+        "DA": 0.1493,
+        "5HT": 0.04203,
+        "NE": 0.04203,
+        "ACh": 0.04203,
+        "GABA": 0.04203,
+        "Glu": 0.11865
+      },
+      "gate_mean": 0.38306
+    },
+    {
+      "round": 7,
+      "math_mae": 0.0894,
+      "chinese_acc": 0.09,
+      "active_edges": 8447,
+      "mean_weight": 0.18958,
+      "chem": {
+        "DA": 0.16536,
+        "5HT": 0.04083,
+        "NE": 0.04083,
+        "ACh": 0.04083,
+        "GABA": 0.04083,
+        "Glu": 0.12978
+      },
+      "gate_mean": 0.39451
+    },
+    {
+      "round": 8,
+      "math_mae": 0.13335,
+      "chinese_acc": 0.09,
+      "active_edges": 8532,
+      "mean_weight": 0.19525,
+      "chem": {
+        "DA": 0.17967,
+        "5HT": 0.03967,
+        "NE": 0.03967,
+        "ACh": 0.03967,
+        "GABA": 0.03967,
+        "Glu": 0.13967
+      },
+      "gate_mean": 0.40483
+    },
+    {
+      "round": 9,
+      "math_mae": 0.09863,
+      "chinese_acc": 0.09,
+      "active_edges": 8608,
+      "mean_weight": 0.20115,
+      "chem": {
+        "DA": 0.19398,
+        "5HT": 0.03854,
+        "NE": 0.03854,
+        "ACh": 0.03854,
+        "GABA": 0.03854,
+        "Glu": 0.14957
+      },
+      "gate_mean": 0.41523
+    },
+    {
+      "round": 10,
+      "math_mae": 0.1036,
+      "chinese_acc": 0.08,
+      "active_edges": 8687,
+      "mean_weight": 0.2076,
+      "chem": {
+        "DA": 0.209,
+        "5HT": 0.03744,
+        "NE": 0.03744,
+        "ACh": 0.03744,
+        "GABA": 0.03744,
+        "Glu": 0.15998
+      },
+      "gate_mean": 0.4262
+    }
+  ],
+  "final": {
+    "round": 10,
+    "math_mae": 0.1036,
+    "chinese_acc": 0.08,
+    "active_edges": 8687,
+    "mean_weight": 0.2076,
+    "chem": {
+      "DA": 0.209,
+      "5HT": 0.03744,
+      "NE": 0.03744,
+      "ACh": 0.03744,
+      "GABA": 0.03744,
+      "Glu": 0.15998
+    },
+    "gate_mean": 0.4262
+  },
+  "seconds": 135.249,
+  "output_files": {
+    "result_json": "research_mvp/dynamic_chem_edges_result.json",
+    "report": "research_mvp/DYNAMIC_CHEM_EDGES_REPORT.md"
+  }
+}

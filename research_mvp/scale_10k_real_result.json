@@ -1,0 +1,114 @@
+{
+  "seed_nodes": 2000,
+  "final_nodes": 10000,
+  "final_edges": 56212,
+  "new_nodes_enter_output": true,
+  "output_node": 9999,
+  "output_indegree": 8003,
+  "stages": [
+    {
+      "round": 1,
+      "nodes": 2800,
+      "edges": 13021,
+      "output_indegree": 803,
+      "math_mae": 1.54454,
+      "chinese_acc": 0.1
+    },
+    {
+      "round": 2,
+      "nodes": 3600,
+      "edges": 17020,
+      "output_indegree": 803,
+      "math_mae": 1.67505,
+      "chinese_acc": 0.1667
+    },
+    {
+      "round": 3,
+      "nodes": 4400,
+      "edges": 21019,
+      "output_indegree": 803,
+      "math_mae": 67.39304,
+      "chinese_acc": 0.0667
+    },
+    {
+      "round": 4,
+      "nodes": 5200,
+      "edges": 25018,
+      "output_indegree": 803,
+      "math_mae": 0.7092,
+      "chinese_acc": 0.1
+    },
+    {
+      "round": 5,
+      "nodes": 6000,
+      "edges": 29017,
+      "output_indegree": 803,
+      "math_mae": 0.49019,
+      "chinese_acc": 0.0667
+    },
+    {
+      "round": 6,
+      "nodes": 6800,
+      "edges": 33016,
+      "output_indegree": 803,
+      "math_mae": 10.73308,
+      "chinese_acc": 0.1
+    },
+    {
+      "round": 7,
+      "nodes": 7600,
+      "edges": 37015,
+      "output_indegree": 803,
+      "math_mae": 1.20495,
+      "chinese_acc": 0.0333
+    },
+    {
+      "round": 8,
+      "nodes": 8400,
+      "edges": 41014,
+      "output_indegree": 803,
+      "math_mae": 0.80101,
+      "chinese_acc": 0.0333
+    },
+    {
+      "round": 9,
+      "nodes": 9200,
+      "edges": 45013,
+      "output_indegree": 803,
+      "math_mae": 2.04657,
+      "chinese_acc": 0.0333
+    },
+    {
+      "round": 10,
+      "nodes": 10000,
+      "edges": 49012,
+      "output_indegree": 803,
+      "math_mae": 42.50634,
+      "chinese_acc": 0.0667
+    }
+  ],
+  "math": {
+    "test_mae": 0.10894,
+    "test_rmse": 0.2354,
+    "prediction": 25.03728
+  },
+  "chinese": {
+    "task": "real next-character prediction (Lu Xun corpus)",
+    "test_accuracy": 0.0667,
+    "vocab_size": 64
+  },
+  "data": {
+    "source": "research_mvp/data/luxun_corpus.txt",
+    "stories": [
+      "狂人日记",
+      "孔乙己",
+      "故乡",
+      "药"
+    ]
+  },
+  "seconds": 131.679,
+  "output_files": {
+    "result_json": "research_mvp/scale_10k_real_result.json",
+    "report": "research_mvp/SCALE_10K_REAL_REPORT.md"
+  }
+}

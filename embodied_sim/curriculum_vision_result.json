@@ -1,0 +1,12 @@
+{
+  "graph_nodes": 2000,
+  "image_size": 32,
+  "n_envs": 4,
+  "demo_samples": 3200,
+  "stage0_success": 0.4,
+  "stage1_success": 0.05,
+  "target_success": 0.0,
+  "stage1_steps": 241.3,
+  "target_steps": 250.0,
+  "seconds": 44.826
+}

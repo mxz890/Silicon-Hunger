@@ -1,0 +1,9 @@
+{
+  "expert": 0.84,
+  "samples": 43875,
+  "bc_initial": 0.86,
+  "bc_steps": 161.25,
+  "final": 0.86,
+  "final_steps": 162.08,
+  "seconds": 117.338
+}

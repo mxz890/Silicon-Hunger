@@ -1,0 +1,186 @@
+{
+  "graph": {
+    "nodes": 2000,
+    "edges": 9022
+  },
+  "results": [
+    {
+      "mode": "no_chem",
+      "history": [
+        {
+          "round": 0,
+          "math_mae": 0.88766,
+          "chinese_acc": 0.06,
+          "active_edges": 9022
+        },
+        {
+          "round": 1,
+          "math_mae": 0.88766,
+          "chinese_acc": 0.06,
+          "active_edges": 9022
+        },
+        {
+          "round": 2,
+          "math_mae": 0.88766,
+          "chinese_acc": 0.06,
+          "active_edges": 9022
+        },
+        {
+          "round": 3,
+          "math_mae": 0.88766,
+          "chinese_acc": 0.06,
+          "active_edges": 9022
+        },
+        {
+          "round": 4,
+          "math_mae": 0.88766,
+          "chinese_acc": 0.06,
+          "active_edges": 9022
+        },
+        {
+          "round": 5,
+          "math_mae": 0.88766,
+          "chinese_acc": 0.06,
+          "active_edges": 9022
+        },
+        {
+          "round": 6,
+          "math_mae": 0.88766,
+          "chinese_acc": 0.06,
+          "active_edges": 9022
+        },
+        {
+          "round": 7,
+          "math_mae": 0.88766,
+          "chinese_acc": 0.06,
+          "active_edges": 9022
+        },
+        {
+          "round": 8,
+          "math_mae": 0.88766,
+          "chinese_acc": 0.06,
+          "active_edges": 9022
+        }
+      ]
+    },
+    {
+      "mode": "broadcast",
+      "history": [
+        {
+          "round": 0,
+          "math_mae": 0.17194,
+          "chinese_acc": 0.1,
+          "active_edges": 7672
+        },
+        {
+          "round": 1,
+          "math_mae": 0.22287,
+          "chinese_acc": 0.0933,
+          "active_edges": 7816
+        },
+        {
+          "round": 2,
+          "math_mae": 0.09078,
+          "chinese_acc": 0.0933,
+          "active_edges": 7962
+        },
+        {
+          "round": 3,
+          "math_mae": 0.12412,
+          "chinese_acc": 0.1,
+          "active_edges": 8090
+        },
+        {
+          "round": 4,
+          "math_mae": 0.16574,
+          "chinese_acc": 0.1067,
+          "active_edges": 8213
+        },
+        {
+          "round": 5,
+          "math_mae": 0.11743,
+          "chinese_acc": 0.1067,
+          "active_edges": 8347
+        },
+        {
+          "round": 6,
+          "math_mae": 0.06631,
+          "chinese_acc": 0.1133,
+          "active_edges": 8459
+        },
+        {
+          "round": 7,
+          "math_mae": 0.11415,
+          "chinese_acc": 0.1133,
+          "active_edges": 8576
+        },
+        {
+          "round": 8,
+          "math_mae": 0.09272,
+          "chinese_acc": 0.1133,
+          "active_edges": 8664
+        }
+      ]
+    },
+    {
+      "mode": "credit",
+      "history": [
+        {
+          "round": 0,
+          "math_mae": 0.17754,
+          "chinese_acc": 0.1,
+          "active_edges": 7739
+        },
+        {
+          "round": 1,
+          "math_mae": 0.17797,
+          "chinese_acc": 0.1,
+          "active_edges": 7734
+        },
+        {
+          "round": 2,
+          "math_mae": 0.17716,
+          "chinese_acc": 0.1,
+          "active_edges": 7737
+        },
+        {
+          "round": 3,
+          "math_mae": 0.17735,
+          "chinese_acc": 0.1,
+          "active_edges": 7733
+        },
+        {
+          "round": 4,
+          "math_mae": 0.17969,
+          "chinese_acc": 0.1,
+          "active_edges": 7739
+        },
+        {
+          "round": 5,
+          "math_mae": 0.18334,
+          "chinese_acc": 0.0933,
+          "active_edges": 7735
+        },
+        {
+          "round": 6,
+          "math_mae": 0.18577,
+          "chinese_acc": 0.0933,
+          "active_edges": 7730
+        },
+        {
+          "round": 7,
+          "math_mae": 0.20122,
+          "chinese_acc": 0.0933,
+          "active_edges": 7731
+        },
+        {
+          "round": 8,
+          "math_mae": 0.23742,
+          "chinese_acc": 0.0933,
+          "active_edges": 7725
+        }
+      ]
+    }
+  ],
+  "seconds": 268.559
+}

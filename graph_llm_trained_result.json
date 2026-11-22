@@ -1,0 +1,41 @@
+{
+  "model": "Qwen2.5-3B base",
+  "graph": {
+    "nodes": 10000,
+    "edges": 40105
+  },
+  "train_examples": 8,
+  "test_examples": 4,
+  "steps": 24,
+  "test_loss": {
+    "graph_adapter": 2.3574,
+    "constant_adapter": 2.2729
+  },
+  "samples": [
+    {
+      "prompt": "你现在感觉怎么样？",
+      "baseline": "you？\nHow do you feel？\n答案:\nA\n\n下列关于细胞结构和功能的叙述，正确的是____\nA. 细胞膜上的受体是细胞间信息交流所必需的结构\nB. �",
+      "graph_adapter": "",
+      "constant_adapter": ""
+    },
+    {
+      "prompt": "什么是疼痛？",
+      "baseline": "有哪些？ 疼痛是机体对各种伤害性刺激的一种保护性反应，是机体对伤害性刺激的一种主观感觉。疼痛的分类：按性质分：钝痛、锐痛、刺痛、灼痛",
+      "graph_adapter": "",
+      "constant_adapter": ""
+    },
+    {
+      "prompt": "如果一直失败，你会怎么做？",
+      "baseline": "和失落，但这是成长和学习的机会。以下是一些可能的应对策略：\n\n1. **分析原因**：首先，尝试找出失败的原因。是因为方法不正确、资源不足还是其他因素？",
+      "graph_adapter": "",
+      "constant_adapter": ""
+    },
+    {
+      "prompt": "为什么要睡觉？",
+      "baseline": "？\n睡觉是人类生命活动中不可或缺的一部分，它对我们的身体和心理健康都有重要的影响。以下是睡觉的一些好处：\n\n1. 修复和恢复：睡眠有助于身体的修复和恢复。在睡眠期间，身体会进行自我",
+      "graph_adapter": "",
+      "constant_adapter": "。"
+    }
+  ],
+  "seconds": 71.377
+}

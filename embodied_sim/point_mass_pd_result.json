@@ -1,0 +1,9 @@
+{
+  "env": "MuJoCo point_mass",
+  "policy": "PD",
+  "episodes": 100,
+  "success_rate": 1.0,
+  "mean_steps": 94.64,
+  "mean_return": -66.3961,
+  "seconds": 0.262
+}

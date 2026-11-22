@@ -1,0 +1,43 @@
+{
+  "baseline": 0.89,
+  "baseline_steps": 121.08,
+  "rows": [
+    {
+      "threshold": 0.0,
+      "success": 0.89,
+      "steps": 121.08,
+      "triggers": 0
+    },
+    {
+      "threshold": 0.1,
+      "success": 0.89,
+      "steps": 121.08,
+      "triggers": 0
+    },
+    {
+      "threshold": 0.2,
+      "success": 0.89,
+      "steps": 121.08,
+      "triggers": 0
+    },
+    {
+      "threshold": 0.3,
+      "success": 0.92,
+      "steps": 123.26,
+      "triggers": 443
+    },
+    {
+      "threshold": 0.45,
+      "success": 0.85,
+      "steps": 133.34,
+      "triggers": 2572
+    },
+    {
+      "threshold": 0.6,
+      "success": 0.91,
+      "steps": 125.68,
+      "triggers": 6243
+    }
+  ],
+  "seconds": 30.581
+}

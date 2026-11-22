@@ -1,0 +1,50 @@
+{
+  "mode": "data-only scaling, fixed graph, no growth",
+  "nodes": 2000,
+  "K": 8,
+  "epochs": 8,
+  "batch": 64,
+  "results": [
+    {
+      "train_size": 500,
+      "val_mae": 5.96509,
+      "test_mae": 6.45772,
+      "seconds": 2.114
+    },
+    {
+      "train_size": 1000,
+      "val_mae": 16.2014,
+      "test_mae": 16.50223,
+      "seconds": 1.77
+    },
+    {
+      "train_size": 2000,
+      "val_mae": 10.10737,
+      "test_mae": 10.16485,
+      "seconds": 3.248
+    },
+    {
+      "train_size": 5000,
+      "val_mae": 6.78185,
+      "test_mae": 6.68573,
+      "seconds": 7.883
+    },
+    {
+      "train_size": 10000,
+      "val_mae": 4.80232,
+      "test_mae": 4.75856,
+      "seconds": 15.649
+    },
+    {
+      "train_size": 20000,
+      "val_mae": 2.16762,
+      "test_mae": 2.20306,
+      "seconds": 31.244
+    }
+  ],
+  "seconds": 62.117,
+  "output_files": {
+    "result_json": "research_mvp/data_scaling_only_result.json",
+    "report": "research_mvp/DATA_SCALING_ONLY_REPORT.md"
+  }
+}

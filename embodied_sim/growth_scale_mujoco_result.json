@@ -1,0 +1,223 @@
+{
+  "rows": [
+    {
+      "grow_per_round": 0,
+      "total_grown": 0,
+      "nodes": 500,
+      "three_fixed": 0.78,
+      "three_steps": 164.61,
+      "two_random": 0.35,
+      "two_steps": 196.08,
+      "history": [
+        {
+          "round": 0,
+          "nodes": 500,
+          "contrib": 0.0
+        },
+        {
+          "round": 1,
+          "nodes": 500,
+          "contrib": 0.0
+        },
+        {
+          "round": 2,
+          "nodes": 500,
+          "contrib": 0.0
+        },
+        {
+          "round": 3,
+          "nodes": 500,
+          "contrib": 0.0
+        },
+        {
+          "round": 4,
+          "nodes": 500,
+          "contrib": 0.0
+        }
+      ]
+    },
+    {
+      "grow_per_round": 20,
+      "total_grown": 100,
+      "nodes": 600,
+      "three_fixed": 0.82,
+      "three_steps": 164.6,
+      "two_random": 0.48,
+      "two_steps": 182.87,
+      "history": [
+        {
+          "round": 0,
+          "nodes": 520,
+          "contrib": 0.000585
+        },
+        {
+          "round": 1,
+          "nodes": 540,
+          "contrib": 0.00056
+        },
+        {
+          "round": 2,
+          "nodes": 560,
+          "contrib": 0.000611
+        },
+        {
+          "round": 3,
+          "nodes": 580,
+          "contrib": 0.000609
+        },
+        {
+          "round": 4,
+          "nodes": 600,
+          "contrib": 0.000594
+        }
+      ]
+    },
+    {
+      "grow_per_round": 50,
+      "total_grown": 250,
+      "nodes": 750,
+      "three_fixed": 0.84,
+      "three_steps": 158.54,
+      "two_random": 0.47,
+      "two_steps": 171.97,
+      "history": [
+        {
+          "round": 0,
+          "nodes": 550,
+          "contrib": 0.000609
+        },
+        {
+          "round": 1,
+          "nodes": 600,
+          "contrib": 0.000603
+        },
+        {
+          "round": 2,
+          "nodes": 650,
+          "contrib": 0.000611
+        },
+        {
+          "round": 3,
+          "nodes": 700,
+          "contrib": 0.000619
+        },
+        {
+          "round": 4,
+          "nodes": 750,
+          "contrib": 0.000676
+        }
+      ]
+    },
+    {
+      "grow_per_round": 100,
+      "total_grown": 500,
+      "nodes": 1000,
+      "three_fixed": 0.8,
+      "three_steps": 166.68,
+      "two_random": 0.4,
+      "two_steps": 189.72,
+      "history": [
+        {
+          "round": 0,
+          "nodes": 600,
+          "contrib": 0.000621
+        },
+        {
+          "round": 1,
+          "nodes": 700,
+          "contrib": 0.000644
+        },
+        {
+          "round": 2,
+          "nodes": 800,
+          "contrib": 0.000617
+        },
+        {
+          "round": 3,
+          "nodes": 900,
+          "contrib": 0.000648
+        },
+        {
+          "round": 4,
+          "nodes": 1000,
+          "contrib": 0.000634
+        }
+      ]
+    },
+    {
+      "grow_per_round": 200,
+      "total_grown": 1000,
+      "nodes": 1500,
+      "three_fixed": 0.88,
+      "three_steps": 157.95,
+      "two_random": 0.41,
+      "two_steps": 187.42,
+      "history": [
+        {
+          "round": 0,
+          "nodes": 700,
+          "contrib": 0.000633
+        },
+        {
+          "round": 1,
+          "nodes": 900,
+          "contrib": 0.00062
+        },
+        {
+          "round": 2,
+          "nodes": 1100,
+          "contrib": 0.000613
+        },
+        {
+          "round": 3,
+          "nodes": 1300,
+          "contrib": 0.00064
+        },
+        {
+          "round": 4,
+          "nodes": 1500,
+          "contrib": 0.00063
+        }
+      ]
+    },
+    {
+      "grow_per_round": 400,
+      "total_grown": 2000,
+      "nodes": 2500,
+      "three_fixed": 0.61,
+      "three_steps": 184.11,
+      "two_random": 0.31,
+      "two_steps": 203.55,
+      "history": [
+        {
+          "round": 0,
+          "nodes": 900,
+          "contrib": 0.000626
+        },
+        {
+          "round": 1,
+          "nodes": 1300,
+          "contrib": 0.000633
+        },
+        {
+          "round": 2,
+          "nodes": 1700,
+          "contrib": 0.00062
+        },
+        {
+          "round": 3,
+          "nodes": 2100,
+          "contrib": 0.000631
+        },
+        {
+          "round": 4,
+          "nodes": 2500,
+          "contrib": 0.000622
+        }
+      ]
+    }
+  ],
+  "rounds": 5,
+  "threshold": 0.0001,
+  "seconds": 122.237
+}

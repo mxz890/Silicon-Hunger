@@ -1,0 +1,5 @@
+networkx>=3.0
+matplotlib>=3.10
+pymupdf>=1.28
+pyvis>=0.3.2
+plotly>=7.0

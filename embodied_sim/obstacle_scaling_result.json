@@ -1,0 +1,30 @@
+{
+  "rows": [
+    {
+      "obstacles": 1,
+      "baseline": 0.88,
+      "baseline_steps": 118.5,
+      "shield": 1.0,
+      "shield_steps": 94.95,
+      "triggers": 9495
+    },
+    {
+      "obstacles": 2,
+      "baseline": 0.89,
+      "baseline_steps": 126.7,
+      "shield": 0.95,
+      "shield_steps": 116.06,
+      "triggers": 11606
+    },
+    {
+      "obstacles": 3,
+      "baseline": 0.74,
+      "baseline_steps": 149.04,
+      "shield": 0.81,
+      "shield_steps": 141.5,
+      "triggers": 1986
+    }
+  ],
+  "seconds": 23.418,
+  "note": "obs is 12-D; only 3 obstacle slots are visible"
+}

@@ -1,0 +1,42 @@
+{
+  "mode": "grow -> backprop train -> validate -> grow",
+  "K_steps": 4,
+  "grow_per_round": 20,
+  "rounds": 3,
+  "history": [
+    {
+      "round": 0,
+      "nodes": 2000,
+      "edges": 9022,
+      "val_mae": 17.23748,
+      "test_mae": 14.83809
+    },
+    {
+      "round": 1,
+      "nodes": 2020,
+      "edges": 9118,
+      "val_mae": 7.89074,
+      "test_mae": 7.79137
+    },
+    {
+      "round": 2,
+      "nodes": 2040,
+      "edges": 9214,
+      "val_mae": 9.56409,
+      "test_mae": 9.19002
+    },
+    {
+      "round": 3,
+      "nodes": 2060,
+      "edges": 9310,
+      "val_mae": 5.98731,
+      "test_mae": 6.16287
+    }
+  ],
+  "best_val_mae": 5.98731,
+  "seconds": 2.685,
+  "output_files": {
+    "result_json": "research_mvp/grow_train_loop_result.json",
+    "report": "research_mvp/GROW_TRAIN_LOOP_REPORT.md"
+  }
+}

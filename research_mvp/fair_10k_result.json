@@ -1,0 +1,32 @@
+{
+  "task": "fair 10k comparison",
+  "edge_target": 56212,
+  "output_indegree_target": 8003,
+  "results": [
+    {
+      "name": "seed-grown",
+      "nodes": 10000,
+      "edges": 56212,
+      "output_indegree": 8002,
+      "max_edge_distance": 98.69,
+      "math_mae": 0.87411,
+      "math_rmse": 1.29724,
+      "chinese_accuracy": 0.07
+    },
+    {
+      "name": "fresh",
+      "nodes": 10000,
+      "edges": 56212,
+      "output_indegree": 8002,
+      "max_edge_distance": 116.469,
+      "math_mae": 0.21827,
+      "math_rmse": 0.50927,
+      "chinese_accuracy": 0.0867
+    }
+  ],
+  "seconds": 167.173,
+  "output_files": {
+    "result_json": "research_mvp/fair_10k_result.json",
+    "report": "research_mvp/FAIR_10K_REPORT.md"
+  }
+}

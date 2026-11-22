@@ -1,0 +1,31 @@
+{
+  "task_a_fixed_obstacle_random_target": {
+    "expert": 0.85,
+    "expert_steps": 143.69,
+    "bc": 0.88,
+    "bc_steps": 145.42,
+    "dagger": 0.87,
+    "dagger_steps": 145.54,
+    "ppo": {
+      "bc_success": 0.86,
+      "best_success": 0.9,
+      "final_success": 0.9,
+      "final_steps": 147.07
+    }
+  },
+  "task_b_random_obstacle": {
+    "expert": 0.93,
+    "expert_steps": 112.34,
+    "bc": 0.84,
+    "bc_steps": 122.48,
+    "dagger": 0.92,
+    "dagger_steps": 108.81,
+    "ppo": {
+      "bc_success": 0.91,
+      "best_success": 0.96,
+      "final_success": 0.91,
+      "final_steps": 113.94
+    }
+  },
+  "seconds": 168.584
+}

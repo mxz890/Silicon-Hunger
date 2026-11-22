@@ -1,0 +1,13 @@
+{
+  "graph_nodes": 2000,
+  "image_size": 64,
+  "bc_samples": 20000,
+  "bc_epochs": 30,
+  "stage0_success": 0.9666666666666667,
+  "stage0_steps": 96.63333333333334,
+  "stage1_success": 0.03333333333333333,
+  "stage1_steps": 245.1,
+  "target_success": 0.0,
+  "target_steps": 250.0,
+  "seconds": 201.255
+}

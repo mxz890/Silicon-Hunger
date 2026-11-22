@@ -1,0 +1,28 @@
+{
+  "single_4000": {
+    "nodes": 4000,
+    "edges": 16105,
+    "math_mae": 0.08498,
+    "chinese_acc": 0.09
+  },
+  "two_region": {
+    "region_nodes": 2000,
+    "math_mae": 0.15116,
+    "chinese_acc": 0.07
+  },
+  "within_region": {
+    "cn_region_math": 0.14909,
+    "math_region_math": 0.43782,
+    "cn_region_chinese": 0.0533,
+    "math_region_chinese": 0.0667
+  },
+  "efficiency": {
+    "single_feature_seconds": 32.066,
+    "dual_feature_seconds": 32.918,
+    "total_seconds": 72.21
+  },
+  "output_files": {
+    "result_json": "research_mvp/two_region_result.json",
+    "report": "research_mvp/TWO_REGION_REPORT.md"
+  }
+}

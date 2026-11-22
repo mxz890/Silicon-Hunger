@@ -1,0 +1,460 @@
+{
+  "seeds": [
+    {
+      "seed": 60100,
+      "rows": [
+        {
+          "grow_per_round": 0,
+          "total_grown": 0,
+          "nodes": 500,
+          "three_fixed": 0.85,
+          "three_steps": 124.44,
+          "two_random": 0.87,
+          "two_steps": 133.59,
+          "history": [
+            {
+              "round": 0,
+              "nodes": 500,
+              "contrib": 0.0
+            },
+            {
+              "round": 1,
+              "nodes": 500,
+              "contrib": 0.0
+            },
+            {
+              "round": 2,
+              "nodes": 500,
+              "contrib": 0.0
+            },
+            {
+              "round": 3,
+              "nodes": 500,
+              "contrib": 0.0
+            },
+            {
+              "round": 4,
+              "nodes": 500,
+              "contrib": 0.0
+            }
+          ]
+        },
+        {
+          "grow_per_round": 50,
+          "total_grown": 250,
+          "nodes": 750,
+          "three_fixed": 0.87,
+          "three_steps": 126.87,
+          "two_random": 0.86,
+          "two_steps": 121.79,
+          "history": [
+            {
+              "round": 0,
+              "nodes": 550,
+              "contrib": 0.000614
+            },
+            {
+              "round": 1,
+              "nodes": 600,
+              "contrib": 0.000589
+            },
+            {
+              "round": 2,
+              "nodes": 650,
+              "contrib": 0.000607
+            },
+            {
+              "round": 3,
+              "nodes": 700,
+              "contrib": 0.000614
+            },
+            {
+              "round": 4,
+              "nodes": 750,
+              "contrib": 0.000613
+            }
+          ]
+        },
+        {
+          "grow_per_round": 100,
+          "total_grown": 500,
+          "nodes": 1000,
+          "three_fixed": 0.87,
+          "three_steps": 129.95,
+          "two_random": 0.86,
+          "two_steps": 126.51,
+          "history": [
+            {
+              "round": 0,
+              "nodes": 600,
+              "contrib": 0.000621
+            },
+            {
+              "round": 1,
+              "nodes": 700,
+              "contrib": 0.000623
+            },
+            {
+              "round": 2,
+              "nodes": 800,
+              "contrib": 0.000641
+            },
+            {
+              "round": 3,
+              "nodes": 900,
+              "contrib": 0.000604
+            },
+            {
+              "round": 4,
+              "nodes": 1000,
+              "contrib": 0.000623
+            }
+          ]
+        },
+        {
+          "grow_per_round": 150,
+          "total_grown": 750,
+          "nodes": 1250,
+          "three_fixed": 0.9,
+          "three_steps": 122.65,
+          "two_random": 0.87,
+          "two_steps": 128.94,
+          "history": [
+            {
+              "round": 0,
+              "nodes": 650,
+              "contrib": 0.00059
+            },
+            {
+              "round": 1,
+              "nodes": 800,
+              "contrib": 0.000578
+            },
+            {
+              "round": 2,
+              "nodes": 950,
+              "contrib": 0.000607
+            },
+            {
+              "round": 3,
+              "nodes": 1100,
+              "contrib": 0.000612
+            },
+            {
+              "round": 4,
+              "nodes": 1250,
+              "contrib": 0.000593
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 60101,
+      "rows": [
+        {
+          "grow_per_round": 0,
+          "total_grown": 0,
+          "nodes": 500,
+          "three_fixed": 0.89,
+          "three_steps": 123.16,
+          "two_random": 0.83,
+          "two_steps": 125.15,
+          "history": [
+            {
+              "round": 0,
+              "nodes": 500,
+              "contrib": 0.0
+            },
+            {
+              "round": 1,
+              "nodes": 500,
+              "contrib": 0.0
+            },
+            {
+              "round": 2,
+              "nodes": 500,
+              "contrib": 0.0
+            },
+            {
+              "round": 3,
+              "nodes": 500,
+              "contrib": 0.0
+            },
+            {
+              "round": 4,
+              "nodes": 500,
+              "contrib": 0.0
+            }
+          ]
+        },
+        {
+          "grow_per_round": 50,
+          "total_grown": 250,
+          "nodes": 750,
+          "three_fixed": 0.91,
+          "three_steps": 121.11,
+          "two_random": 0.87,
+          "two_steps": 123.51,
+          "history": [
+            {
+              "round": 0,
+              "nodes": 550,
+              "contrib": 0.000601
+            },
+            {
+              "round": 1,
+              "nodes": 600,
+              "contrib": 0.000589
+            },
+            {
+              "round": 2,
+              "nodes": 650,
+              "contrib": 0.000613
+            },
+            {
+              "round": 3,
+              "nodes": 700,
+              "contrib": 0.000584
+            },
+            {
+              "round": 4,
+              "nodes": 750,
+              "contrib": 0.000611
+            }
+          ]
+        },
+        {
+          "grow_per_round": 100,
+          "total_grown": 500,
+          "nodes": 1000,
+          "three_fixed": 0.84,
+          "three_steps": 124.32,
+          "two_random": 0.88,
+          "two_steps": 121.83,
+          "history": [
+            {
+              "round": 0,
+              "nodes": 600,
+              "contrib": 0.000614
+            },
+            {
+              "round": 1,
+              "nodes": 700,
+              "contrib": 0.000619
+            },
+            {
+              "round": 2,
+              "nodes": 800,
+              "contrib": 0.000589
+            },
+            {
+              "round": 3,
+              "nodes": 900,
+              "contrib": 0.000616
+            },
+            {
+              "round": 4,
+              "nodes": 1000,
+              "contrib": 0.000615
+            }
+          ]
+        },
+        {
+          "grow_per_round": 150,
+          "total_grown": 750,
+          "nodes": 1250,
+          "three_fixed": 0.84,
+          "three_steps": 128.43,
+          "two_random": 0.87,
+          "two_steps": 125.95,
+          "history": [
+            {
+              "round": 0,
+              "nodes": 650,
+              "contrib": 0.000625
+            },
+            {
+              "round": 1,
+              "nodes": 800,
+              "contrib": 0.000617
+            },
+            {
+              "round": 2,
+              "nodes": 950,
+              "contrib": 0.000605
+            },
+            {
+              "round": 3,
+              "nodes": 1100,
+              "contrib": 0.000617
+            },
+            {
+              "round": 4,
+              "nodes": 1250,
+              "contrib": 0.0006
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 60102,
+      "rows": [
+        {
+          "grow_per_round": 0,
+          "total_grown": 0,
+          "nodes": 500,
+          "three_fixed": 0.88,
+          "three_steps": 128.9,
+          "two_random": 0.87,
+          "two_steps": 126.06,
+          "history": [
+            {
+              "round": 0,
+              "nodes": 500,
+              "contrib": 0.0
+            },
+            {
+              "round": 1,
+              "nodes": 500,
+              "contrib": 0.0
+            },
+            {
+              "round": 2,
+              "nodes": 500,
+              "contrib": 0.0
+            },
+            {
+              "round": 3,
+              "nodes": 500,
+              "contrib": 0.0
+            },
+            {
+              "round": 4,
+              "nodes": 500,
+              "contrib": 0.0
+            }
+          ]
+        },
+        {
+          "grow_per_round": 50,
+          "total_grown": 250,
+          "nodes": 750,
+          "three_fixed": 0.88,
+          "three_steps": 124.25,
+          "two_random": 0.86,
+          "two_steps": 132.19,
+          "history": [
+            {
+              "round": 0,
+              "nodes": 550,
+              "contrib": 0.000688
+            },
+            {
+              "round": 1,
+              "nodes": 600,
+              "contrib": 0.000626
+            },
+            {
+              "round": 2,
+              "nodes": 650,
+              "contrib": 0.000646
+            },
+            {
+              "round": 3,
+              "nodes": 700,
+              "contrib": 0.000644
+            },
+            {
+              "round": 4,
+              "nodes": 750,
+              "contrib": 0.000622
+            }
+          ]
+        },
+        {
+          "grow_per_round": 100,
+          "total_grown": 500,
+          "nodes": 1000,
+          "three_fixed": 0.89,
+          "three_steps": 123.89,
+          "two_random": 0.88,
+          "two_steps": 126.65,
+          "history": [
+            {
+              "round": 0,
+              "nodes": 600,
+              "contrib": 0.000644
+            },
+            {
+              "round": 1,
+              "nodes": 700,
+              "contrib": 0.000628
+            },
+            {
+              "round": 2,
+              "nodes": 800,
+              "contrib": 0.000626
+            },
+            {
+              "round": 3,
+              "nodes": 900,
+              "contrib": 0.000637
+            },
+            {
+              "round": 4,
+              "nodes": 1000,
+              "contrib": 0.000635
+            }
+          ]
+        },
+        {
+          "grow_per_round": 150,
+          "total_grown": 750,
+          "nodes": 1250,
+          "three_fixed": 0.87,
+          "three_steps": 132.82,
+          "two_random": 0.87,
+          "two_steps": 121.93,
+          "history": [
+            {
+              "round": 0,
+              "nodes": 650,
+              "contrib": 0.000624
+            },
+            {
+              "round": 1,
+              "nodes": 800,
+              "contrib": 0.000643
+            },
+            {
+              "round": 2,
+              "nodes": 950,
+              "contrib": 0.000648
+            },
+            {
+              "round": 3,
+              "nodes": 1100,
+              "contrib": 0.000626
+            },
+            {
+              "round": 4,
+              "nodes": 1250,
+              "contrib": 0.000631
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "counts": [
+    0,
+    50,
+    100,
+    150
+  ],
+  "rounds": 5,
+  "threshold": 0.0001,
+  "seconds": 150.538
+}

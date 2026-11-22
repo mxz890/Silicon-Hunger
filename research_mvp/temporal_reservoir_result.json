@@ -1,0 +1,31 @@
+{
+  "nodes": 2000,
+  "edges": 11022,
+  "T": 12,
+  "alpha": 0.22,
+  "chem_every": 2,
+  "results": [
+    {
+      "task": "temporal_parity",
+      "val_acc": 0.535,
+      "test_acc": 0.51,
+      "train": 700,
+      "val": 200,
+      "test": 300
+    },
+    {
+      "task": "delayed_match",
+      "val_acc": 0.985,
+      "test_acc": 0.9733,
+      "train": 700,
+      "val": 200,
+      "test": 300
+    }
+  ],
+  "seconds": 9.662,
+  "output_files": {
+    "result_json": "research_mvp/temporal_reservoir_result.json",
+    "timeline_html": "research_mvp/visualizations/temporal_timeline.html",
+    "report": "research_mvp/TEMPORAL_RESERVOIR_REPORT.md"
+  }
+}

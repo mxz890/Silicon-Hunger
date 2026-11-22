@@ -1,0 +1,548 @@
+{
+  "seeds": [
+    {
+      "seed": 54000,
+      "bc": 0.7,
+      "base": 0.73,
+      "conditions": {
+        "A": [
+          {
+            "round": 0,
+            "nodes": 500,
+            "alive": 500,
+            "success": 0.82,
+            "steps": 128.83,
+            "pruned": 0
+          },
+          {
+            "round": 1,
+            "nodes": 500,
+            "alive": 500,
+            "success": 0.8,
+            "steps": 143.29,
+            "pruned": 0
+          },
+          {
+            "round": 2,
+            "nodes": 500,
+            "alive": 500,
+            "success": 0.77,
+            "steps": 141.76,
+            "pruned": 0
+          },
+          {
+            "round": 3,
+            "nodes": 500,
+            "alive": 500,
+            "success": 0.81,
+            "steps": 134.09,
+            "pruned": 0
+          }
+        ],
+        "B": [
+          {
+            "round": 0,
+            "nodes": 520,
+            "alive": 520,
+            "success": 0.82,
+            "steps": 128.86,
+            "pruned": 0
+          },
+          {
+            "round": 1,
+            "nodes": 540,
+            "alive": 540,
+            "success": 0.81,
+            "steps": 143.0,
+            "pruned": 0
+          },
+          {
+            "round": 2,
+            "nodes": 560,
+            "alive": 560,
+            "success": 0.77,
+            "steps": 141.82,
+            "pruned": 0
+          },
+          {
+            "round": 3,
+            "nodes": 580,
+            "alive": 580,
+            "success": 0.81,
+            "steps": 134.83,
+            "pruned": 0
+          }
+        ],
+        "C": [
+          {
+            "round": 0,
+            "nodes": 500,
+            "alive": 491,
+            "success": 0.8,
+            "steps": 133.35,
+            "pruned": 9
+          },
+          {
+            "round": 1,
+            "nodes": 500,
+            "alive": 482,
+            "success": 0.76,
+            "steps": 149.72,
+            "pruned": 9
+          },
+          {
+            "round": 2,
+            "nodes": 500,
+            "alive": 473,
+            "success": 0.75,
+            "steps": 146.97,
+            "pruned": 9
+          },
+          {
+            "round": 3,
+            "nodes": 500,
+            "alive": 464,
+            "success": 0.79,
+            "steps": 135.34,
+            "pruned": 9
+          }
+        ],
+        "D": [
+          {
+            "round": 0,
+            "nodes": 520,
+            "alive": 510,
+            "success": 0.82,
+            "steps": 128.86,
+            "pruned": 10
+          },
+          {
+            "round": 1,
+            "nodes": 540,
+            "alive": 520,
+            "success": 0.81,
+            "steps": 143.11,
+            "pruned": 10
+          },
+          {
+            "round": 2,
+            "nodes": 560,
+            "alive": 530,
+            "success": 0.77,
+            "steps": 141.82,
+            "pruned": 10
+          },
+          {
+            "round": 3,
+            "nodes": 580,
+            "alive": 540,
+            "success": 0.81,
+            "steps": 134.8,
+            "pruned": 10
+          }
+        ],
+        "E": [
+          {
+            "round": 0,
+            "nodes": 520,
+            "alive": 510,
+            "success": 0.82,
+            "steps": 128.87,
+            "pruned": 10
+          },
+          {
+            "round": 1,
+            "nodes": 540,
+            "alive": 520,
+            "success": 0.81,
+            "steps": 143.01,
+            "pruned": 10
+          },
+          {
+            "round": 2,
+            "nodes": 560,
+            "alive": 530,
+            "success": 0.77,
+            "steps": 141.82,
+            "pruned": 10
+          },
+          {
+            "round": 3,
+            "nodes": 580,
+            "alive": 540,
+            "success": 0.81,
+            "steps": 134.83,
+            "pruned": 10
+          }
+        ]
+      }
+    },
+    {
+      "seed": 54001,
+      "bc": 0.81,
+      "base": 0.78,
+      "conditions": {
+        "A": [
+          {
+            "round": 0,
+            "nodes": 500,
+            "alive": 500,
+            "success": 0.88,
+            "steps": 119.91,
+            "pruned": 0
+          },
+          {
+            "round": 1,
+            "nodes": 500,
+            "alive": 500,
+            "success": 0.8,
+            "steps": 135.54,
+            "pruned": 0
+          },
+          {
+            "round": 2,
+            "nodes": 500,
+            "alive": 500,
+            "success": 0.89,
+            "steps": 126.26,
+            "pruned": 0
+          },
+          {
+            "round": 3,
+            "nodes": 500,
+            "alive": 500,
+            "success": 0.85,
+            "steps": 123.29,
+            "pruned": 0
+          }
+        ],
+        "B": [
+          {
+            "round": 0,
+            "nodes": 520,
+            "alive": 520,
+            "success": 0.88,
+            "steps": 119.9,
+            "pruned": 0
+          },
+          {
+            "round": 1,
+            "nodes": 540,
+            "alive": 540,
+            "success": 0.8,
+            "steps": 135.7,
+            "pruned": 0
+          },
+          {
+            "round": 2,
+            "nodes": 560,
+            "alive": 560,
+            "success": 0.9,
+            "steps": 126.08,
+            "pruned": 0
+          },
+          {
+            "round": 3,
+            "nodes": 580,
+            "alive": 580,
+            "success": 0.85,
+            "steps": 123.31,
+            "pruned": 0
+          }
+        ],
+        "C": [
+          {
+            "round": 0,
+            "nodes": 500,
+            "alive": 491,
+            "success": 0.89,
+            "steps": 123.47,
+            "pruned": 9
+          },
+          {
+            "round": 1,
+            "nodes": 500,
+            "alive": 482,
+            "success": 0.77,
+            "steps": 142.22,
+            "pruned": 9
+          },
+          {
+            "round": 2,
+            "nodes": 500,
+            "alive": 473,
+            "success": 0.83,
+            "steps": 140.54,
+            "pruned": 9
+          },
+          {
+            "round": 3,
+            "nodes": 500,
+            "alive": 464,
+            "success": 0.81,
+            "steps": 137.54,
+            "pruned": 9
+          }
+        ],
+        "D": [
+          {
+            "round": 0,
+            "nodes": 520,
+            "alive": 510,
+            "success": 0.88,
+            "steps": 119.89,
+            "pruned": 10
+          },
+          {
+            "round": 1,
+            "nodes": 540,
+            "alive": 520,
+            "success": 0.8,
+            "steps": 135.68,
+            "pruned": 10
+          },
+          {
+            "round": 2,
+            "nodes": 560,
+            "alive": 530,
+            "success": 0.9,
+            "steps": 126.09,
+            "pruned": 10
+          },
+          {
+            "round": 3,
+            "nodes": 580,
+            "alive": 540,
+            "success": 0.85,
+            "steps": 123.32,
+            "pruned": 10
+          }
+        ],
+        "E": [
+          {
+            "round": 0,
+            "nodes": 520,
+            "alive": 510,
+            "success": 0.88,
+            "steps": 119.9,
+            "pruned": 10
+          },
+          {
+            "round": 1,
+            "nodes": 540,
+            "alive": 520,
+            "success": 0.8,
+            "steps": 135.69,
+            "pruned": 10
+          },
+          {
+            "round": 2,
+            "nodes": 560,
+            "alive": 530,
+            "success": 0.9,
+            "steps": 126.1,
+            "pruned": 10
+          },
+          {
+            "round": 3,
+            "nodes": 580,
+            "alive": 540,
+            "success": 0.85,
+            "steps": 123.32,
+            "pruned": 10
+          }
+        ]
+      }
+    },
+    {
+      "seed": 54002,
+      "bc": 0.73,
+      "base": 0.73,
+      "conditions": {
+        "A": [
+          {
+            "round": 0,
+            "nodes": 500,
+            "alive": 500,
+            "success": 0.68,
+            "steps": 151.11,
+            "pruned": 0
+          },
+          {
+            "round": 1,
+            "nodes": 500,
+            "alive": 500,
+            "success": 0.78,
+            "steps": 133.25,
+            "pruned": 0
+          },
+          {
+            "round": 2,
+            "nodes": 500,
+            "alive": 500,
+            "success": 0.8,
+            "steps": 135.58,
+            "pruned": 0
+          },
+          {
+            "round": 3,
+            "nodes": 500,
+            "alive": 500,
+            "success": 0.76,
+            "steps": 142.06,
+            "pruned": 0
+          }
+        ],
+        "B": [
+          {
+            "round": 0,
+            "nodes": 520,
+            "alive": 520,
+            "success": 0.68,
+            "steps": 150.22,
+            "pruned": 0
+          },
+          {
+            "round": 1,
+            "nodes": 540,
+            "alive": 540,
+            "success": 0.78,
+            "steps": 133.33,
+            "pruned": 0
+          },
+          {
+            "round": 2,
+            "nodes": 560,
+            "alive": 560,
+            "success": 0.81,
+            "steps": 135.17,
+            "pruned": 0
+          },
+          {
+            "round": 3,
+            "nodes": 580,
+            "alive": 580,
+            "success": 0.76,
+            "steps": 140.86,
+            "pruned": 0
+          }
+        ],
+        "C": [
+          {
+            "round": 0,
+            "nodes": 500,
+            "alive": 491,
+            "success": 0.66,
+            "steps": 151.37,
+            "pruned": 9
+          },
+          {
+            "round": 1,
+            "nodes": 500,
+            "alive": 482,
+            "success": 0.7,
+            "steps": 140.81,
+            "pruned": 9
+          },
+          {
+            "round": 2,
+            "nodes": 500,
+            "alive": 473,
+            "success": 0.74,
+            "steps": 144.34,
+            "pruned": 9
+          },
+          {
+            "round": 3,
+            "nodes": 500,
+            "alive": 464,
+            "success": 0.68,
+            "steps": 151.9,
+            "pruned": 9
+          }
+        ],
+        "D": [
+          {
+            "round": 0,
+            "nodes": 520,
+            "alive": 510,
+            "success": 0.69,
+            "steps": 149.02,
+            "pruned": 10
+          },
+          {
+            "round": 1,
+            "nodes": 540,
+            "alive": 520,
+            "success": 0.78,
+            "steps": 133.44,
+            "pruned": 10
+          },
+          {
+            "round": 2,
+            "nodes": 560,
+            "alive": 530,
+            "success": 0.81,
+            "steps": 134.32,
+            "pruned": 10
+          },
+          {
+            "round": 3,
+            "nodes": 580,
+            "alive": 540,
+            "success": 0.76,
+            "steps": 140.82,
+            "pruned": 10
+          }
+        ],
+        "E": [
+          {
+            "round": 0,
+            "nodes": 520,
+            "alive": 510,
+            "success": 0.69,
+            "steps": 149.01,
+            "pruned": 10
+          },
+          {
+            "round": 1,
+            "nodes": 540,
+            "alive": 520,
+            "success": 0.78,
+            "steps": 133.41,
+            "pruned": 10
+          },
+          {
+            "round": 2,
+            "nodes": 560,
+            "alive": 530,
+            "success": 0.81,
+            "steps": 134.32,
+            "pruned": 10
+          },
+          {
+            "round": 3,
+            "nodes": 580,
+            "alive": 540,
+            "success": 0.76,
+            "steps": 140.82,
+            "pruned": 10
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "n_obstacles": 2,
+    "target_range": 0.6,
+    "start_range": 0.6,
+    "obstacle_range": 0.8,
+    "target_bias": [
+      0.5,
+      0.0
+    ]
+  },
+  "rounds": 4,
+  "grow": 20,
+  "seconds": 253.723
+}

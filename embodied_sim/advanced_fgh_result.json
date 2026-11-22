@@ -1,0 +1,104 @@
+{
+  "samples": 13085,
+  "F_time_input": 0.72,
+  "G_schedule": 0.72,
+  "H": {
+    "0.05": [
+      {
+        "round": 0,
+        "alive": 476,
+        "success": 0.76,
+        "pruned": 24
+      },
+      {
+        "round": 1,
+        "alive": 453,
+        "success": 0.65,
+        "pruned": 23
+      },
+      {
+        "round": 2,
+        "alive": 431,
+        "success": 0.55,
+        "pruned": 22
+      },
+      {
+        "round": 3,
+        "alive": 410,
+        "success": 0.53,
+        "pruned": 21
+      },
+      {
+        "round": 4,
+        "alive": 390,
+        "success": 0.36,
+        "pruned": 20
+      }
+    ],
+    "0.1": [
+      {
+        "round": 0,
+        "alive": 476,
+        "success": 0.76,
+        "pruned": 24
+      },
+      {
+        "round": 1,
+        "alive": 453,
+        "success": 0.65,
+        "pruned": 23
+      },
+      {
+        "round": 2,
+        "alive": 431,
+        "success": 0.55,
+        "pruned": 22
+      },
+      {
+        "round": 3,
+        "alive": 410,
+        "success": 0.53,
+        "pruned": 21
+      },
+      {
+        "round": 4,
+        "alive": 390,
+        "success": 0.36,
+        "pruned": 20
+      }
+    ],
+    "0.25": [
+      {
+        "round": 0,
+        "alive": 476,
+        "success": 0.76,
+        "pruned": 24
+      },
+      {
+        "round": 1,
+        "alive": 453,
+        "success": 0.65,
+        "pruned": 23
+      },
+      {
+        "round": 2,
+        "alive": 431,
+        "success": 0.55,
+        "pruned": 22
+      },
+      {
+        "round": 3,
+        "alive": 410,
+        "success": 0.53,
+        "pruned": 21
+      },
+      {
+        "round": 4,
+        "alive": 390,
+        "success": 0.36,
+        "pruned": 20
+      }
+    ]
+  },
+  "seconds": 76.132
+}

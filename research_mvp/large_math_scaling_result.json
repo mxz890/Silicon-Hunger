@@ -1,0 +1,64 @@
+{
+  "graph": {
+    "nodes": 2000,
+    "edges": 9022
+  },
+  "results": {
+    "linear": [
+      {
+        "train": 500,
+        "mae": 0.69894,
+        "rmse": 1.25895,
+        "relative_mae": 0.23556
+      },
+      {
+        "train": 1000,
+        "mae": 0.63196,
+        "rmse": 1.33939,
+        "relative_mae": 0.21298
+      },
+      {
+        "train": 2000,
+        "mae": 0.55587,
+        "rmse": 0.83274,
+        "relative_mae": 0.18734
+      },
+      {
+        "train": 3000,
+        "mae": 0.51604,
+        "rmse": 0.77996,
+        "relative_mae": 0.17391
+      }
+    ],
+    "arithmetic": [
+      {
+        "train": 500,
+        "mae": 0.13947,
+        "rmse": 0.23349,
+        "relative_mae": 0.00469
+      },
+      {
+        "train": 1000,
+        "mae": 0.09195,
+        "rmse": 0.16209,
+        "relative_mae": 0.00309
+      },
+      {
+        "train": 2000,
+        "mae": 0.07338,
+        "rmse": 0.10797,
+        "relative_mae": 0.00247
+      },
+      {
+        "train": 3000,
+        "mae": 0.06896,
+        "rmse": 0.09815,
+        "relative_mae": 0.00232
+      }
+    ]
+  },
+  "seconds": 80.021,
+  "output_files": {
+    "result_json": "research_mvp/large_math_scaling_result.json"
+  }
+}

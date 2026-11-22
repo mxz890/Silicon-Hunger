@@ -1,0 +1,52 @@
+{
+  "seed_nodes": 2000,
+  "final_nodes": 10000,
+  "final_edges": 41022,
+  "stages": [
+    {
+      "nodes": 2000,
+      "edges": 9022,
+      "math_mae": 1.60344,
+      "chinese_acc": 1.0
+    },
+    {
+      "nodes": 4000,
+      "edges": 17022,
+      "math_mae": 0.25326,
+      "chinese_acc": 0.9833
+    },
+    {
+      "nodes": 6000,
+      "edges": 25022,
+      "math_mae": 1.02267,
+      "chinese_acc": 0.9833
+    },
+    {
+      "nodes": 8000,
+      "edges": 33022,
+      "math_mae": 1.8495,
+      "chinese_acc": 0.9667
+    },
+    {
+      "nodes": 10000,
+      "edges": 41022,
+      "math_mae": 8.79386,
+      "chinese_acc": 1.0
+    }
+  ],
+  "math": {
+    "test_mae": 0.71341,
+    "test_rmse": 1.32226,
+    "problem": "a+b=7,ab=12 -> 25",
+    "prediction": 25.16156
+  },
+  "chinese": {
+    "test_accuracy": 1.0,
+    "task": "synthetic sentiment classification"
+  },
+  "seconds": 123.984,
+  "output_files": {
+    "result_json": "research_mvp/scale_10k_result.json",
+    "report": "research_mvp/SCALE_10K_REPORT.md"
+  }
+}

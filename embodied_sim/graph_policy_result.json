@@ -1,0 +1,27 @@
+{
+  "graph_nodes": 500,
+  "K": 6,
+  "history": [
+    {
+      "stage": "BC",
+      "success": 1.0,
+      "steps": 101.26666666666667,
+      "samples": 6991
+    },
+    {
+      "stage": "DAgger1",
+      "success": 1.0,
+      "steps": 93.03333333333333,
+      "samples": 8728
+    },
+    {
+      "stage": "DAgger2",
+      "success": 1.0,
+      "steps": 95.9,
+      "samples": 10532
+    }
+  ],
+  "final_success": 1.0,
+  "final_steps": 95.68,
+  "samples": 10532
+}

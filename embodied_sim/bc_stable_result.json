@@ -1,0 +1,50 @@
+{
+  "config": {
+    "n_obstacles": 1,
+    "target_range": 0.0,
+    "start_range": 0.5,
+    "obstacle_range": 0.0,
+    "target_bias": [
+      0.5,
+      0.0
+    ]
+  },
+  "samples": 17119,
+  "train": 13695,
+  "val": 3424,
+  "seeds": [
+    {
+      "seed": 33000,
+      "val": 0.7333333333333333,
+      "test_success": 0.48,
+      "test_steps": 166.48
+    },
+    {
+      "seed": 33001,
+      "val": 0.7333333333333333,
+      "test_success": 0.48,
+      "test_steps": 163.42
+    },
+    {
+      "seed": 33002,
+      "val": 0.7333333333333333,
+      "test_success": 0.6,
+      "test_steps": 145.8
+    },
+    {
+      "seed": 33003,
+      "val": 0.7666666666666667,
+      "test_success": 0.5,
+      "test_steps": 159.32
+    },
+    {
+      "seed": 33004,
+      "val": 0.7333333333333333,
+      "test_success": 0.48,
+      "test_steps": 162.52
+    }
+  ],
+  "mean_success": 0.508,
+  "std_success": 0.0466,
+  "seconds": 109.742
+}

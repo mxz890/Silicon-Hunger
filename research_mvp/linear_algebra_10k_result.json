@@ -1,0 +1,104 @@
+{
+  "graph": {
+    "nodes": 10000,
+    "edges": 40105
+  },
+  "tasks": [
+    {
+      "task": "det2",
+      "label": "2x2 determinant ad-bc",
+      "input_dim": 4,
+      "output_dim": 1,
+      "mae": 5.00255,
+      "rmse": 7.5767,
+      "relative_mae": 0.4243,
+      "sample": {
+        "target": [
+          5.0
+        ],
+        "prediction": [
+          7.3899
+        ]
+      }
+    },
+    {
+      "task": "det3",
+      "label": "3x3 determinant",
+      "input_dim": 9,
+      "output_dim": 1,
+      "mae": 8.02062,
+      "rmse": 9.90067,
+      "relative_mae": 0.56523,
+      "sample": {
+        "target": [
+          -6.0
+        ],
+        "prediction": [
+          -5.4372
+        ]
+      }
+    },
+    {
+      "task": "matvec2",
+      "label": "2x2 matrix-vector product",
+      "input_dim": 6,
+      "output_dim": 2,
+      "mae": 0.84725,
+      "rmse": 1.1855,
+      "relative_mae": 0.72631,
+      "sample": {
+        "target": [
+          0.7,
+          -2.3
+        ],
+        "prediction": [
+          0.598,
+          -0.0901
+        ]
+      }
+    },
+    {
+      "task": "solve2",
+      "label": "2x2 linear system",
+      "input_dim": 6,
+      "output_dim": 2,
+      "mae": 0.47323,
+      "rmse": 0.64101,
+      "relative_mae": 1.69413,
+      "sample": {
+        "target": [
+          0.0,
+          0.4
+        ],
+        "prediction": [
+          0.1467,
+          0.2968
+        ]
+      }
+    },
+    {
+      "task": "eigen2",
+      "label": "2x2 symmetric eigenvalues",
+      "input_dim": 3,
+      "output_dim": 2,
+      "mae": 0.08775,
+      "rmse": 0.12958,
+      "relative_mae": 0.11825,
+      "sample": {
+        "target": [
+          0.2606,
+          -0.4606
+        ],
+        "prediction": [
+          0.3301,
+          -0.5471
+        ]
+      }
+    }
+  ],
+  "seconds": 82.883,
+  "output_files": {
+    "result_json": "research_mvp/linear_algebra_10k_result.json",
+    "report": "research_mvp/LINEAR_ALGEBRA_10K_REPORT.md"
+  }
+}

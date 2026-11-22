@@ -1,0 +1,25 @@
+{
+  "expert_success": 0.96,
+  "expert_steps": 134.11,
+  "history": [
+    {
+      "stage": "BC",
+      "success": 0.99,
+      "steps": 134.21,
+      "samples": 13152
+    },
+    {
+      "stage": "DAgger1",
+      "success": 0.98,
+      "steps": 135.09,
+      "samples": 17437
+    },
+    {
+      "stage": "DAgger2",
+      "success": 0.98,
+      "steps": 135.66,
+      "samples": 21412
+    }
+  ],
+  "seconds": 53.635
+}

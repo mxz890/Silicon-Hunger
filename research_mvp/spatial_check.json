@@ -1,0 +1,71 @@
+{
+  "seed": 3,
+  "pos_min": 18.534,
+  "pos_max": 81.512,
+  "spatial_threshold": 30.0,
+  "edge_count_before": 26,
+  "edge_count_after": 25,
+  "max_edge_distance_before": 29.733,
+  "max_edge_distance_after": 29.733,
+  "pruned_node": 2,
+  "rewires": [
+    {
+      "removed": 2,
+      "from": 0,
+      "to": 9,
+      "at": 0
+    },
+    {
+      "removed": 2,
+      "from": 1,
+      "to": 9,
+      "at": 0
+    },
+    {
+      "removed": 2,
+      "from": 3,
+      "to": 5,
+      "at": 0
+    },
+    {
+      "removed": 2,
+      "from": 3,
+      "to": 7,
+      "at": 0
+    },
+    {
+      "removed": 2,
+      "from": 3,
+      "to": 8,
+      "at": 0
+    }
+  ],
+  "blocked_edges": [
+    {
+      "u": 0,
+      "v": 5,
+      "distance": 40.374
+    },
+    {
+      "u": 0,
+      "v": 6,
+      "distance": 37.025
+    },
+    {
+      "u": 0,
+      "v": 7,
+      "distance": 41.596
+    },
+    {
+      "u": 0,
+      "v": 8,
+      "distance": 42.293
+    }
+  ],
+  "invariants": {
+    "all_positions_0_100": true,
+    "all_edges_within_threshold_before": true,
+    "all_edges_within_threshold_after": true,
+    "rewire_positive": true
+  }
+}

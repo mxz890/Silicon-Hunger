@@ -1,0 +1,323 @@
+{
+  "seeds": [
+    {
+      "seed": 53000,
+      "bc": 0.73,
+      "dagger": 0.74,
+      "after_lifecycle": 0.76,
+      "cycles": [
+        {
+          "cycle": 0,
+          "nodes": 2020,
+          "alive": 2019,
+          "before": 0.7,
+          "after": 0.76,
+          "accepted": true,
+          "grew": 20,
+          "pruned": 1,
+          "new_usage": 0.04173
+        },
+        {
+          "cycle": 1,
+          "nodes": 2040,
+          "alive": 2039,
+          "before": 0.61,
+          "after": 0.74,
+          "accepted": true,
+          "grew": 20,
+          "pruned": 0,
+          "new_usage": 0.04562
+        },
+        {
+          "cycle": 2,
+          "nodes": 2040,
+          "alive": 2039,
+          "before": 0.83,
+          "after": 0.71,
+          "accepted": false,
+          "grew": 20,
+          "pruned": 2,
+          "new_usage": 0.0425
+        },
+        {
+          "cycle": 3,
+          "nodes": 2060,
+          "alive": 2058,
+          "before": 0.76,
+          "after": 0.78,
+          "accepted": true,
+          "grew": 20,
+          "pruned": 1,
+          "new_usage": 0.04039
+        }
+      ],
+      "ppo": {
+        "skipped": true,
+        "bc": 0.76
+      },
+      "source": 0.72,
+      "source_steps": 150.58,
+      "target": 0.72,
+      "target_steps": 150.34,
+      "fixed3": 0.45,
+      "fixed3_steps": 194.83
+    },
+    {
+      "seed": 53001,
+      "bc": 0.86,
+      "dagger": 0.84,
+      "after_lifecycle": 0.76,
+      "cycles": [
+        {
+          "cycle": 0,
+          "nodes": 2020,
+          "alive": 2019,
+          "before": 0.77,
+          "after": 0.81,
+          "accepted": true,
+          "grew": 20,
+          "pruned": 1,
+          "new_usage": 0.0418
+        },
+        {
+          "cycle": 1,
+          "nodes": 2020,
+          "alive": 2019,
+          "before": 0.85,
+          "after": 0.74,
+          "accepted": false,
+          "grew": 20,
+          "pruned": 0,
+          "new_usage": 0.03453
+        },
+        {
+          "cycle": 2,
+          "nodes": 2020,
+          "alive": 2019,
+          "before": 0.84,
+          "after": 0.76,
+          "accepted": false,
+          "grew": 20,
+          "pruned": 0,
+          "new_usage": 0.04071
+        },
+        {
+          "cycle": 3,
+          "nodes": 2020,
+          "alive": 2019,
+          "before": 0.85,
+          "after": 0.81,
+          "accepted": false,
+          "grew": 20,
+          "pruned": 1,
+          "new_usage": 0.03757
+        }
+      ],
+      "ppo": {
+        "skipped": true,
+        "bc": 0.76
+      },
+      "source": 0.82,
+      "source_steps": 132.87,
+      "target": 0.84,
+      "target_steps": 128.23,
+      "fixed3": 0.46,
+      "fixed3_steps": 199.09
+    },
+    {
+      "seed": 53002,
+      "bc": 0.81,
+      "dagger": 0.74,
+      "after_lifecycle": 0.82,
+      "cycles": [
+        {
+          "cycle": 0,
+          "nodes": 2000,
+          "alive": 2000,
+          "before": 0.83,
+          "after": 0.72,
+          "accepted": false,
+          "grew": 20,
+          "pruned": 0,
+          "new_usage": 0.04401
+        },
+        {
+          "cycle": 1,
+          "nodes": 2000,
+          "alive": 2000,
+          "before": 0.82,
+          "after": 0.64,
+          "accepted": false,
+          "grew": 20,
+          "pruned": 1,
+          "new_usage": 0.03808
+        },
+        {
+          "cycle": 2,
+          "nodes": 2000,
+          "alive": 2000,
+          "before": 0.83,
+          "after": 0.7,
+          "accepted": false,
+          "grew": 20,
+          "pruned": 0,
+          "new_usage": 0.04401
+        },
+        {
+          "cycle": 3,
+          "nodes": 2000,
+          "alive": 2000,
+          "before": 0.8,
+          "after": 0.76,
+          "accepted": false,
+          "grew": 20,
+          "pruned": 2,
+          "new_usage": 0.04594
+        }
+      ],
+      "ppo": {
+        "bc": 0.74,
+        "best": 0.8,
+        "final": 0.72,
+        "final_steps": 149.91
+      },
+      "source": 0.79,
+      "source_steps": 139.59,
+      "target": 0.66,
+      "target_steps": 166.53,
+      "fixed3": 0.57,
+      "fixed3_steps": 179.34
+    },
+    {
+      "seed": 53003,
+      "bc": 0.71,
+      "dagger": 0.7,
+      "after_lifecycle": 0.82,
+      "cycles": [
+        {
+          "cycle": 0,
+          "nodes": 2020,
+          "alive": 2020,
+          "before": 0.79,
+          "after": 0.79,
+          "accepted": true,
+          "grew": 20,
+          "pruned": 0,
+          "new_usage": 0.03715
+        },
+        {
+          "cycle": 1,
+          "nodes": 2020,
+          "alive": 2020,
+          "before": 0.82,
+          "after": 0.71,
+          "accepted": false,
+          "grew": 20,
+          "pruned": 1,
+          "new_usage": 0.03364
+        },
+        {
+          "cycle": 2,
+          "nodes": 2020,
+          "alive": 2020,
+          "before": 0.82,
+          "after": 0.75,
+          "accepted": false,
+          "grew": 20,
+          "pruned": 0,
+          "new_usage": 0.03918
+        },
+        {
+          "cycle": 3,
+          "nodes": 2020,
+          "alive": 2020,
+          "before": 0.85,
+          "after": 0.77,
+          "accepted": false,
+          "grew": 20,
+          "pruned": 2,
+          "new_usage": 0.03378
+        }
+      ],
+      "ppo": {
+        "bc": 0.77,
+        "best": 0.77,
+        "final": 0.73,
+        "final_steps": 150.42
+      },
+      "source": 0.81,
+      "source_steps": 130.19,
+      "target": 0.77,
+      "target_steps": 146.72,
+      "fixed3": 0.33,
+      "fixed3_steps": 215.58
+    },
+    {
+      "seed": 53004,
+      "bc": 0.64,
+      "dagger": 0.78,
+      "after_lifecycle": 0.85,
+      "cycles": [
+        {
+          "cycle": 0,
+          "nodes": 2000,
+          "alive": 2000,
+          "before": 0.79,
+          "after": 0.74,
+          "accepted": false,
+          "grew": 20,
+          "pruned": 0,
+          "new_usage": 0.04201
+        },
+        {
+          "cycle": 1,
+          "nodes": 2020,
+          "alive": 2020,
+          "before": 0.77,
+          "after": 0.77,
+          "accepted": true,
+          "grew": 20,
+          "pruned": 0,
+          "new_usage": 0.0453
+        },
+        {
+          "cycle": 2,
+          "nodes": 2040,
+          "alive": 2040,
+          "before": 0.79,
+          "after": 0.81,
+          "accepted": true,
+          "grew": 20,
+          "pruned": 0,
+          "new_usage": 0.04417
+        },
+        {
+          "cycle": 3,
+          "nodes": 2060,
+          "alive": 2060,
+          "before": 0.77,
+          "after": 0.78,
+          "accepted": true,
+          "grew": 20,
+          "pruned": 0,
+          "new_usage": 0.03872
+        }
+      ],
+      "ppo": {
+        "bc": 0.83,
+        "best": 0.83,
+        "final": 0.79,
+        "final_steps": 143.04
+      },
+      "source": 0.75,
+      "source_steps": 140.72,
+      "target": 0.81,
+      "target_steps": 130.71,
+      "fixed3": 0.31,
+      "fixed3_steps": 215.79
+    }
+  ],
+  "cycles": 4,
+  "grow": 20,
+  "seconds": 706.812
+}

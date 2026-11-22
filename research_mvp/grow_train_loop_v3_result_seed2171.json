@@ -1,0 +1,74 @@
+{
+  "mode": "grow -> backprop train -> validate -> grow, best checkpoint",
+  "K_steps": 8,
+  "grow_per_round": 50,
+  "rounds": 6,
+  "patience": 4,
+  "history": [
+    {
+      "round": 0,
+      "nodes": 2000,
+      "edges": 9022,
+      "val_mae": 5.87206,
+      "test_mae": 5.7629,
+      "best": true
+    },
+    {
+      "round": 1,
+      "nodes": 2050,
+      "edges": 9268,
+      "val_mae": 4.04619,
+      "test_mae": 4.19042,
+      "best": true
+    },
+    {
+      "round": 2,
+      "nodes": 2100,
+      "edges": 9514,
+      "val_mae": 2.98821,
+      "test_mae": 3.02631,
+      "best": true
+    },
+    {
+      "round": 3,
+      "nodes": 2150,
+      "edges": 9760,
+      "val_mae": 4.72326,
+      "test_mae": 4.97578,
+      "best": false
+    },
+    {
+      "round": 4,
+      "nodes": 2200,
+      "edges": 10006,
+      "val_mae": 8.30368,
+      "test_mae": 8.38147,
+      "best": false
+    },
+    {
+      "round": 5,
+      "nodes": 2250,
+      "edges": 10252,
+      "val_mae": 3.60901,
+      "test_mae": 3.8305,
+      "best": false
+    },
+    {
+      "round": 6,
+      "nodes": 2300,
+      "edges": 10498,
+      "val_mae": 0.52731,
+      "test_mae": 0.48755,
+      "best": true
+    }
+  ],
+  "best_val_mae": 0.52731,
+  "best_test_mae": 0.48755,
+  "early_stopped_round": null,
+  "seconds": 25.888,
+  "seed": 2171,
+  "output_files": {
+    "result_json": "research_mvp/grow_train_loop_v3_result_seed2171.json",
+    "report": "research_mvp/GROW_TRAIN_LOOP_V3_REPORT.md"
+  }
+}

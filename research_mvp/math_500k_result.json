@@ -1,0 +1,64 @@
+{
+  "graph": {
+    "nodes": 10000,
+    "edges": 40105,
+    "mode": "fresh 10k base"
+  },
+  "corpus": {
+    "path": "research_mvp/data/math_corpus_500k.txt",
+    "chars": 557698,
+    "problems": 10000
+  },
+  "tasks": [
+    {
+      "task": "sum_sq",
+      "train": 1600,
+      "test": 400,
+      "mae": 0.24087,
+      "rmse": 0.53048,
+      "relative_mae": 0.00097,
+      "seconds": 84.67
+    },
+    {
+      "task": "linear",
+      "train": 1600,
+      "test": 400,
+      "mae": 0.14886,
+      "rmse": 0.28919,
+      "relative_mae": 0.04613,
+      "seconds": 86.2
+    },
+    {
+      "task": "rectangle",
+      "train": 1600,
+      "test": 400,
+      "mae": 0.14813,
+      "rmse": 0.47029,
+      "relative_mae": 0.0006,
+      "seconds": 88.1
+    },
+    {
+      "task": "arithmetic",
+      "train": 1600,
+      "test": 400,
+      "mae": 0.1049,
+      "rmse": 0.20763,
+      "relative_mae": 0.00144,
+      "seconds": 85.58
+    },
+    {
+      "task": "hypotenuse",
+      "train": 1600,
+      "test": 400,
+      "mae": 0.00737,
+      "rmse": 0.03482,
+      "relative_mae": 0.00032,
+      "seconds": 85.79
+    }
+  ],
+  "total_seconds": 431.165,
+  "output_files": {
+    "result_json": "research_mvp/math_500k_result.json",
+    "report": "research_mvp/MATH_500K_REPORT.md"
+  }
+}

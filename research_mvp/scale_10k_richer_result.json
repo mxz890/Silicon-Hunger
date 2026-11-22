@@ -1,0 +1,30 @@
+{
+  "task": "fresh 10k, richer modern Chinese corpus",
+  "nodes": 10000,
+  "edges": 40105,
+  "corpus": "research_mvp/data/modern_chinese_corpus.txt",
+  "math": {
+    "test_mae": 0.20834,
+    "test_rmse": 0.44361,
+    "prediction": 25.14509
+  },
+  "chinese": {
+    "task": "real next-character prediction, modern prose",
+    "train": 1000,
+    "test": 400,
+    "vocab_size": 64,
+    "accuracy": 0.0775
+  },
+  "efficiency": {
+    "build_and_chem_seconds": 0.476,
+    "feature_seconds": 88.103,
+    "fit_seconds": 2.483,
+    "total_seconds": 91.061,
+    "samples": 2000,
+    "ms_per_sample": 45.531
+  },
+  "output_files": {
+    "result_json": "research_mvp/scale_10k_richer_result.json",
+    "report": "research_mvp/SCALE_10K_RICHER_REPORT.md"
+  }
+}
